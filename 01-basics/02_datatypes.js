@@ -4,7 +4,7 @@
 
  console.log( 3 + 3 ); // code readability should be high
 
- console.log("Nayan")
+ console.log("Nayan");
 
  let name = "Nayan"
  let age = 24

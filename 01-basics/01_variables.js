@@ -11,6 +11,6 @@ accountCity = "Bhubaneshwar"
 
 console.log(accountId);
 
-// Prefer not use 'var' because of block scope and functional scope
+// Prefer not use 'var' because of block scope and functional scope use only 'let'
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
