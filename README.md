@@ -21,6 +21,13 @@ boolean => true/false
 null => standalone value
 
 undefined => 
+
 symbol => unique
 
 Object => key-value pair of collection of data
+
+Conversions: 
+
+Implicit - type coercion
+explicit - manually
+
