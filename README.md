@@ -29,5 +29,6 @@ Object => key-value pair of collection of data
 Conversions: 
 
 Implicit - type coercion
+
 explicit - manually
 
