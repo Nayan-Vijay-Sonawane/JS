@@ -13,3 +13,12 @@ console.log(otherNumber.toPrecision(4));
 
 const hundreads = 100000000;
 console.log(hundreads.toLocaleString('en-IN'));
+
+
+// --------------------MATH------------------
+
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(4.6));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.9));
