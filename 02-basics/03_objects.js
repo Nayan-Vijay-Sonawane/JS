@@ -1,0 +1,6 @@
+// Singleton
+
+// Object literals
+
+//Object.create // constructor method in which singleton is created
+const JsUser = {}
