@@ -17,7 +17,8 @@ const JsUser = {
 
 console.log(JsUser.email);
 console.log(JsUser["location"]);
-console.log(typeof(JsUser[mySym]))
+
+console.log(typeof(JsUser[mySym]));     // If we have to refer to the symbol, so we have to put it in the square brackets
 
 JsUser.email = "nayansonawane@chatgpt.com";
 console.log(JsUser["email"]);
