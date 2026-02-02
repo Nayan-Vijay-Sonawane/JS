@@ -1,3 +1,5 @@
+// Function Scope and Block Scope (let, const)
+
 function printloop() {
     // Function scope
     for(var i=0; i<3; i++){

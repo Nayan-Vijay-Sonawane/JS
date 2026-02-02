@@ -15,3 +15,13 @@ const greet = () => {
 
 hello();
 greet();
+
+// normal function
+function add(a, b){
+    return a + b;
+}
+console.log(add(1, 3));
+
+// Arrow function
+const add1 = (a, b) => a + b;
+console.log(add1(2, 3));
