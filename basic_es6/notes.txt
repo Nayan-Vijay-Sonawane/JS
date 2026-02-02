@@ -1,0 +1,28 @@
+PART-1: How the Web Works (Conceptual Foundation)
+
+1. What happen when you open a website?
+    - Browser sends a request to a server.
+    - server responds with files.
+        HTML (structure)
+        CSS (styling)
+        JavaScript (behavior)
+    - Browser builds the page using the DOM
+
+2. What is DOM?
+    DOM = Document Object Model
+    - Browser converts HTML into a tree of objects
+    - JavaScript can (read elements, change text, responds to user actions)
+    (React exists because manual DOM manipulation becomes messy and slow in big apps)
+
+3. Why frameworks like react exists
+    Problem with plain JS:
+    - Manually update the DOM
+    - Code becomes hard to manage
+    - Bugs increase as app grows
+
+    React solution:
+    - Describe the what the UI should look like
+    - React updates the DOM efficiently using Virtual DOM
+    React = Decalarativ UI + Component based architecture
+
+
