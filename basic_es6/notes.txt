@@ -32,4 +32,7 @@ PART-2: JavaScript Essentials for React
     - Functions (normal, arrow function)
     - objects
     - Arrays 
-    - Array methods 
+    - Array methods (map, filter, reduce)
+    - Destructuring
+    - Spread Opeartor
+    - Modules
