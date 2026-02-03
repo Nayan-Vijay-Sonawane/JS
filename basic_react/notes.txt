@@ -5,3 +5,20 @@ PART-1 : What is React (Proper Mental Model)
     - UI is a function of state
 
     Component-Based Architecture
+        - each piece has its own logic, is reusable, easy to maintain.
+    
+
+PART-2 : Virtual DOM 
+
+    - The Problem(Old Way)
+    document.queryselector("#title).innerText = "Hello";
+        - manual updates
+        - slow
+        - bug-prone
+
+    - React's solution
+        - React creates a Virtual DOM (copy of real DOM)
+        - Virtual DOM is an in-memory lightweight copy of real DOM.
+        - when we update the UI, react doesn't touch the real DOM directly.
+          Instead, 1. Updates the Virtual DOM first
+                   2. compare it with previous Virtual DOM snapshots (Diffing)
