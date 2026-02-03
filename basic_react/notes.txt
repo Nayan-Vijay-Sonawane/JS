@@ -1,0 +1,7 @@
+PART-1 : What is React (Proper Mental Model)
+
+    - A JavaScript library for building user interfaces.
+    - Build around Components
+    - UI is a function of state
+
+    Component-Based Architecture
