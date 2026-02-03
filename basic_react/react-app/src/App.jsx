@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Varjsx from './components/Varjsx';
+import Loginstatus from './components/Loginstatus';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Footer/>
       <Varjsx/>
+      <Loginstatus/>
     </div>
   )
 }
