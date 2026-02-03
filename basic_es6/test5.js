@@ -12,3 +12,11 @@ const adults = ages.filter((age) => age > 18);
 // const adults = ages.filter((age) => age !== 30);
 
 console.log(adults);
+
+const nums = [23, 41, 57, 85, 112];
+
+console.log(nums);
+
+nums.filter(n => n%2===0).forEach(n => {
+    console.log(n);
+})
