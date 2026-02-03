@@ -22,3 +22,6 @@ PART-2 : Virtual DOM
         - when we update the UI, react doesn't touch the real DOM directly.
           Instead, 1. Updates the Virtual DOM first
                    2. compare it with previous Virtual DOM snapshots (Diffing)
+                   3. Applies only required changes to the real DOM (reconciliation).
+
+PART-3 : React Project structure
