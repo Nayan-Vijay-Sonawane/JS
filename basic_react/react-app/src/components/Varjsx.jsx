@@ -11,3 +11,20 @@ function Varjsx() {
 }
 
 export default Varjsx;
+
+/*
+
+// This will fail because JSX needs one parent
+return (
+    <h1>Hello</h1>
+    <p>Welcome</p>
+)
+
+// To fix this we can use 
+return (
+    <>
+    <h1>Hello</h1>
+    <p>Welcome</p>
+    </>
+)
+*/
