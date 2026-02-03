@@ -26,3 +26,10 @@ PART-1: How the Web Works (Conceptual Foundation)
     React = Decalarativ UI + Component based architecture
 
 
+PART-2: JavaScript Essentials for React
+
+    - Variables
+    - Functions (normal, arrow function)
+    - objects
+    - Arrays 
+    - Array methods 
