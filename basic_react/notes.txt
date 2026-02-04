@@ -32,7 +32,7 @@ PART-3 : React Project structure
         - App.jsx -> root Component (when the page loads this is the first executing file), holds layout and main UI logic
 
 
-PART-4 : JSX (JavaScript XML)
+PART-4 : JSX (JavaScript XML) and Component
 
     - Its a modern code fir writing HTML and JS together
     - Browser don't understand the JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and render's also
@@ -40,3 +40,8 @@ PART-4 : JSX (JavaScript XML)
         1. Must return one parent element
         2. Use className, not class
         3. JavaScript inside {}
+
+    - Component
+        - It is a reusable piece of code to define certain part of UI.
+        - Functional Component is far better than class component and easy to use
+        - Class Component is old and we have to use advanced JS for that(complex).
