@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Varjsx from './components/Varjsx';
 import Loginstatus from './components/Loginstatus';
+import Card from './components/Card';
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
       <Footer/>
       <Varjsx/>
       <Loginstatus/>
+      <Card/>
+      <Card/>
+      <Card/>
     </div>
   )
 }
