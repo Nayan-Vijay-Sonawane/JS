@@ -45,3 +45,8 @@ PART-4 : JSX (JavaScript XML) and Component
         - It is a reusable piece of code to define certain part of UI.
         - Functional Component is far better than class component and easy to use
         - Class Component is old and we have to use advanced JS for that(complex).
+
+PART-5 : Props (Passing Data to Components)
+
+    What are props?
+    props = data passed from parent to child component. (Think props like function arguments)
