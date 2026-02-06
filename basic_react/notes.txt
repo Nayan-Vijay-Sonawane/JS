@@ -52,6 +52,6 @@ PART-5 : Props (Passing Data to Components)
     props = data passed from parent to child component. (Think props like function arguments)
 
     Rules-
-    - Props are read only
+    - Props are read only(Immutable)
     - Child cannot modify props
     - Data flows one direction (top -> down)
