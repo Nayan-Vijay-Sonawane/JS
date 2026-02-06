@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Profile name="Nayan" role="Developer" />
+      <Profile name="Anmol" role="Developer" />
     </>
   )
 }
