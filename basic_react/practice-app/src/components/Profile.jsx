@@ -11,11 +11,11 @@
 
 // Props with Destructuring (Professional Way)
 
-function Profile({props}) {
+function Profile({name, role}) {
     return (
         <div>
-            <h2>{props.name}</h2>
-            <p>{props.role}</p>
+            <h2>{name}</h2>
+            <p>{role}</p>
         </div>
     )
 }
