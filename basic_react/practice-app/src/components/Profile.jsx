@@ -7,7 +7,7 @@
 //     );
 // }
 
-// export default Profile;
+// export default Profile; 
 
 // Props with Destructuring (Professional Way)
 
