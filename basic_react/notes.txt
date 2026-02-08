@@ -50,6 +50,9 @@ PART-5 : Props (Passing Data to Components)
 
     What are props?
     props = data passed from parent to child component. (Think props like function arguments)
+    - Data usually lives higher up
+    - UI pieces live lower down
+    so React needs a way to send data down -> props
 
     Rules-
     - Props are read only(Immutable)
