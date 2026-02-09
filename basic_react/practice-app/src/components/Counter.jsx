@@ -13,3 +13,10 @@ function Counter() {
 }
 
 export default Counter;
+
+/*
+    With Each Click
+        - State updates
+        - Component re-renders
+        - UI updates
+*/
