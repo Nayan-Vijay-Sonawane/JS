@@ -61,3 +61,15 @@ PART-5 : Props (Passing Data to Components)
 
 
 PART-6 : State (Dynamic Data)
+    
+    Why State Exists?
+    let count = 0;
+    count = count + 1;
+        - UI will not update
+        - react doesn't track normal variables
+        - So React introduces State
+    
+    What is state
+        - Data owned by a component
+        - When it changes -> UI updates automatically
+        - State change = re-render
