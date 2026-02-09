@@ -6,12 +6,11 @@ function Counter() {
     console.log("Rendered");
 
     return (
-        <button onClick={() => setCount(count + 1)}>
+        <button onClick={() => {setCount(count + 1)}}>
             {count}
         </button>
     );
 }
-
 export default Counter;
 
 /*
