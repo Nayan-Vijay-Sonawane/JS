@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Profile name="Nayan" role="Developer" />
-      <Counter/>cd
+      <Counter/>
     </>
   )
 }
