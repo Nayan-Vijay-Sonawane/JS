@@ -95,3 +95,7 @@ PART-6 : State (Dynamic Data)
 PART-7 : Events (user interaction)
     - User interaction with the application
     Examples: clicks, form submissions, key presses
+
+    - Event handler
+        The function that handles the event is written as a method within the component
+    

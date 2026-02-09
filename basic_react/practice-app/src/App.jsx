@@ -2,6 +2,7 @@ import './App.css'
 import Profile from './components/Profile';
 import Counter from './components/Counter';
 import NewEvents from './components/NewEvents';
+import MyButton from './components/MyButton';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Profile name="Nayan" role="Developer" />
       <Counter/>
       <NewEvents/>
+      <MyButton/>
     </>
   )
 }
