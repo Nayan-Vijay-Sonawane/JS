@@ -80,3 +80,13 @@ PART-6 : State (Dynamic Data)
         - setCount = Function to update value
         - 0 = initial value
         (This is array destructuring)
+
+    useEffect Hook
+    useEffect(() => {
+        // Effect logic
+    }, [])
+        - Allow side effects in function component
+        When runs
+            - After the first render(component mounts)
+            - After every updates(re-renders), if no dependency array is provided
+            - can be controlled by passing dependency array to trigger the effect only when specific state or props change
