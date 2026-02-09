@@ -98,4 +98,26 @@ PART-7 : Events (user interaction)
 
     - Event handler
         The function that handles the event is written as a method within the component
-    
+
+PART-8 : Controlled Components(Forms)
+
+    What is a controlled component?
+    Form input whose value is controlled by React State
+
+    Input Examples
+    const [name, setName] = useState("");   // State holds input value
+
+    <input 
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+    />
+        - user types
+        - onChange fires
+        - State updates
+        - UI updates
+
+    Why matters
+    - Vlidation
+    - Live preview
+    - Form submission
+    - Error handling
