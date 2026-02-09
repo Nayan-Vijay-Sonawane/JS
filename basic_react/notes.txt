@@ -73,3 +73,10 @@ PART-6 : State (Dynamic Data)
         - Data owned by a component
         - When it changes -> UI updates automatically
         - State change = re-render
+
+    useState Hook
+    const [count, setCount] = useState(0);
+        - count = Current value
+        - setCount = Function to update value
+        - 0 = initial value
+        (This is array destructuring)
