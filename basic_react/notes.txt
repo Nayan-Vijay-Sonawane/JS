@@ -58,3 +58,6 @@ PART-5 : Props (Passing Data to Components)
     - Props are read only(Immutable)
     - Child cannot modify props
     - Data flows one direction (top -> down)
+
+
+PART-6 : State (Dynamic Data)
