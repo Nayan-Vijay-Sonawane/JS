@@ -126,3 +126,9 @@ PART-8 : Controlled Components(Forms)
 PART-9 : Conditional Rendering
     
     React renders UI components based on state.
+
+    - using if-else 
+    - using ternary operator(? :)
+    - using loggical operator (&&)
+    - using early return
+
