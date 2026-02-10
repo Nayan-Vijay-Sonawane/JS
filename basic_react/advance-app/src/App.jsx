@@ -7,13 +7,21 @@ function App() {
   
   const [isLoggedIn, setLoggedIn] = useState(true);
 
-  // Ternary operator
+  // Logical operator
   return (
-
+  
     <div>
-  {isLoggedIn ? <LogInBtn/> : <LogoutBtn/>}
+      <h1>This is the new advance react app</h1>
+      {isLoggedIn && <LogoutBtn/>}
     </div>
   )
+
+  // // Ternary operator
+  // return (
+  //   <div>
+  // {isLoggedIn ? <LogInBtn/> : <LogoutBtn/>}
+  //   </div>
+  // )
 
 
   // If-Else conditions
