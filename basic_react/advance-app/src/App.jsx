@@ -5,10 +5,15 @@ import LogInBtn from './components/LogInBtn';
 
 function App() {
   
-  const [isLoggedIn, setLoggedIn] = useState(false);
+  const [isLoggedIn, setLoggedIn] = useState(true);
 
   // Ternary operator
-  
+  return (
+
+    <div>
+  {isLoggedIn ? <LogInBtn/> : <LogoutBtn/>}
+    </div>
+  )
 
 
   // If-Else conditions
