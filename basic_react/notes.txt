@@ -135,4 +135,5 @@ PART-9 : Conditional Rendering
 PART-10 : Lists and Keys
 
     List Rendering
-    Process of displaying collection of data items in the UI
+    - Process of displaying collection of data items in the UI(displaying list of products, users)
+    - 
