@@ -133,3 +133,6 @@ PART-9 : Conditional Rendering
     - using early return
 
 PART-10 : Lists and Keys
+
+    List Rendering
+    Process of displaying collection of data items in the UI
