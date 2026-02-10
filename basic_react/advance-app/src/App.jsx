@@ -1,13 +1,23 @@
+import { useState } from 'react';
 import './App.css'
+import LogoutBtn from './components/LogoutBtn';
+import LogInBtn from './components/LogInBtn';
 
 function App() {
   
+  const [isLoggedIn, setLoggedIn] = useState(true);
 
-  return (
-    <>
-      
-    </>
-  )
+    if(isLoggedIn){
+      return (
+        <LogoutBtn/>
+      )
+    }
+    else{
+      return(
+        <LogInBtn/>
+      )
+    }
+  
 }
 
-export default App
+export default App;

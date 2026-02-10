@@ -1,8 +1,11 @@
-function LogoutBtn() {
+import React from "react";
 
-    <button>
-        Logout
-    </button>
+const LogoutBtn = () => {
+    return (
+        <button>
+            Logout
+        </button>
+    )
 }
 
 export default LogoutBtn;
