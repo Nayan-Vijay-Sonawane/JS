@@ -8,6 +8,7 @@ function App() {
   const [isLoggedIn, setLoggedIn] = useState(false);
 
   // Ternary operator
+  
 
 
   // If-Else conditions
