@@ -7,9 +7,10 @@ function App() {
   
   const [isLoggedIn, setLoggedIn] = useState(true);
 
+  if(!isLoggedIn)
+
   // Logical operator
   return (
-  
     <div>
       <h1>This is the new advance react app</h1>
       {isLoggedIn && <LogoutBtn/>}
@@ -24,17 +25,17 @@ function App() {
   // )
 
 
-  // If-Else conditions
-    // if(isLoggedIn){
-    //   return (
-    //     <LogoutBtn/>
-    //   )
-    // }
-    // else{
-    //   return(
-    //     <LogInBtn/>
-    //   )
-    // }
+  // // If-Else conditions
+  //   if(isLoggedIn){
+  //     return (
+  //       <LogoutBtn/>
+  //     )
+  //   }
+  //   else{
+  //     return(
+  //       <LogInBtn/>
+  //     )
+  //   }
   
 }
 
