@@ -88,6 +88,13 @@ PART-6 : State (Dynamic Data)
     }
     when <user/> appears on screen- It is mounted
 
+    Unmount
+    - component is removed from the DOM
+    {show && <user/>}
+    - If show becomes false - disappears
+    That is unmounted
+
+
     useEffect Hook
     useEffect(() => {
         // Effect logic
