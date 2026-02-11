@@ -142,6 +142,9 @@ PART-8 : Controlled Components(Forms)
 
 
 PART-9 : Conditional Rendering
+
+    Render
+    React calls your component function to calculate what UI should 
     
     React renders UI components based on state.
 
