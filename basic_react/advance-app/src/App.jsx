@@ -1,11 +1,11 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css'
 import LogoutBtn from './components/LogoutBtn';
 import LogInBtn from './components/LogInBtn';
 
 function App() {
   
-  const [isLoggedIn, setLoggedIn] = useState(false);
+  const isLoggedIn = false;
 
   if(!isLoggedIn){
     return (
