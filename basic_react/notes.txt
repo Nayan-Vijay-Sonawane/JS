@@ -92,6 +92,11 @@ PART-6 : State (Dynamic Data)
     useEffect(() => {
         // Effect logic
     }, [])
+        - React calls component function
+        - JSX is returned
+        - DOM updates (UI appears)
+        - useEffect runs
+
         - Allow side effects in function component
         When runs
             - After the first render(component mounts)
