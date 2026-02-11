@@ -41,9 +41,13 @@ function App() {
   //       <LogInBtn/>
   //     )
   //   }
-
-    <NumberList/>
   
+  return(
+    <div>
+      <h1>User List</h1>
+    <NumberList />
+    </div>
+  )
 }
 
 export default App;
