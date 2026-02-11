@@ -137,3 +137,9 @@ PART-10 : Lists and Keys
     List Rendering
     - Process of displaying collection of data items in the UI(displaying list of products, users)
     - use map() to convert array of data into array of react elements
+
+    key
+    why key is required?
+    - which item changed
+    - which item moved
+    - which item was removed
