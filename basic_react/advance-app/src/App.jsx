@@ -3,6 +3,7 @@ import './App.css'
 import LogoutBtn from './components/LogoutBtn';
 import LogInBtn from './components/LogInBtn';
 import NumberList from './components/NumberList';
+import UserList from './components/UserList';
 
 function App() {
   
@@ -46,6 +47,7 @@ function App() {
     <div>
       <h1>User List</h1>
     <NumberList />
+    <UserList/>
     </div>
   )
 }
