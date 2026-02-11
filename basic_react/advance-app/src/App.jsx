@@ -46,7 +46,7 @@ function App() {
   return(
     <div>
       <h1>User List</h1>
-    <NumberList />
+    {/* <NumberList /> */}
     <UserList/>
     </div>
   )
