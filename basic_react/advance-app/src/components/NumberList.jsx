@@ -4,8 +4,8 @@ let NumberList = () => {
     return (
         <div>
             <ul>
-                {users.map((user) => (
-                    <li>{user}</li>
+                {users.map((user, index) => (
+                    <li key={index}>{user}</li>
                 ))}
             </ul>
         </div>
