@@ -92,7 +92,10 @@ PART-6 : State (Dynamic Data)
             - can be controlled by passing dependency array to trigger the effect only when specific state or props change
 
             useEffect lets you run code
-            - 
+            - after render
+            - when state change
+            - when component mounts/unmounts
+            Think of it as React's side-effect manager
 
 
 PART-7 : Events (user interaction)
