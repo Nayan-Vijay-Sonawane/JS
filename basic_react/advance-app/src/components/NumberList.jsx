@@ -1,13 +1,12 @@
 let NumberList = () => {
     const users = ["Nayan", "Kalyani", "Aboli", "Swaraj"];
-    const listItems = users.map((user) => {
-    <li>{user}</li>
-    });
 
     return (
         <div>
             <ul>
-                {listItems}
+                {users.map((user, index) => (
+                    <li key={index}>{user}</li>
+                ))}
             </ul>
         </div>
     );
