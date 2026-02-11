@@ -81,6 +81,13 @@ PART-6 : State (Dynamic Data)
         - 0 = initial value
         (This is array destructuring)
 
+
+    Mount
+    function App(){
+        return<User/>
+    }
+    when <user/> appears on screen- It is mounted
+
     useEffect Hook
     useEffect(() => {
         // Effect logic
