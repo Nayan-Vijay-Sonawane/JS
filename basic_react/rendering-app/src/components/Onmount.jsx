@@ -28,6 +28,6 @@ export default Onmount;
 - component renders
 - useEffect runs (because of [])
 - API call happens
-- 
+- setUsers() 
 
 */
