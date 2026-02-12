@@ -205,3 +205,9 @@ PART-11 : Dependency Array
     useEffect(() => {
         console.log("User or theme changed");
     }, [user, theme]);
+    - Runs when one of them changes
+
+    [] = Only once (on mount)
+    [count] = when count changes
+    [a, b] = when a OR b changes
+    no array = on every render
