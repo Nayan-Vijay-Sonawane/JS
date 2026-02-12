@@ -20,4 +20,4 @@ function Dependency() {
     )
 }
 
-export default Dependency;
+export default Dependency

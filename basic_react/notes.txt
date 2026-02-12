@@ -200,3 +200,8 @@ PART-11 : Dependency Array
         console.log("Count Changed")
     }, [count]);
     - Runs when count changes
+
+    Run on multiple dependencies
+    useEffect(() => {
+        console.log("User or theme changed");
+    }, [user, theme]);
