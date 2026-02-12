@@ -183,3 +183,8 @@ PART-10 : Lists and Keys
     - which item moved
     - which item was removed
     So, react asks for unique key
+
+
+PART-11 : Dependency Array 
+    
+    
