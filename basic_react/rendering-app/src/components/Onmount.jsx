@@ -29,6 +29,6 @@ export default Onmount;
 - useEffect runs (because of [])
 - API call happens
 - setUsers() update state
-- 
+- Component
 
 */
