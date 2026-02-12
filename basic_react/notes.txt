@@ -187,4 +187,11 @@ PART-10 : Lists and Keys
 
 PART-11 : Dependency Array 
     
+    Run Once (on mount)
+    useEffect(() => {
+        console.log("Mounted");
+    }, [])
+    - API calls
+    - Event listeners
+    - Initial setup
     
