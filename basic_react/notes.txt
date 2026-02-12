@@ -194,4 +194,9 @@ PART-11 : Dependency Array
     - API calls
     - Event listeners
     - Initial setup
-    
+
+    Run When State changes
+    useEffect(() => {
+        console.log("Count Changed")
+    }, [count]);
+    - Runs when count changes
