@@ -182,3 +182,4 @@ PART-10 : Lists and Keys
     - which item changed
     - which item moved
     - which item was removed
+    So, react asks for unique key
