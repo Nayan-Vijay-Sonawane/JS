@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import localData from './dataone.json';
+// import localData from './dataone.json';
 
 function Onmount() {
     const [users, setUsers] = useState([]);
@@ -7,7 +7,7 @@ function Onmount() {
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/todos/1")
             .then(res => res.json())
-            .then(dataone => setUsers(dataone));
+            .then(data => setUsers(data));
     }, []);
 
     return(
