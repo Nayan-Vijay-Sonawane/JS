@@ -6,7 +6,11 @@ function Dependency() {
 
     useEffect(() => {
         console.log("Mounted");
-    }, [count])
+    }, []);
+
+    useEffect(() => {
+        console.log("Count Changed");
+    }, [count]);
 
     return(
         <>
