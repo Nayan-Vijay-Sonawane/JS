@@ -30,6 +30,6 @@ export default Onmount;
 - API call happens
 - setUsers() update state
 - Component re-renders with user data
-- Effect 
+- Effect does NOT run again
 
 */
