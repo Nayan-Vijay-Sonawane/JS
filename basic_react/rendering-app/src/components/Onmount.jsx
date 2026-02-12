@@ -22,3 +22,10 @@ function Onmount() {
 }
 
 export default Onmount;
+
+/*
+
+- component renders
+- 
+
+*/
