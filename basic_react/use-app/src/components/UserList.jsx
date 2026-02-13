@@ -45,4 +45,24 @@ function UserList() {
 
     }, []);
 
+    return(
+        <div>
+            <h2>Users</h2>
+
+            {loading && <p>Loading...</p>}
+            {error && <p style={{color:"red"}}>{error}</p>}
+
+            {!loading && !error && users.length > 0 && (
+                <ul>
+                    {users.map((user) => (
+                        <li key={user.id}>{user.name}</li>
+                    ))}
+                </ul>
+            )}
+
+        </div>
+    )
+
 }
+
+export default UserList;
