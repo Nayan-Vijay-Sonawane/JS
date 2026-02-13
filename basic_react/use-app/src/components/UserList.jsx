@@ -27,5 +27,22 @@ function UserList() {
         finally{
             setLoading(false);
         }
-    }
+    };
+
+    useEffect(() => {
+        //fetch users when component mounts
+        fetchUsers();
+
+        // setInterval to fetch every 10 seconds
+        const intervalid = setInterval(() => {
+            fetchUsers();
+        }, 10000);
+
+        // cleanup function (runs when component unmounts)
+        return() => {
+            clearInterval(intervalid);
+        };
+
+    }, []);
+
 }
