@@ -13,3 +13,4 @@ function CounterButtons({count, setCount}) {
     );
 } 
 
+export default CounterButtons;
