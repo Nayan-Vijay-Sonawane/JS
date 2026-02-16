@@ -211,3 +211,11 @@ PART-11 : Dependency Array
     [count] = when count changes
     [a, b] = when a OR b changes
     no array = on every render
+
+PART-12 : Lifting State up
+
+    Problem
+    App
+        |-CounterDisplay
+        |-CounterButtons
+    Two sibling components need the same data
