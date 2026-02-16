@@ -1,3 +1,4 @@
+// Display the count only
 
 function CounterDisplay({count}) {
     
