@@ -220,3 +220,9 @@ PART-12 : Lifting State up
      |-CounterButtons
     Two sibling components need the same data
     If both need access to count, where should state live(In the closest common parent)
+
+    passing data down(props)
+    <CounterDisplay count={count} />
+    <CounterButtons count={count} setCount={setCount}/>
+    - Parent sends data to children using props
+    - This is called one-way data flow(top -> down)
