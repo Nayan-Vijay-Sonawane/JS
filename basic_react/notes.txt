@@ -219,3 +219,4 @@ PART-12 : Lifting State up
      |-CounterDisplay
      |-CounterButtons
     Two sibling components need the same data
+    If both need access to count, where should state live(In the closest common parent)
