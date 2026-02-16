@@ -229,3 +229,18 @@ PART-12 : Lifting State up
 
     Parents owns the state -> children receive it via props -> children update it using the callback funcitons
     That's called Lifting State Up
+
+
+PART-13 : Props Drilling Problem
+
+    App
+     |_Dashboard
+        |_Sidebar
+            |_UserProfile
+    - If UserProfile needs user it must pass through entry level
+
+    <Dashboard user={user}/>
+    <Sidebar user={user}/>
+    <UserProfile user={user}/>
+    - This becomes messy
+    - This is props drilling
