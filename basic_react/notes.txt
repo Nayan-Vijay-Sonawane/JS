@@ -244,3 +244,4 @@ PART-13 : Props Drilling Problem
     <UserProfile user={user}/>
     - This becomes messy
     - This is props drilling
+    (Context API, Redux, Zustand, Recoil)
