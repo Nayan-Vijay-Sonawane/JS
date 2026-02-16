@@ -226,3 +226,6 @@ PART-12 : Lifting State up
     <CounterButtons count={count} setCount={setCount}/>
     - Parent sends data to children using props
     - This is called one-way data flow(top -> down)
+
+    Parents owns the state -> children receive it via props -> children update it using the callback funcitons
+    That's called Lifting State Up
