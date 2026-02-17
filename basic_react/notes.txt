@@ -265,4 +265,6 @@ PART-14 : Context API (solution to prop drilling)
     use the UserContext hook inside any child component
     import {UserContext} from 'react';
     import {UserContext} from './UserContext';
-    
+    funciton UserProfile(){
+        
+    }
