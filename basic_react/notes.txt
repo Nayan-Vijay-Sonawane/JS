@@ -250,3 +250,9 @@ PART-14 : Context API (solution to prop drilling)
 
     - Context API in react allows to share data accross components without manually passing props at every level
     - useful for global or app-wide state
+
+    - Create context
+    import {createContext} from 'react';
+    const UserContext = createContext();
+
+    -
