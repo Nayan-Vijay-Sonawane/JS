@@ -266,5 +266,6 @@ PART-14 : Context API (solution to prop drilling)
     import {UserContext} from 'react';
     import {UserContext} from './UserContext';
     funciton UserProfile(){
-        
+        const user = useContext(UserContext);
+        return <h2>{user.name}</h2>
     }
