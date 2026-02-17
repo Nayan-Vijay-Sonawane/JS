@@ -246,4 +246,7 @@ PART-13 : Props Drilling Problem
     - This is props drilling
     (Context API, Redux, Zustand, Recoil)
 
-PART-14 : 
+PART-14 : Context API (solution to prop drilling)
+
+    - Context API in react allows to share data accross components without manually passing props at every level
+    - useful f
