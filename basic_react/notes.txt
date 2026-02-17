@@ -263,3 +263,6 @@ PART-14 : Context API (solution to prop drilling)
 
     - Consume context
     use the UserContext hook inside any child component
+    import {UserContext} from 'react';
+    import {UserContext} from './UserContext';
+    
