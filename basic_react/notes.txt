@@ -255,4 +255,7 @@ PART-14 : Context API (solution to prop drilling)
     import {createContext} from 'react';
     const UserContext = createContext();
 
-    -
+    - Provide context
+    <UserContext.Provider value={user}>
+        <Dashboard/>
+    </UserContext.Provider>
