@@ -269,3 +269,5 @@ PART-14 : Context API (solution to prop drilling)
         const user = useContext(UserContext);
         return <h2>{user.name}</h2>
     }
+
+    - useful for
