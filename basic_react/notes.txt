@@ -271,3 +271,5 @@ PART-14 : Context API (solution to prop drilling)
     }
 
     - useful for
+        - Authentication (logged-in user)
+        - Theme (dark/light mode)
