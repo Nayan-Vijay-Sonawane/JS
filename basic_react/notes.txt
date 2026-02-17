@@ -262,4 +262,4 @@ PART-14 : Context API (solution to prop drilling)
     now, every component inside <Dashboard/> can access user
 
     - Consume context
-    
+    use the UserContext hook inside any child component
