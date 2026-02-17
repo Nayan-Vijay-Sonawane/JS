@@ -259,3 +259,7 @@ PART-14 : Context API (solution to prop drilling)
     <UserContext.Provider value={user}>
         <Dashboard/>
     </UserContext.Provider>
+    now, every component inside <Dashboard/> can access user
+
+    - Consume context
+    
