@@ -249,4 +249,4 @@ PART-13 : Props Drilling Problem
 PART-14 : Context API (solution to prop drilling)
 
     - Context API in react allows to share data accross components without manually passing props at every level
-    - useful f
+    - useful for global or app-wide state
