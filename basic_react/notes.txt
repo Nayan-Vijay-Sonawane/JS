@@ -273,3 +273,17 @@ PART-14 : Context API (solution to prop drilling)
     - useful for
         - Authentication (logged-in user)
         - Theme (dark/light mode)
+
+PART-15 : Reusable Components
+
+    - beginner
+    <button style={{background: "blue"}}>Click</button>
+
+    - professional
+    function Button({children, onClick}) {
+        return (
+            <button onClick={onClick} className="btn">
+                {children}
+            </button>
+        );
+    }
