@@ -340,6 +340,7 @@ PART-18 : React Router (Multi-page apps in SPA)
     function App(){
         return(
             <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<Product/>} />
         )
     }
