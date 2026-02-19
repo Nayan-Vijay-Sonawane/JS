@@ -313,4 +313,4 @@ PART-17 : Performance Optimization
     const handleClick = useCallback(() => {
         console.log("Clicked");
     }, []);
-    - used 
+    - used when passing funcitons to memoized component
