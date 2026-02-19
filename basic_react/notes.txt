@@ -340,7 +340,31 @@ PART-18 : React Router (Multi-page apps in SPA)
     function App(){
         return(
             <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/" element={<Product/>} />
+                <Route path="/" element={<Home/>} />
+                <Route path="/" element={<Product/>} />
+            </Routes>
         )
     }
+    export default App;
+    URL         Component Rendered
+     /             <Home/>
+     /Products      <products/>
+     Routes loojs at the URL and renders the matching Route
+    
+    - Navigation Links
+    import { Link } from 'react-router-dom';
+    function NavBar() {
+        return(
+            <nav>
+                <Link to="/">Home</Link>
+                <Link to="/products">Products</Link>
+            </nav>
+        )
+    }
+    export deafult NavBar;
+    
+    - BrowserRouter -> Enables routing
+    - Routes -> Looks at current URL
+    - Route -> Decides what component to render
+    - Link -> Changes URL without refreshing 
+
