@@ -314,3 +314,8 @@ PART-17 : Performance Optimization
         console.log("Clicked");
     }, []);
     - used when passing funcitons to memoized component
+
+
+PART-18 : React Router (Multi-page apps in SPA)
+
+    - React 
