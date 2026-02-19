@@ -301,3 +301,4 @@ PART-16 : Custom hook
 PART-17 : Performance Optimization
 
     React.memo
+    - prevents unnecessary re-renders
