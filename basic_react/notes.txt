@@ -289,4 +289,6 @@ PART-15 : Reusable Components
     }
 
 
-PART-16 : 
+PART-16 : Custom hook
+
+    If logic is reused in multiple components -> extract into a hook
