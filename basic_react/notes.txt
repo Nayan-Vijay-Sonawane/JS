@@ -330,4 +330,10 @@ PART-18 : React Router (Multi-page apps in SPA)
         <App/>
         </BrowserRouter>
     );
-    
+    BrowserRouter enables routing for your entire application
+    Without it, Route, Routes and Link won't work
+
+    - Define Routes
+    import { Routes, Route } from 'react-router-dom';
+    import Home from './pages/Home';
+    import Products 
