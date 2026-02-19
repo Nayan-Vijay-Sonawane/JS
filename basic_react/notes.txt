@@ -318,4 +318,4 @@ PART-17 : Performance Optimization
 
 PART-18 : React Router (Multi-page apps in SPA)
 
-    - React 
+    - React apps are Single Page Application(SPA), they don't reload the page-we switch views
