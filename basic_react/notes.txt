@@ -336,4 +336,4 @@ PART-18 : React Router (Multi-page apps in SPA)
     - Define Routes
     import { Routes, Route } from 'react-router-dom';
     import Home from './pages/Home';
-    import Products from
+    import Products from './pages/Product';
