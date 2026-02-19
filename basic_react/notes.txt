@@ -296,4 +296,8 @@ PART-16 : Custom hook
     - keeps components clean
     - follows the naming rule : must start with 'use'
     - can use other hooks inside it
-    
+
+
+PART-17 : Performance Optimization
+
+    React.memo
