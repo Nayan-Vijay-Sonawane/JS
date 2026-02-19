@@ -302,3 +302,7 @@ PART-17 : Performance Optimization
 
     React.memo
     - prevents unnecessary re-renders
+    const Child = React.memo(funciton Child({value}){
+        console.log("Rendered");
+        return <p>{value}</p>
+    });
