@@ -308,4 +308,9 @@ PART-17 : Performance Optimization
     });
     - If props don't changen-> component doesn't re-render
 
-    useCll
+    useCallback
+    - prevents funciton recreation
+    const handleClick = useCallback(() => {
+        console.log("Clicked");
+    }, []);
+    - used 
