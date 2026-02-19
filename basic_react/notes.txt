@@ -306,3 +306,6 @@ PART-17 : Performance Optimization
         console.log("Rendered");
         return <p>{value}</p>
     });
+    - If props don't changen-> component doesn't re-render
+
+    useCll
