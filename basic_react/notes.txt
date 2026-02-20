@@ -368,3 +368,6 @@ PART-18 : React Router (Multi-page apps in SPA)
     - Route -> Decides what component to render
     - Link -> Changes URL without refreshing 
 
+    Dynamic Routes
+    Route setup
+    <Route path="/products/:id" element={<ProductDetails/>} /> can fetch Product using that id
