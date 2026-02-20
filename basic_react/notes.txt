@@ -375,3 +375,4 @@ PART-18 : React Router (Multi-page apps in SPA)
     Nested Routes
     /dashboard
     /dashboard/settings
+    /dashboard
