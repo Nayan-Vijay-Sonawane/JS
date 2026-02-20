@@ -373,4 +373,4 @@ PART-18 : React Router (Multi-page apps in SPA)
     <Route path="/products/:id" element={<ProductDetails/>} /> can fetch Product using that id
 
     Nested Routes
-    
+    /dashboard
