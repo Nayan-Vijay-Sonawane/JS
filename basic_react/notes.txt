@@ -426,3 +426,4 @@ PART-20 : API Integration (Async/Await style)
     - react Expects the effect to return
             - undefined
             - cleanup function
+    - but async fucntion returns a promise which breaks reacts expectations
