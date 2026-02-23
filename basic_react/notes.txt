@@ -419,4 +419,5 @@ PART-20 : API Integration (Async/Await style)
 
     - useEffect can't be async directly (so we define as async function inside it)
     - we call it immediately
-    - Errors
+    - Errors are handled with try/catch
+    - Dependency array [] -> runs once on mount
