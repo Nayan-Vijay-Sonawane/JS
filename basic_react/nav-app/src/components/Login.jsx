@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
 function Login(){
-    const 
+    const [email, setEmail] = 
 }
 
 export default Login;
