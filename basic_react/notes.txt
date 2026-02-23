@@ -396,3 +396,4 @@ PART-19 : Forms
     - Error messages
     - Submit handling
     - Manages State
+    - Client Validation
