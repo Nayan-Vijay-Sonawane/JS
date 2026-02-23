@@ -21,8 +21,9 @@ function Login(){
                 onChange={(e) => setEmail(e.target.value)}
             />
             {error && <p>{error}</p>}
+            <button type="submit">Login</button>
         </form>
-    )
+    );
 }
 
 export default Login;
