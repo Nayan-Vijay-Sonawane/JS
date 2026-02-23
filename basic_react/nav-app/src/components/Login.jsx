@@ -12,7 +12,16 @@ function Login(){
             return;
         }
         console.log("Submitted: ", email);
-    }
+    };
+
+    return(
+        <form onSubmit={handleSubmit}>
+            <input
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+            />
+        </form>
+    )
 }
 
 export default Login;
