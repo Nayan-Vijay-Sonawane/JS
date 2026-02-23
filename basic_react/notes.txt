@@ -376,3 +376,5 @@ PART-18 : React Router (Multi-page apps in SPA)
     /dashboard
     /dashboard/settings
     /dashboard/Profile
+
+    Protected Routes
