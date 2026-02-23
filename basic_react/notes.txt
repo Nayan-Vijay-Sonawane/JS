@@ -416,3 +416,7 @@ PART-20 : API Integration (Async/Await style)
         };
         fetchData();
     }, []);
+
+    - useEffect can't be async directly (so we define as async function inside it)
+    - we call it immediately
+    - Errors
