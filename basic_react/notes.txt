@@ -387,3 +387,6 @@ PART-18 : React Router (Multi-page apps in SPA)
             </ProtectedRoutes>
         }
     />
+
+
+PART-19 : Forms
