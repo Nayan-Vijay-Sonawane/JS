@@ -1,4 +1,5 @@
 import './App.css'
+import Fetchapi from './components/Fetchapi'
 import Login from './components/Login'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <h1>Nav Bar</h1>
       <Login/>
+      <Fetchapi/>
     </>
   )
 }
