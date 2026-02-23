@@ -424,3 +424,5 @@ PART-20 : API Integration (Async/Await style)
 
     Why useEffect can't be Async
     - react Expects the effect to return
+            - undefined
+            - cleanup function
