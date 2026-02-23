@@ -414,5 +414,5 @@ PART-20 : API Integration (Async/Await style)
                 setError("Failed to fetch");
             }
         };
-        
+        fetchData();
     })
