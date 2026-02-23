@@ -11,6 +11,7 @@ function Login(){
             setError("Invalid Email");
             return;
         }
+        console.log("Submitted: ", email);
     }
 }
 
