@@ -13,7 +13,7 @@ function Fetchapi() {
                 setData(data);
             }
             catch(err){
-                setError("Failed to fetch");
+                setError("Failed to fetch", err);
             }
         };
 
