@@ -435,3 +435,5 @@ PART-21 : Environment variables
     VITE_API_URL=https://api.example.com
 
     
+    fetch(import.meta.env.VITE_API_URL);
+    must start with VITE_ (in Vite)
