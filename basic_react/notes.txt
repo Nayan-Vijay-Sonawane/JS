@@ -433,3 +433,5 @@ PART-21 : Environment variables
 
     create .env file
     VITE_API_URL=https://api.example.com
+
+    
