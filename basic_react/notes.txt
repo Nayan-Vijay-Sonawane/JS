@@ -437,3 +437,6 @@ PART-21 : Environment variables
     
     fetch(import.meta.env.VITE_API_URL);
     must start with VITE_ (in Vite)
+
+
+PART-22 : Industry-Level Project Structure
