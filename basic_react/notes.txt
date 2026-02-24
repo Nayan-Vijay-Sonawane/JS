@@ -440,3 +440,27 @@ PART-21 : Environment variables
 
 
 PART-22 : Industry-Level Project Structure
+
+    src/
+     |---- features/
+     |        |--- auth/
+     |        |     |-- Login.jsx
+     |        |     |-- authService.js
+     |        |     |-- useAuth.js
+     |        |--- products/
+     |        |     |-- ProductList.jsx
+     |        |     |-- ProductDetails.jsx
+     |        |     |-- productServices.js
+     |        
+     |---- components/
+     |---- hooks/
+     |---- context/        
+     |---- routes/
+     |---- utils/
+     |---- services/
+     |---- App.jsx
+     |---- main.jsx
+
+    - scalable
+    - easy to maintain
+    - teams can work independently
