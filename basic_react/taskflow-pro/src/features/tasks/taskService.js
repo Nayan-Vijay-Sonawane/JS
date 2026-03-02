@@ -1,8 +1,10 @@
 import api from "../../services/apiClient";
 
-const fetchTasks = async () => {
-    const response = await api.get("/todo?_limit=5");
+export const fetchTasks = async () => {
+    const response = await api.get("/todo?_limit=10");
     return response.data;
 };
 
-export default fetchTasks;
+export const deleteTask = async (id) => {
+    await api.delete(`/todos/${id}`);
+}
