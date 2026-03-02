@@ -7,10 +7,7 @@ import { useAuth } from "../context/useAuth";
 const ProtectedRoute = ({ children }) => {
     const { isAuthenticated } = useAuth();
     
-    if(!isAuthenticated){
-        return <Navigate to="/" replace />;
-    }
-    return children;
+    return isAuthenticated ? children : <Navigate to="/" replace />;
 };
 
 export default function AppRoutes() {
