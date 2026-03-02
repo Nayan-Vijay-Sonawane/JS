@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
+import Button from "../../components/Button";
+import Input from "../../components/Input";
 
 function Login(){
     const [email, setEmail] = useState("");
@@ -24,6 +26,10 @@ function Login(){
                 />
                 <button type="submit">Login</button>
             </form>
+
+            <p>
+                No account? <Link to="/register">Register</Link>
+            </p>
         </div>
     );
 }
