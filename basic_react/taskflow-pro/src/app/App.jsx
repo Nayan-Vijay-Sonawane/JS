@@ -1,10 +1,13 @@
 import React from 'react';
+import AppRoutes from "./routes";
+import ErrorBoundary from '../components/ErrorBoundary';
 import '../App.css';
 
 function App() {
-
     return(
-        <h1>New App</h1>
+        <ErrorBoundary>
+            <AppRoutes />
+        </ErrorBoundary>
     )
 }
 
