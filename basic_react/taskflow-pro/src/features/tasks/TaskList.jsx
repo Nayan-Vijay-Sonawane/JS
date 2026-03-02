@@ -4,7 +4,7 @@ import Loader from "../../components/Loader";
 import TaskCard from "./TaskCard";
 import TaskForm from "./TaskForm";
 import Button from "../../components/Button";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../context/useAuth";
 
 function TaskList(){
     const [tasks, setTasks] = useState([]);

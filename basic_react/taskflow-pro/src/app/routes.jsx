@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Login from "../features/auth/Login";
 import Register from "../features/auth/Register";
 import TaskList from "../features/tasks/TaskList";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 
 const ProtectedRoute = ({ children }) => {
     const { isAuthenticated } = useAuth();
