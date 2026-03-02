@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { deleteTask, fetchTasks } from "./taskService";
+import { deleteTask, createTask, fetchTasks } from "./taskService";
 import Loader from "../../components/Loader";
 import TaskCard from "./TaskCard";
+import TaskForm from "./TaskForm";
 import Button from "../../components/Button";
 import { useAuth } from "../../context/AuthContext";
 
@@ -28,6 +29,11 @@ function TaskList(){
         }
     };
 
+    const handleCreate = async (title) => {
+        const newTask = await createTask(title);
+        setTasks([newTask, ...tasks]);
+    }
+
     const handleDelete = async (id) => {
         await deleteTask(id);
         setTasks(tasks.filter((task) => task.id !== id));
@@ -37,10 +43,11 @@ function TaskList(){
     if(error) return <p>{error}</p>
 
     return(
-        <div>
+        <div className="dashboard">
             <h2>Dashboard</h2>
             <Button onClick={logout}>Logout</Button>
-            {tasks.map(task => (
+            <TaskForm onCreate={handleCreate} />
+            {tasks.map((task) => (
                 <TaskCard key={task.id} task={task} onDelete={handleDelete} />
             ))}
         </div>

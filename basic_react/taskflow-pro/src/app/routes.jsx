@@ -5,8 +5,12 @@ import TaskList from "../features/tasks/TaskList";
 import { useAuth } from "../context/AuthContext";
 
 const ProtectedRoute = ({ children }) => {
-    const { user } = useAuth();
-    return user ? children : <Navigate to="/" replace />;
+    const { isAuthenticated } = useAuth();
+    
+    if(!isAuthenticated){
+        return <Navigate to="/" replace />;
+    }
+    return children;
 };
 
 export default function AppRoutes() {
@@ -18,10 +22,11 @@ export default function AppRoutes() {
                 path="/dashboard"
                 element={
                     <ProtectedRoute>
-                        <Dashboard/>
+                        <TaskList/>
                     </ProtectedRoute>
                 }
                 />
+                <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
     );
 }

@@ -1,31 +1,41 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
 
-    useEffect(() => {
-        const storedUser = localStorage.getItem("user");
-        if(storedUser) setUser(JSON.parse(storedUser));
-    }, []);
+    const login = async (email) => {
+        const fakeToken = crypto.randomUUID();
 
-    const login = (email) => {
-        const userData = {email};
-        setUser({ email });
-        localStorage.setItem("user", JSON.stringify(userData));
+        setUser({
+            email,
+            token: fakeToken,
+        });
     };
 
     const logout = () => {
         setUser(null);
-        localStorage.removeItem("user")
+    };
+
+    const value = {
+        user,
+        isAuthenticated: !!user,
+        login,
+        logout,
     };
 
     return (
-        <AuthContext.Provider value={{ user, login, logout }}>
+        <AuthContext.Provider value={{ value }}>
             {children}
         </AuthContext.Provider>
     );
 };
 
-export const useAuth = () => useContext(AuthContext);
+export const useAuth = () => {
+    const context =  useContext(AuthContext);
+    if(!context) {
+        throw new Error("useAuth must be used inside AuthProvider");
+    }
+    return context;
+};
