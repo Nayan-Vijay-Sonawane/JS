@@ -5,6 +5,14 @@ export const fetchTasks = async () => {
     return response.data;
 };
 
+export const createTask = async (title) => {
+    const res = await api.post("/todos", {
+        title,
+        completed: false,
+    });
+    return res.data;
+}
+
 export const deleteTask = async (id) => {
     await api.delete(`/todos/${id}`);
 }

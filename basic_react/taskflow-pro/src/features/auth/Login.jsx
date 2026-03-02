@@ -18,14 +18,14 @@ function Login(){
     return (
         <div className="auth-container">
             <h2>Login</h2>
-            
+
             <form onSubmit={handleSubmit}>
-                <input
+                <Input
                     type="email"
                     placeholder="Enter email"
                     onChange={(e) => setEmail(e.target.value)}
                 />
-                <button type="submit">Login</button>
+                <Button type="submit">Login</Button>
             </form>
 
             <p>
