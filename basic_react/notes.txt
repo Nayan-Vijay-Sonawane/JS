@@ -142,7 +142,7 @@ PART-8 : Controlled Components(Forms)
         - UI updates
 
     Why matters
-    - Vlidation
+    - Validation
     - Live preview
     - Form submission
     - Error handling
