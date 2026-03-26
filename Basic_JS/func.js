@@ -19,3 +19,19 @@ console.log(add(2, 3));
 const add1 = function(a, b){
     return a - b;
 };
+
+// 3. Arrow Function
+// 4. Callback Function
+// function that takes callback
+function greeting(name, callback){
+    console.log("Hello " + name);
+    callback(); // Executing the callback
+}
+
+// callback function
+function sayGoodbye(){
+    console.log("Goodbye!");
+};
+
+// passing sayGoodbye as a callback to greet
+greeting("Nayan", sayGoodbye);
