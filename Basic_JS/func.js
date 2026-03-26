@@ -21,6 +21,8 @@ const add1 = function(a, b){
 };
 
 // 3. Arrow Function
+
+
 // 4. Callback Function
 // function that takes callback
 function greeting(name, callback){
@@ -35,3 +37,5 @@ function sayGoodbye(){
 
 // passing sayGoodbye as a callback to greet
 greeting("Nayan", sayGoodbye);
+
+
