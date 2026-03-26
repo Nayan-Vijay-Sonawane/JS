@@ -39,3 +39,9 @@ function sayGoodbye(){
 greeting("Nayan", sayGoodbye);
 
 
+function hello(){
+    let x = 100;
+}
+
+console.log(x);
+hello();
