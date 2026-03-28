@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [prodictu, setProducts] = useState([])
+  const [products, setProducts] = useState([])
 
   return (
     <>
