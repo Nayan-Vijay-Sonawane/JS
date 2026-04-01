@@ -16,4 +16,12 @@ while(j<=100){
 
 // Sum of numbers
 
-let num = [22, 34, 56, 71, 89, 97];
+const numbers = [22, 34, 56, 71, 89, 97];
+let sum = 0;
+
+for(const num of numbers){
+    sum  = sum + num;
+}
+console.log(numbers);
+
+console.log(``sum);
