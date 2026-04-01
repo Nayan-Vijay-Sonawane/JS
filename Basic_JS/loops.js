@@ -24,4 +24,4 @@ for(const num of numbers){
 }
 console.log(numbers);
 
-console.log(``sum);
+console.log(`The sum of these numbers are ` + sum);
