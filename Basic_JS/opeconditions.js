@@ -19,3 +19,19 @@ if(isEven(n)){
 else{
     console.log("The number is false");
 }
+
+// Find the largest of 3 numbers
+
+function largest(a,b,c){
+    if(a>b){
+        console.log("A is greater");
+    }
+    else if(b>c){
+        console.log("B is greater");
+    }
+    else if(c>a){
+        console.log("C is greater");
+    }
+}
+
+largest(5, 6, 8);
