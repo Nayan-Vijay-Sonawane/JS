@@ -32,5 +32,8 @@ const emp = {
     name: "Nayan",
     age: 25,
     EmpID: 1234,
-    
+    email: "nayan@google.com",
+    location: "Mumbai"
 }
+
+console.log(emp);
