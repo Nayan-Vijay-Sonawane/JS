@@ -13,3 +13,11 @@ const b = function(){
 };
 
 // Anonymous Function
+// Function that does not have name
+const c = function(){
+    console.log("C called");
+};
+
+a();
+b();
+c();
