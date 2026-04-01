@@ -21,7 +21,9 @@ const add1 = function(a, b){
 };
 
 // 3. Arrow Function
-
+const add2 = () => {
+    console.log("adding the elements")
+};
 
 // 4. Callback Function
 // function that takes callback
