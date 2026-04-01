@@ -23,15 +23,25 @@ else{
 // Find the largest of 3 numbers
 
 function largest(a,b,c){
-    if(a>b){
-        console.log("A is greater");
+    if(a>=b && a>= c){
+        console.log(a + " is the largest number");
     }
-    else if(b>c){
-        console.log("B is greater");
+    else if(b>=c && b>=a){
+        console.log(b + " is the largest number");
     }
-    else if(c>a){
-        console.log("C is greater");
+    else{
+        console.log(c + " is the largest number");
     }
 }
 
-largest(5, 6, 8);
+largest(11, 26, 84);
+
+
+// Grade system
+
+function grade(score){
+    if(score >= 90){
+        return 'A';
+    }
+    else if(score > )
+}
