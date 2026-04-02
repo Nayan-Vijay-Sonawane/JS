@@ -26,3 +26,13 @@ c();
 // Just a shorter version of function 
 const num = n => n*n;
 console.log(num(5));
+
+// Immediately invoked Function Expression (IIFE)
+// They are immediately inovoked after the declaration
+const result = (function(){
+    let x = 5;
+    let y = 10;
+    return x + y;
+})();
+
+console.log(result);
