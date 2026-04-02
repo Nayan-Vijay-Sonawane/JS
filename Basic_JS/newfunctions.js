@@ -21,3 +21,6 @@ const c = function(){
 a();
 b();
 c();
+
+// Arrow Function 
+// Just a shorter version of function 
