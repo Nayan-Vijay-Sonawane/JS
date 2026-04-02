@@ -49,3 +49,13 @@ function sayGoodbye(){
 };
 
 greeting("Nayan", sayGoodbye);
+
+// High Order Function
+// A Function either takes another function as a parameter or returns another function
+function multiple(factor){
+    return function(number){
+        return number * factor;
+    };
+};
+const double = multiple(5);
+console.log(double(2));
