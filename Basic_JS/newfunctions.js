@@ -59,3 +59,11 @@ function multiple(factor){
 };
 const double = multiple(5);
 console.log(double(2));
+
+// Pure Function
+// A Function returns same output for the same input and do not produce side effects
+// modifying global variable or changing the input data
+function add(a, b){
+    return a + b;
+}
+console.log(add(2, 3));
