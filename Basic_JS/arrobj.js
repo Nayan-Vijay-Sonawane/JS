@@ -29,3 +29,20 @@ function findMax(arr){
 }
 
 console.log(findMax([3, 2, 5, 6, 8, 3, 9, 1]));
+
+// Count the vowels
+
+function countVowels(str){
+    let count = 0;
+    str = str.toLowerCase();
+
+    for(let i=1; i <= str.length; i++){
+        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u'){
+            count++;
+        }
+    }
+
+    return count;
+}
+
+console.log(countVowels("Hello Nayan this side"));
