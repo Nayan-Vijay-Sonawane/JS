@@ -98,3 +98,9 @@ console.log(calculator(10, 5, "subtract"));
 console.log(calculator(10, 5, "multiply"));
 console.log(calculator(10, 5, "divide"));
 console.log(calculator(10, 5, "new"));
+
+// Palindrome check
+
+function isPalindrome(){
+    
+}
