@@ -121,3 +121,13 @@ if(isPalindrome(s)){
 else{
     console.log(s + " is not palindrome");
 }
+
+
+// New Option
+function isPal(str){
+    const cleanStr = str.toLowerCase();
+    const reversed = cleanStr.split("").reverse().join("");
+    return cleanStr === reversed;
+}
+
+console.log(isPal("Level"));
