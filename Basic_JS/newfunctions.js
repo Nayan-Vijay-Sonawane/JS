@@ -67,3 +67,34 @@ function add(a, b){
     return a + b;
 }
 console.log(add(2, 3));
+
+// Questions
+
+// Calculator function
+
+function calculator(a, b, operator){
+    if(operator === "add"){
+        return a + b;
+    }
+    else if(operator === "subtract"){
+        return a - b;
+    }
+    else if(operator === "multiply"){
+        return a * b;
+    }
+    else if(operator === "divide"){
+        if(b === 0){
+            return "Cannot divide by zero";
+        }
+        return a / b;
+    }
+    else{
+        return "Invalid";
+    }
+};
+
+console.log(calculator(10, 5, "add"));
+console.log(calculator(10, 5, "subtract"));
+console.log(calculator(10, 5, "multiply"));
+console.log(calculator(10, 5, "divide"));
+console.log(calculator(10, 5, "new"));
