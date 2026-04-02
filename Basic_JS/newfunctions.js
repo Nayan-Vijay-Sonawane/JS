@@ -36,3 +36,6 @@ const result = (function(){
 })();
 
 console.log(result);
+
+// Callback Function
+// It is passed as an argument to another function 
