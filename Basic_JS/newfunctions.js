@@ -24,3 +24,5 @@ c();
 
 // Arrow Function 
 // Just a shorter version of function 
+const num = n => n*n;
+console.log(num(5));
