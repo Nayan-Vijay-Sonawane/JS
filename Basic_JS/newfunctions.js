@@ -39,3 +39,13 @@ console.log(result);
 
 // Callback Function
 // It is passed as an argument to another function 
+function greeting(name, callback){
+    console.log("Hello " + name);
+    callback();     // Executing the callback
+}
+
+function sayGoodbye(){
+    console.log("Goodbye");
+};
+
+greeting("Nayan", sayGoodbye);
