@@ -101,6 +101,23 @@ console.log(calculator(10, 5, "new"));
 
 // Palindrome check
 
-function isPalindrome(){
-    
+function isPalindrome(s){
+    s = s.toLowerCase();
+    // reverse the string
+    let rev = "";
+    for(let i = s.length - 1; i >= 0; i--){
+        rev = rev + s.charAt(i);
+    }
+
+    // compare the original and reversed string
+    return s === rev;
+}
+
+const s = "Nayan";
+
+if(isPalindrome(s)){
+    console.log(s + " is palindrome");
+}
+else{
+    console.log(s + " is not palindrome");
 }
