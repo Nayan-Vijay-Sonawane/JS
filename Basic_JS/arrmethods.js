@@ -20,3 +20,12 @@ const newArr = [5, 1, 3, 2, 6];
 
 const result = newArr.filter((n) => n % 2 == 0);
 console.log(result);
+
+// Reduce
+// reduce() reduces an array to a single value
+
+const num = [5, 1, 3, 2, 6];
+
+function findSum(num){
+    
+}
