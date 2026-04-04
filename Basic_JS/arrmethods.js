@@ -12,3 +12,5 @@ const binary = arr.map((x) => x.toString(2));
 
 console.log(output);
 console.log(binary);
+
+// Filter method
