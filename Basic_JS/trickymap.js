@@ -22,3 +22,9 @@ const result = users.reduce(function(acc, curr){
 }, {}); 
 
 console.log(result);
+
+const newRes = 
+    users.filter((user) => user.age > 30)
+    .map((user) => user.firstName);
+
+console.log(newRes);
