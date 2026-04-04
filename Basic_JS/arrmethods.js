@@ -16,3 +16,7 @@ console.log(binary);
 // Filter method
 // filter() creates a new array with elements that pass a condition.
 
+const newArr = [5, 1, 3, 2, 6];
+
+const result = newArr.filter((n) => n % 2 == 0);
+console.log(result);
