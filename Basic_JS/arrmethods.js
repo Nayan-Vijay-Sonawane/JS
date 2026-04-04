@@ -14,3 +14,5 @@ console.log(output);
 console.log(binary);
 
 // Filter method
+// filter() creates a new array with elements that pass a condition.
+
