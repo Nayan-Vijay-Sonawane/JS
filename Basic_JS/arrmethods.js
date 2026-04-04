@@ -27,5 +27,11 @@ console.log(result);
 const num = [5, 1, 3, 2, 6];
 
 function findSum(num){
-    
+    let sum = 0;
+    for(let i = 0; i < num.length; i++){
+        sum = sum + arr[i];
+    }
+    return sum;
 }
+
+console.log(findSum(num));
