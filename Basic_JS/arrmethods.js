@@ -35,3 +35,7 @@ function findSum(num){
 }
 
 console.log(findSum(num));
+
+const res = num.reduce(function (acc, curr){
+    
+})
