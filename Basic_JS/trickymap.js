@@ -10,3 +10,15 @@ const users = [
 
 const output = users.map((x) => x.firstName + " " + x.lastName);
 console.log(output);
+
+const result = users.reduce(function(acc, curr){
+    if(acc[curr.age]){
+        acc[curr.age] = ++acc[curr.age];
+    }
+    else{
+        acc[curr.age] = 1;
+    }
+    return acc;
+}, {}); 
+
+console.log(result);
