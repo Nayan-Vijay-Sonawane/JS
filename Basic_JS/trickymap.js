@@ -8,3 +8,5 @@ const users = [
     { firstName: "Jeff", lastName: "Bezos", age: 70},
 ];
 
+const output = users.map((x) => x.firstName + " " + x.lastName);
+console.log(output);
