@@ -46,3 +46,10 @@ function countVowels(str){
 }
 
 console.log(countVowels("Hello Nayan this side"));
+
+
+// Merge arrays
+const num1 = [1, 2, 3, 4, 5];
+const num2 = [6, 7, 8, 9, 10];
+const merge = [...num1, ...num2];
+console.log(merge);
