@@ -58,3 +58,10 @@ function findMax(n){
 }
 console.log(findMax(n));
 
+const newRes = n.reduce(function(max, curr){
+    if(curr > max){
+        max = curr;
+    }
+    return max;
+}, 0);
+console.log(newRes);
