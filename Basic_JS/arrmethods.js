@@ -42,3 +42,19 @@ const res = num.reduce(function (acc, curr){
 }, 0);
 
 console.log(res);
+
+// Maximum value
+
+const n = [5, 1, 3, 2, 6];
+
+function findMax(n){
+    let max = 0;
+    for(let i = 0; i < n.length; i++){
+        if(n[i] > max){
+            max = n[i];
+        }
+    }
+    return max;
+}
+console.log(findMax(n));
+
