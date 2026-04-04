@@ -11,3 +11,6 @@ function sayBye(){
 }
 
 greet("Nayan", sayBye);
+
+// High Order Function
+// It takes another function as argument or returns another function or both
