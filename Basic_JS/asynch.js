@@ -9,7 +9,7 @@ function checkInventory(){
 function createOrder(){
     setTimeout(() => {
         console.log("Checking the Order...");
-    }, 2000)
+    }, 1000)
 }
 
 function chargePayment(){
@@ -21,7 +21,7 @@ function chargePayment(){
 function sendInvoice(){
     setTimeout(() => {
         console.log("Sending the Invoice...");
-    }, 2000);
+    }, 1000);
 }
 
 function main(){
@@ -30,3 +30,5 @@ function main(){
     chargePayment();
     sendInvoice();
 }
+
+main();
