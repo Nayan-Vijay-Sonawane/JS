@@ -51,7 +51,7 @@ function main(){
                     console.log("Handling the error!");
                     return;
                 }
-                console.log("charged: ", chargedAmount);
+                console.log("charged:", chargedAmount);
                 sendInvoice(() => {
                     console.log("All done!");
                 })
