@@ -1,14 +1,15 @@
 // Asynchronous Javascript
 
-function checkInventory(){
+function checkInventory(callback){
     setTimeout(() => {
         console.log("Checking the Inventory...");
-    }, 2000)
+    }, 1000)
+    callback();
 }
 
 function createOrder(){
     setTimeout(() => {
-        console.log("Checking the Order...");
+        console.log("Creating the Order...");
     }, 1000)
 }
 
@@ -25,14 +26,20 @@ function sendInvoice(){
 }
 
 function main(){
-    // Here these are async calls 
-    checkInventory();
-    createOrder();
-    chargePayment();
-    sendInvoice();
-    // Here the console prints first because the async calls didn't blocks the thread 
-    console.log("Other requests processing...");
+    // // Here these are async calls 
+    // checkInventory();
+    // createOrder();
+    // chargePayment();
+    // sendInvoice();
+    // // Here the console prints first because the async calls didn't blocks the thread 
+    // console.log("Other requests processing...");
+
+    // Here the callbacks comes into picture for the order
+    checkInventory(() => {
+        createOrder();
+    })
 }
 
 main();
+
 
