@@ -25,10 +25,14 @@ function sendInvoice(){
 }
 
 function main(){
+    // Here these are async calls 
     checkInventory();
     createOrder();
     chargePayment();
     sendInvoice();
+    // Here the console prints first because the async calls didn't blocks the thread 
+    console.log("Other requests processing...");
 }
 
 main();
+
