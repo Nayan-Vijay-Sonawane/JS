@@ -10,14 +10,17 @@ function checkInventory(callback){
 function createOrder(callback){
     setTimeout(() => {
         console.log("Creating the Order...");
-        callback();
+        const error = new Error("Order creation failed.");
+        callback(error);
         }, 1000);
 }
 
 function chargePayment(callback){
     setTimeout(() => {
         console.log("Charging the Payment...");
-        callback();
+        let error = null;
+        let chargedAmount = 100;
+        callback(error, chargedAmount);
     }, 2000)
 }
 
@@ -39,8 +42,16 @@ function main(){
 
     // Here the callbacks comes into picture to fix the order
     checkInventory(() => {
-        createOrder(() => {
-            chargePayment(() => {
+        createOrder((error) => {
+            if(error){
+                console.log(error);
+            }
+            chargePayment((err, chargedAmount) => {
+                if(err){
+                    console.log("Handling the error!");
+                    return;
+                }
+                console.log("charged: ", chargedAmount);
                 sendInvoice(() => {
                     console.log("All done!");
                 })
