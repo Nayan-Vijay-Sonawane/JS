@@ -37,7 +37,7 @@ function main(){
     // // Here the console prints first because the async calls didn't blocks the thread 
     // console.log("Other requests processing...");
 
-    // Here the callbacks comes into picture for the order
+    // Here the callbacks comes into picture to fix the order
     checkInventory(() => {
         createOrder(() => {
             chargePayment(() => {
