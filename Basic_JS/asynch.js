@@ -41,6 +41,7 @@ function main(){
     // console.log("Other requests processing...");
 
     // Here the callbacks comes into picture to fix the order
+    // But this is callback hell
     checkInventory(() => {
         createOrder((error) => {
             if(error){
