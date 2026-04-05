@@ -3,29 +3,29 @@
 function checkInventory(callback){
     setTimeout(() => {
         console.log("Checking the Inventory...");
-    }, 2000)
-    callback();
+        callback();
+    }, 2000);
 }
 
 function createOrder(callback){
     setTimeout(() => {
         console.log("Creating the Order...");
-    }, 1000)
-    callback();
+        callback();
+        }, 1000);
 }
 
 function chargePayment(callback){
     setTimeout(() => {
         console.log("Charging the Payment...");
+        callback();
     }, 2000)
-    callback();
 }
 
 function sendInvoice(callback){
     setTimeout(() => {
         console.log("Sending the Invoice...");
+        callback();
     }, 1000);
-    callback();
 }
 
 function main(){
