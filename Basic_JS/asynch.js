@@ -4,8 +4,8 @@ function checkInventory(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Checking the Inventory...");
-        resolve();
-        // reject(new Error("Failed to check inventory!"))
+        // resolve();
+        reject(new Error("Failed to check inventory!"))
     }, 2000);
     })
     return promise;
@@ -83,10 +83,23 @@ async function main(){
     //     .then(chargePayment)
     //     .then(sendInvoice)
         
-    await checkInventory();
-    await createOrder();
-    await chargePayment();
-    await sendInvoice();
+
+    // async/await
+    try{
+        await checkInventory();
+    }
+    catch(err){
+        console.log("Error", err);
+    }
+    try{
+        await createOrder();
+    }
+    catch(err){
+        console.log("Error", err);
+    }
+        await chargePayment();
+        await sendInvoice();
+    
 
     console.log("Other requests processing...");
 }
