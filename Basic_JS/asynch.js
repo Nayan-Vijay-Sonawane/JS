@@ -4,7 +4,8 @@ function checkInventory(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Checking the Inventory...");
-        reject(new Error("Failed to check inventory!"))
+        resolve();
+        // reject(new Error("Failed to check inventory!"))
     }, 2000);
     })
     return promise;
@@ -14,7 +15,8 @@ function createOrder(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Creating the Order...");
-        reject(new Error("Failed to create an order"));
+        resolve();
+        // reject(new Error("Failed to create an order"));
         }, 1000);
     })
     return promise;
@@ -40,7 +42,7 @@ function sendInvoice(){
     return promise;
 }
 
-function main(){
+async function main(){
     // // Here these are async calls 
     // checkInventory();
     // createOrder();
@@ -81,6 +83,10 @@ function main(){
     //     .then(chargePayment)
     //     .then(sendInvoice)
         
+    await checkInventory();
+    await createOrder();
+    await chargePayment();
+    await sendInvoice();
 
     console.log("Other requests processing...");
 }
