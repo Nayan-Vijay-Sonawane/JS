@@ -1,4 +1,9 @@
 // Asynchronous Javascript
+// synchronous code(which blocking the main thread) -> 
+// callback(setTimout)(converts sync to async)(pass callback to fix the order)
+// callback hell
+// proimse(to fix callback hell) used 'then'(but looks similar to callback hell)
+// async/await (behind the scene works same asynchronously)(handle promises better than callback)
 
 function checkInventory(){
     const promise = new Promise((resolve, reject) => {
