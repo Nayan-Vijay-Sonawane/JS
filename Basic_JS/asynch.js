@@ -1,34 +1,43 @@
 // Asynchronous Javascript
 
-function checkInventory(callback){
-    setTimeout(() => {
+function checkInventory(){
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Checking the Inventory...");
-        callback();
+        resolve();
     }, 2000);
+    })
+    return promise;
 }
 
-function createOrder(callback){
-    setTimeout(() => {
+function createOrder(){
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Creating the Order...");
-        const error = new Error("Order creation failed.");
-        callback(error);
+        resolve();
         }, 1000);
+    })
+    return promise;
 }
 
-function chargePayment(callback){
-    setTimeout(() => {
+function chargePayment(){
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Charging the Payment...");
-        let error = null;
-        let chargedAmount = 100;
-        callback(error, chargedAmount);
+        resolve();
     }, 2000)
+    })
+    return promise;
 }
 
-function sendInvoice(callback){
-    setTimeout(() => {
+function sendInvoice(){
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Sending the Invoice...");
-        callback();
+        resolve();
     }, 1000);
+    })
+    return promise;
 }
 
 function main(){
@@ -42,23 +51,29 @@ function main(){
 
     // Here the callbacks comes into picture to fix the order
     // But this is callback hell
-    checkInventory(() => {
-        createOrder((error) => {
-            if(error){
-                console.log(error);
-            }
-            chargePayment((err, chargedAmount) => {
-                if(err){
-                    console.log("Handling the error!");
-                    return;
-                }
-                console.log("charged:", chargedAmount);
-                sendInvoice(() => {
-                    console.log("All done!");
-                })
-            })
-        });
-    })
+    // checkInventory(() => {
+    //     createOrder((error) => {
+    //         if(error){
+    //             console.log(error);
+    //         }
+    //         chargePayment((err, chargedAmount) => {
+    //             if(err){
+    //                 console.log("Handling the error!");
+    //                 return;
+    //             }
+    //             console.log("charged:", chargedAmount);
+    //             sendInvoice(() => {
+    //                 console.log("All done!");
+    //             })
+    //         })
+    //     });
+    // })
+
+    // Promises
+    checkInventory()
+        .then(createOrder)
+        .then(chargePayment)
+        .then(sendInvoice);
 
     console.log("Other requests processing...");
 }
