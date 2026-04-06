@@ -70,16 +70,16 @@ function main(){
     // })
 
     // Promises
-    checkInventory()
-        .catch((err) => {
-            console.log("err", err);
-        })
-        .then(createOrder)
-        .catch((err) => {
-            console.log("err", err);
-        })
-        .then(chargePayment)
-        .then(sendInvoice)
+    // checkInventory()
+    //     .catch((err) => {
+    //         console.log("err", err);
+    //     })
+    //     .then(createOrder)
+    //     .catch((err) => {
+    //         console.log("err", err);
+    //     })
+    //     .then(chargePayment)
+    //     .then(sendInvoice)
         
 
     console.log("Other requests processing...");
