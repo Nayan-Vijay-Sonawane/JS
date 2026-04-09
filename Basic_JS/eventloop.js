@@ -28,4 +28,3 @@ const myFun = outer();
 myFun();
 myFun();
 myFun();
-
