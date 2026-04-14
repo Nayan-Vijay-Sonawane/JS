@@ -14,7 +14,7 @@ setInterval(() => {
 }, 1000);
 
 // Promise (microtask)
-Promise.resolve.then(() => {
+Promise.resolve().then(() => {
     console.log("4. Promise then (microtask)");
 });
 
@@ -33,5 +33,6 @@ async function asyncFun() {
 asyncFun();
 
 // Blocking code (blocks event loop)
-for(let i=0; i < 1e7; i++){};
+for(let i=0; i < 1e7; i++){};       // simulate heavy work
 
+console.log("8. script ends");
