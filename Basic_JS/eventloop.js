@@ -24,8 +24,14 @@ queueMicrotask(() => {
 });
 
 // async/await microtask
-async function asynFun() {
+async function asyncFun() {
     console.log("6. async function start");
     await null;     // paused -> resumes as microtask
     console.log("7. async function resumed (microtask)");
-}
+};
+
+asyncFun();
+
+// Blocking code (blocks event loop)
+for(let i=0; i < 1e7; i++){};
+
