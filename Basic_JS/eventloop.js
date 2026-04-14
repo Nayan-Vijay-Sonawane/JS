@@ -8,7 +8,7 @@ setTimeout(() => {
     console.log("2. setTimeout callback (macrotask)");
 }, 0);
 
-// setInterval (macrotask)
+// setInterval (macrotask) 
 setInterval(() => {
     console.log("3. setInterval callback (macrotask)");
 }, 1000);
