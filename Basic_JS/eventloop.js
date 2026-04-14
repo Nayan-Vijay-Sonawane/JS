@@ -18,9 +18,9 @@ Promise.resolve.then(() => {
     console.log("4. Promise then (microtask)");
 });
 
-// queuMicrotask (microtask)
+// queuMicrotask (microtask) 
 queueMicrotask(() => {
-    console.log("5. queuMircotask (mirotask)");
+    console.log("5. queueMircotask (mirotask)");
 });
 
 // 
