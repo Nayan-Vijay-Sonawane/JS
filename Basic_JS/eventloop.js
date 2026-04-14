@@ -23,4 +23,9 @@ queueMicrotask(() => {
     console.log("5. queueMircotask (mirotask)");
 });
 
-// 
+// async/await microtask
+async function asynFun() {
+    console.log("6. async function start");
+    await null;     // paused -> resumes as microtask
+    console.log("7. async function resumed (microtask)");
+}
