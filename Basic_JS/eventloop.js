@@ -1,5 +1,5 @@
 // Event Loops
-// 
+//
 
 console.log("1. Script start");
 
