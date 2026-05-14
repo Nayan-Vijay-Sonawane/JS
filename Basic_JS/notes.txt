@@ -42,3 +42,6 @@ const result = (function(){
 })();
 
 console.log(result);
+
+
+2. Arrays
