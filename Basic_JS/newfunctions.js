@@ -27,6 +27,19 @@ c();
 const num = n => n*n;
 console.log(num(5));
 
+function getExp(x, y){
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2, 10));
+
+// Arrow
+const letExp = (x, y) => {
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2, 10));
+
 // Immediately invoked Function Expression (IIFE)
 // They are immediately inovoked after the declaration
 const result = (function(){
