@@ -1,0 +1,44 @@
+1. Function: 
+
+Function is a block of code to perform a specific task
+
+Types: 
+
+Function Statment or Function Declaration
+function a() {
+    console.log("a called");
+};
+
+// Function Expression
+// Assign a function to variable
+const b = function(){
+    console.log("b called");
+};
+
+// Arrow Function
+// Just a shorter version of function (concise version)
+const num = n => n*n;
+console.log(num(5));
+
+function getExp(x, y){
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2, 10));
+
+// Arrow
+const letExp = (x, y) => {
+    let ans = x**y;
+    return ans;
+}
+console.log(getExp(2, 10));
+
+// Immediately invoked Function Expression (IIFE)
+// They are immediately inovoked after the declaration
+const result = (function(){
+    let x = 5;
+    let y = 10;
+    return x + y;
+})();
+
+console.log(result);
