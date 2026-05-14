@@ -10,6 +10,12 @@ function greet(){
     console.log("Greeting...");
 }
 
+function sayMyName(finalName){
+    console.log(finalName);
+}
+
+sayMyName("Nayan");
+
 
 // Closure
 // A closure is when a function remembers variables from the outer scope, even after that outer 
