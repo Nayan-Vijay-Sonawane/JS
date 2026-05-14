@@ -39,6 +39,7 @@ console.log(result);
 
 // Callback Function
 // It is passed as an argument to another function 
+// (extensively used in asynchronous programming and event handling)
 function greeting(name, callback){
     console.log("Hello " + name);
     callback();     // Executing the callback
