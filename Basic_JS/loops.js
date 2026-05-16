@@ -25,3 +25,12 @@ for(const num of numbers){
 console.log(numbers);
 
 console.log(`The sum of these numbers are ` + sum);
+
+// do-while loop
+// if the condition is true or not still the loop executes one time
+let y = 1;
+do{
+    console.log(y);
+    y++;
+}
+while(y<10);
