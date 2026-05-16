@@ -17,6 +17,7 @@ brr.push(70);
 console.log(brr.slice(2, 4));       // new part
 brr.splice(1, 2, 'kunal')            // adds or removes element from an specific index
 
+console.log(brr.indexOf(4, 70));
 console.log(brr);
 
 // map() creates a new array by applying a function to each element

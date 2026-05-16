@@ -37,3 +37,22 @@ function createRectangle(){
 }
 
 console.log(createRectangle());
+
+
+// String
+
+console.log("Hello world! ");
+
+let lastName = "Sonawane";
+
+let firstName = new String("Nayan");
+
+let message = 
+`Hello ${lastName},
+
+Thanks for the Opportunity
+
+Regards,
+Nayan`;
+
+console.log(message);
