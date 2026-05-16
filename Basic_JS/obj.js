@@ -16,3 +16,24 @@ let rectangle = {
         console.log('draw');
     }
 };
+
+
+
+
+
+// Factory function
+
+function createRectangle(){
+    let rectangle = {
+        length: 1,
+        breadth: 2,
+
+        draw: function() {
+            console.log("Drawing reactangle")
+        }
+    };
+
+    return rectangle;
+}
+
+console.log(createRectangle());
