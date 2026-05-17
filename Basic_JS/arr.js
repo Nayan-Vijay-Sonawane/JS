@@ -21,11 +21,15 @@ console.log(brr.indexOf(4, 70));
 console.log(brr);
 
 // map() creates a new array by applying a function to each element
-const arr = [10, 20, 30];
+const arr = [10, 20, 30, 40, 50];
 const ansArray = arr.map((num) => {
     return num*num;
 })
 console.log(ansArray);
+
+let items = arr.map(value => 'student_no ' + value);
+console.log(items);
+
 
 // filter() creates a new array with elements that pass a condition.
 
