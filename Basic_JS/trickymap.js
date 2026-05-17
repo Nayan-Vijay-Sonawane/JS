@@ -28,3 +28,17 @@ const newRes =
     .map((user) => user.firstName);
 
 console.log(newRes);
+
+
+
+// mapping with objects
+
+let numbers = [1, 2, 3, 4, -1, -2, -3, -4];
+let filtered = numbers.filter(value => value>=0);
+
+let items = filtered.map(function(num){
+    let obj = {value: num};
+    return obj;
+});
+
+console.log(items);
