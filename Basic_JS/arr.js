@@ -80,3 +80,9 @@ let numbers3 = [1, 2, 3, 4, 5, 6];
 
 const joined = numbers3.join(',');
 console.log(joined);
+
+// split the sentence
+let name = "This is my first message";
+let parts = name.split(' ');
+
+console.log(parts);
