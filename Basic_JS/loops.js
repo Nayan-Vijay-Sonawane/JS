@@ -34,3 +34,21 @@ do{
     y++;
 }
 while(y<10);
+
+
+// for-of loop
+let arr = [10, 20, 30, 40, 50];
+
+for(let value of arr){
+    console.log(value);
+};
+
+
+// for-each loop
+let arr2 = [10, 20, 30, 40, 50];
+
+arr2.forEach(function(number){
+    console.log(number);
+})
+
+arr2.forEach(number => console.log(number));
