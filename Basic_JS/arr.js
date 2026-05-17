@@ -91,5 +91,5 @@ console.log(parts);
 
 let newnum = [1, 2, 3, -1, -2, -3];
 
-let filter = newnum.filter(value => {return value >=0});
-console.log(filter);
+let filtered = newnum.filter(value => {return value >=0});
+console.log(filtered);
