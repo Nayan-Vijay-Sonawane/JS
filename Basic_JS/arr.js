@@ -72,3 +72,11 @@ numbers.splice(0, numbers.length);  // here also we changed the length from zero
 
 console.log(numbers);
 console.log(numbers2);
+
+
+
+// Joining the array
+let numbers3 = [1, 2, 3, 4, 5, 6];
+
+const joined = numbers3.join(',');
+console.log(joined);
