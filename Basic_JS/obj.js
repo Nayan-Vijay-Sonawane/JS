@@ -68,3 +68,12 @@ Regards,
 Nayan`;
 
 console.log(message);
+
+
+// Rest operator
+// It should be in the last
+function res(...args){
+    console.log(args);
+}
+
+res(2, 3, 4, 5, 6, 7);
