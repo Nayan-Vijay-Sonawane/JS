@@ -18,8 +18,20 @@ let rectangle = {
 };
 
 
+// Arguments  (special object)
+// dynamic sort of function where we can give multiple no of parameters
+// function sum(a, b){
+function sum(){
+    // console.log(arguments);
+    let total = 0;
+    for(let value of arguments)
+        total = total + value;
+    return total;
+    // return a+b;
+};
 
-
+let ans = sum(1, 2, 4, 5, 6);
+console.log(ans);
 
 // Factory function
 
