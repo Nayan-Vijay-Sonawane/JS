@@ -86,3 +86,9 @@ let name = "This is my first message";
 let parts = name.split(' ');
 
 console.log(parts);
+
+// Filtering method
+
+let newnum = [1, 2, 3, -1, -2, -3];
+
+newnum.filter(value => {return value >=0});
