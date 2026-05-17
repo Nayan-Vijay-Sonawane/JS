@@ -71,7 +71,7 @@ console.log(message);
 
 
 // Rest operator
-// It should be in the last
+// It should be in the last parameter
 function res(...args){
     console.log(args);
 }
