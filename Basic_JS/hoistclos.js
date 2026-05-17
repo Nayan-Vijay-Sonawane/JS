@@ -1,4 +1,6 @@
 // Hoisting 
+// It is the process of moving function declarations to the top of the file.
+// Its done automatically by JS Engine
 
 // console.log(y);
 console.log(x);
