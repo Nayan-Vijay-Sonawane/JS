@@ -52,3 +52,23 @@ const ans = newA.reduce((acc, curr) => {
 }, 0);
 
 console.log(ans);
+
+
+
+// Emptying an array
+
+let numbers = [1, 2, 3, 4, 5, 6];
+let numbers2 = numbers;
+
+// 1. 
+// numbers = [];   // here the reference is same so numbers is assigned to numbers2 so it will give the output
+                // of the array because the array is not empty just changed the reference
+
+// 2. 
+// numbers.length = 0; // here we changed the length 
+
+// 3.
+numbers.splice(0, numbers.length);  // here also we changed the length from zeroth index
+
+console.log(numbers);
+console.log(numbers2);
