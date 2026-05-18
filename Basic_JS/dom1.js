@@ -14,3 +14,6 @@
 document.getElementById('');
 // It returns a single object
 // It is called a document
+
+document.getElementsByClassName('');
+// returns an array-like object of all child elements
