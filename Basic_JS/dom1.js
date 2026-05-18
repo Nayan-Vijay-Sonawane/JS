@@ -16,4 +16,4 @@ document.getElementById('');
 // It is called a document
 
 document.getElementsByClassName('');
-// returns an array-like object of all child elements
+// returns an array-like object of all child elements(its not an actual array)
