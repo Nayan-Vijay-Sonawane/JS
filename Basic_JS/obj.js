@@ -77,3 +77,25 @@ function res(...args){
 }
 
 res(2, 3, 4, 5, 6, 7);
+
+// getters setters
+let person = {
+    fName: "Nayan",
+    lName: "Sonawane",
+    get fullName(){
+        return `${person.fName} ${person.lName}`;
+    },
+    set fullName(value){
+        let parts = value.split(' ');
+        this.fName = parts[0];
+        this.lName = parts[1];
+    }
+};
+
+console.log(person);
+
+function fullName(){
+    return `${person.fName} ${person.lName}`;
+};
+
+console.log(fullName());
