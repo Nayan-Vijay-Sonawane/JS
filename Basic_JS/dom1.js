@@ -50,3 +50,15 @@ document.createElement('');
 
 document.appendChild('');
 // adding new element but it always adds in the last
+
+// eg. 
+// let myPara = document.createElement('p');   // creating the element
+// myPara.textContent = 'I am the new para';   // adding text in the element
+// content.appendChild(myPara);    // adding created element
+
+
+document.inserAdjacentHTML();
+// has to be called in 2 way
+// location/position (where)
+// HTML text/content to be inserted (what)
+// inserted node at a specified position
