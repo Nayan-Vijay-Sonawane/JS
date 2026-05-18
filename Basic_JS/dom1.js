@@ -71,3 +71,10 @@ document.inserAdjacentHTML();
     // before end
 </p>
 // after end
+
+
+// Remove 
+
+document.removeChild();
+// opposite of appendChild()
+//l
