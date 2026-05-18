@@ -38,3 +38,7 @@ document.outerHTML
 
 document.textContent
 // gets and sets a textual content of the page 
+// it returns the hidden display content
+
+document.innerText
+// it does not return the hidden display content
