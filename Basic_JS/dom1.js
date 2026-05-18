@@ -9,3 +9,8 @@
 // DOM:
 // Document Object Model
 // for eg we converted the entire code in JS object so we called that a document
+
+// fetch element in JS
+document.getElementById('');
+// It returns a single object
+// It is called a document
