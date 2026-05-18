@@ -32,3 +32,9 @@ document.querySelectorAll();
 document.innerHTML
 // gets an element / all of its decendents(HTML content)
 // sets an elements HTML content
+
+document.outerHTML
+//
+
+document.textContent
+// gets and sets a textual content of the page 
