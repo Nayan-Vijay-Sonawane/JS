@@ -23,3 +23,6 @@ $0
 
 document.querySelector('');
 // returns single object by (.) className, (#) id name and tagname
+
+document.querySelectorAll();
+// returns multiple objects
