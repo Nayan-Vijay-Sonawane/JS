@@ -46,4 +46,7 @@ document.innerText
 // Adding new Element/content: 
 
 document.createElement('');
-// adding new element by using the elementName
+// creating new element by using the elementName
+
+document.appendChild('');
+// adding new element but it always adds in the last
