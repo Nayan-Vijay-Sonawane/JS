@@ -42,3 +42,8 @@ document.textContent
 
 document.innerText
 // it does not return the hidden display content
+
+// Adding new Element/content: 
+
+document.createElement('');
+// adding new element by using the elementName
