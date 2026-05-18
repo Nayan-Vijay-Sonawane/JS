@@ -26,3 +26,9 @@ document.querySelector('');
 
 document.querySelectorAll();
 // returns multiple objects
+
+// Update the existing content
+
+document.innerHTML
+// gets an element / all of its decendents(HTML content)
+// sets an elements HTML content
