@@ -20,3 +20,6 @@ document.getElementsByClassName('');
 
 $0
 // It returns the most recently selected the element
+
+document.querySelector('');
+// returns single object by (.) className, (#) id name and tagname
