@@ -62,3 +62,12 @@ document.inserAdjacentHTML();
 // location/position (where)
 // HTML text/content to be inserted (what)
 // inserted node at a specified position
+// at 4 position
+
+// before begin
+<p>
+    // after begin
+    <div></div>
+    // before end
+</p>
+// after end
