@@ -17,3 +17,6 @@ document.getElementById('');
 
 document.getElementsByClassName('');
 // returns an array-like object of all child elements(its not an actual array)
+
+$0
+// It returns the most recently selected the element
