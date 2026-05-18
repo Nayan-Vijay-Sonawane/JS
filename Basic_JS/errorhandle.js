@@ -14,3 +14,20 @@ try{
 catch(e){
     console.log(e.message);
 }
+
+// Example
+function withdrawMoney(balance, amount){
+    try{
+        if(amount > balance){
+            throw new Error("Insufficient Balance");
+        }
+        console.log("Transaction successfull! ");
+        console.log("Remaining balance:", balance-amount);
+    }
+    catch(e){
+        console.log("Transaction failed", e.message);
+    }
+}
+
+withdrawMoney(5000, 7000);
+withdrawMoney(10000, 7000);
