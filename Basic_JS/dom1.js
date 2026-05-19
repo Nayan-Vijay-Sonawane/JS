@@ -77,4 +77,4 @@ document.inserAdjacentHTML();
 
 document.removeChild();
 // opposite of appendChild()
-//l
+// to remove the elements
