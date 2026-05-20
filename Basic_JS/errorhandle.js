@@ -53,9 +53,10 @@ try{
     console.log("Try block ends here");
 }
 catch(err){
-
+    console.log("I am in the catch block");
+    console.log("Error message: ", err);
 }
 finally{
-
+    console.log("I will run everytime because I am in the finally block")
 }
 
