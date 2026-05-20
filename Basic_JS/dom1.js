@@ -57,7 +57,7 @@ document.appendChild('');
 // content.appendChild(myPara);    // adding created element
 
 
-document.inserAdjacentHTML();
+document.inserAdjacentElement();
 // has to be called in 2 way
 // location/position (where)
 // HTML text/content to be inserted (what)
