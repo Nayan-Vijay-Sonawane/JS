@@ -48,12 +48,14 @@ withdrawMoney(10000, 7000);
 // This will not depend on anyone it will run everytime
 
 try{
-
+    console.log("Try block starts here");
+    console.log(x);
+    console.log("Try block ends here");
 }
 catch(err){
 
 }
 finally{
-    
+
 }
 
