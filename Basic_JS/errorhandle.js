@@ -7,7 +7,7 @@
 // Runtime error
 
 // Reference error
-console.log(x);
+// console.log(x);
 
 
 // Error Handling 
