@@ -1,3 +1,15 @@
+
+// Compile Time error
+
+// syntax error
+// console.log(p;
+
+// Runtime error
+
+// Reference error
+console.log(x);
+
+
 // Error Handling 
 //  try-catch
 // If try block may have errors then catch block is executed
@@ -32,13 +44,3 @@ function withdrawMoney(balance, amount){
 withdrawMoney(5000, 7000);
 withdrawMoney(10000, 7000);
 
-
-// Compile Time error
-
-// syntax error
-// console.log(p;
-
-// Runtime error
-
-// Reference error
-console.log(x);
