@@ -49,10 +49,13 @@ withdrawMoney(10000, 7000);
 
 try{
     console.log("Try block starts here");
+    // error -> reference error
     console.log(x);
     console.log("Try block ends here");
 }
 catch(err){
+    // retry logic // fallback mechanism // logging
+    // custom error
     console.log("I am in the catch block");
     console.log("Error message: ", err);
 }
