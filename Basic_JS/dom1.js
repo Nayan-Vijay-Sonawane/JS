@@ -11,44 +11,44 @@
 // for eg we converted the entire code in JS object so we called that a document
 
 // fetch element in JS
-document.getElementById('');
+// document.getElementById('');
 // It returns a single object
 // It is called a document
 
-document.getElementsByClassName('');
+// document.getElementsByClassName('');
 // returns an array-like object of all child elements(its not an actual array)
 
-$0
+// $0
 // It returns the most recently selected the element
 
-document.querySelector('');
+// document.querySelector('');
 // returns single object by (.) className, (#) id name and tagname
 
-document.querySelectorAll();
+// document.querySelectorAll();
 // returns multiple objects
 
 // Update the existing content
 
-document.innerHTML
+// document.innerHTML
 // gets an element / all of its decendents(HTML content)
 // sets an elements HTML content
 
-document.outerHTML
+// document.outerHTML
 //
 
-document.textContent
+// document.textContent
 // gets and sets a textual content of the page 
 // it returns the hidden display content
 
-document.innerText
+// document.innerText
 // it does not return the hidden display content
 
 // Adding new Element/content: 
 
-document.createElement('');
+// document.createElement('');
 // creating new element by using the elementName
 
-document.appendChild('');
+// document.appendChild('');
 // adding new element but it always adds in the last
 
 // eg. 
@@ -57,24 +57,33 @@ document.appendChild('');
 // content.appendChild(myPara);    // adding created element
 
 
-document.inserAdjacentElement();
+// document.inserAdjacentElement();
 // has to be called in 2 way
 // location/position (where)
 // HTML text/content to be inserted (what)
 // inserted node at a specified position
 // at 4 position
 
+{/*
 // before begin
-<p>
+ <p>
     // after begin
-    <div></div>
+    <div></div> 
     // before end
 </p>
 // after end
+*/}
 
+let mydiv = document.querySelector('#mydiv');
+let newElement = document.createElement('span');
+newElement.textContent = "Nayan Sonawane";
+
+mydiv.insertAdjacentElement('beforebegin', newElement);
 
 // Remove 
 
-document.removeChild();
+// document.removeChild();
 // opposite of appendChild()
 // to remove the elements
+
+
