@@ -86,4 +86,6 @@ mydiv.insertAdjacentElement('beforebegin', newElement);
 // opposite of appendChild()
 // to remove the elements
 
-
+let parent = document.querySelector('#mydiv');
+let child = document.querySelector('#fpara');
+parent.removeChild(child);
