@@ -44,3 +44,16 @@ function withdrawMoney(balance, amount){
 withdrawMoney(5000, 7000);
 withdrawMoney(10000, 7000);
 
+// finally 
+// This will not depend on anyone it will run everytime
+
+try{
+
+}
+catch(err){
+
+}
+finally{
+    
+}
+
