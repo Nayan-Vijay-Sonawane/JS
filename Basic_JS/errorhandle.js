@@ -63,3 +63,17 @@ finally{
     console.log("I will run everytime because I am in the finally block")
 }
 
+
+// let's create a custom error
+
+try{
+    console.log(x);
+}
+catch(er){
+    throw new Error("First declare the variable that's why this error");
+}
+
+let errorCode = 100;
+if(errorCode == 100){
+    throw new Error("Invalid JSON");
+}
