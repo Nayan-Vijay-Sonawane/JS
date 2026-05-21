@@ -34,3 +34,5 @@ function changeText(){
     fpara.textContent = "Nayan Sonawane";
 }
 
+let fpara = document.getElementById('fpara');
+fpara.addEventListener('click', changeText);
