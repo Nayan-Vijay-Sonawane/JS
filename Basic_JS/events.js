@@ -39,3 +39,7 @@ fpara.addEventListener('click', changeText);
 
 // note: the function of addEventListener and removeEventListener should be same
 // otherwise it is not working (because the entity/object should be same)
+
+// Phases of events
+// 1. Capturing phase
+// In this phase the event goes through HTML DOM and searches for the target element.
