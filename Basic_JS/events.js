@@ -8,3 +8,4 @@
 
 // Events
 // Events are nothing but the actions or occurrences happen in the browser.
+// eg. click, key press, scroll, etc.
