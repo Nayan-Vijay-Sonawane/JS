@@ -28,3 +28,9 @@
 
 // syntax
 // <event-target>(dot)addEventListener(<event-type>, <function->action>)
+
+function changeText(){
+    let fpara = document.getElementById('fpara');
+    fpara.textContent = "Nayan Sonawane";
+}
+
