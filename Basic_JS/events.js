@@ -46,6 +46,6 @@ fpara.addEventListener('click', changeText);
 
 // 2. Target phase
 // In this phase where the event reaches the target element- the element on which the event 
-// was originally triggered.
+// was originally triggered.  
 
 // 3. 
