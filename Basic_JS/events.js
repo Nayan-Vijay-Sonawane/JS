@@ -17,8 +17,14 @@
     event = 'click'
     event-target = 'button'
     video run/play = 'action/behaviour'
-    we write this in the event-listner
+    we write this in the event-listener
 
-    To handle the events what actions need to take that we can write in the event-listner.
+    To handle the events what actions need to take that we can write in the event-listener.
 
 */}
+
+// elements
+// addEventListener()     removeEventListener()
+
+// syntax
+// <event-target>(dot)addEventListener(<event-type>, <function->action>)
