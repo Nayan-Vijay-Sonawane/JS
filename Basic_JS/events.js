@@ -36,3 +36,6 @@ function changeText(){
 
 let fpara = document.getElementById('fpara');
 fpara.addEventListener('click', changeText);
+
+// note: the function of addEventListener and removeEventListener should be same
+// otherwise it is not working (because the entity/object should be same)
