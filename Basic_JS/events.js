@@ -43,3 +43,9 @@ fpara.addEventListener('click', changeText);
 // Phases of events
 // 1. Capturing phase
 // In this phase the event goes through HTML DOM and searches for the target element.
+
+// 2. Target phase
+// In this phase where the event reaches the target element- the element on which the event 
+// was originally triggered.
+
+// 3. 
