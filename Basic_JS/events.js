@@ -48,5 +48,5 @@ fpara.addEventListener('click', changeText);
 // In this phase where the event reaches the target element- the element on which the event 
 // was originally triggered.  
 
-// 3. Bubbling phase
+// 3. Bubbling phase  
 // Following the target phase, the event bubbles up from the target element through its parent.
