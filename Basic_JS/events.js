@@ -79,5 +79,8 @@ inner.addEventListener('click', () => {
     console.log("Bubbling phase: inner")
 }, true);   // 'true' spcifies the capturing phase
 
-
 // when we click on 'Click Me' button, the event goes through capturing, target and bubbling phase.
+
+
+
+// Event Object
