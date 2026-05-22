@@ -129,3 +129,12 @@ for(let i=0; i < paras.length; i++){
 // By the div
 let mydiv = document.getElementById('wrapper');
 document.addEventListener('click', alertPara);
+
+// If I want that for only span tag the code gonna work
+function alertPara(){
+    if(event.target.nodeName === 'SPAN'){
+        alert("You have clicked on para: " + event.target.textContent);
+    }
+};
+let mydiv = document.getElementById('wrapper');
+document.addEventListener('click', alertPara);
