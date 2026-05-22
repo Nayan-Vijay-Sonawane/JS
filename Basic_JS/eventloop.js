@@ -1,6 +1,11 @@
 // Event Loops
 // synchronous code
-console.log("Hi")
+console.log("Hi");
+console.log("Nayan");
+console.log("Sonawane")
+
+
+
 
 console.log("1. Script start");
 
