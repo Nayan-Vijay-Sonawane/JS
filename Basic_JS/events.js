@@ -84,3 +84,4 @@ inner.addEventListener('click', () => {
 
 
 // Event Object
+// Event object is an in-built object which gives information about the events occured.
