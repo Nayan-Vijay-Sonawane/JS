@@ -85,3 +85,14 @@ inner.addEventListener('click', () => {
 
 // Event Object
 // Event object is an in-built object which gives information about the events occured.
+function changeText(event){
+    console.log(event);
+    let fpara = document.getElementById('fpara');
+    fpara.textContent = "Nayan Sonawane";
+}
+let fpara = document.getElementById('fpara');
+fpara.addEventListener('click', changeText);
+
+// Prevent Default behaviour 
+
+C
