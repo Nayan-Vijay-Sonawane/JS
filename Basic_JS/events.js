@@ -95,4 +95,33 @@ fpara.addEventListener('click', changeText);
 
 // Prevent Default behaviour 
 
-C
+let anchorElement = document.getElementById('fanchor');
+anchorElement.addEventListener('click', function(event){
+    event.preventDefault();
+    anchorElement.textContent("Click done here");
+});
+
+
+
+// Avoiding too many listeners
+let paras = document.querySelectorAll('p');
+
+for(let i=0; i < paras.length; i++){
+    let para = paras[i];
+    para.addEventListener('click', function(){
+        alert("You have clicked on para: ", (i+1));
+    })
+}
+
+// Here listener is same for all still we created four instance
+// we have to create only one instance and all are mapped with it
+
+let paras = document.querySelectorAll('p');
+function alertPara(){
+        alert("You have clicked on para: " + event.target.textContent);
+    };
+
+for(let i=0; i < paras.length; i++){
+    let para = paras[i];
+    para.addEventListener('click', alertPara)
+}
