@@ -1,5 +1,6 @@
 // Event Loops
-//
+// synchronous code
+console.log("Hi")
 
 console.log("1. Script start");
 
