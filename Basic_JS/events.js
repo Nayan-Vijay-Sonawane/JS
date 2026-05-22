@@ -125,3 +125,7 @@ for(let i=0; i < paras.length; i++){
     let para = paras[i];
     para.addEventListener('click', alertPara)
 }
+
+// By the div
+let mydiv = document.getElementById('wrapper');
+document.addEventListener('click', alertPara);
