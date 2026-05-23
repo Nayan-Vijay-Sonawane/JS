@@ -9,6 +9,8 @@ console.log("Nayan");
 console.log("Sonawane")
 
 
-//
+// Here, the problem is sometimes we get some functions to execute inside our call stack which blocks the execution 
+// of next lined up requests which makes our server crashes and thus the next lined-up requests never get to call stack
+// this is called as Blocking.
 
 
