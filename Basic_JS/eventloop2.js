@@ -24,4 +24,7 @@ article();
 
 console.log("This request never gets on call stack");
 
+// since the requests are ligned up in a synchronous way the last line never gets upto call stack because the call stack is 
+// blocked at functional execution
+
 
