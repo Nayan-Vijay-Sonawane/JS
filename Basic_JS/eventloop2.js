@@ -14,4 +14,14 @@ console.log("Sonawane")
 // this is called as Blocking.
 
 
+console.log("First request in the call stack");
+
+function article(){
+    return article();
+};
+
+article();
+
+console.log("This request never gets on call stack");
+
 
