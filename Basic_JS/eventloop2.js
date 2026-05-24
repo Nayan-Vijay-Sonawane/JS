@@ -27,3 +27,4 @@ console.log("This request never gets on call stack");
 // blocked at functional execution
 
 
+// Asynchronous code
