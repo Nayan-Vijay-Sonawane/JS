@@ -29,4 +29,4 @@ console.log("This request never gets on call stack");
 
 // Asynchronous code
 // Event loop
-// This is a mechanism of JS that
+// This is a mechanism of JS that allows the runtime evnironment to manage the async
