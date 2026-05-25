@@ -29,4 +29,4 @@ console.log("This request never gets on call stack");
 
 // Asynchronous code
 // Event loop
-// This is a me
+// This is a mechanism
