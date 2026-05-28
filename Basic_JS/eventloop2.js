@@ -35,4 +35,5 @@ console.log("This request never gets on call stack");
 
 // Event loop consists of 3 parts
 // Callstack
-// whenever a function is invoked, a corresponding frame is pushed onto the callstack
+// whenever a function is invoked, a corresponding frame is pushed onto the callstack. Because JS executes function in a 
+// synchronous, single-threaded manner, it means only one operation is proccessed at a time.
