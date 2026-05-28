@@ -13,7 +13,7 @@ console.log("Sonawane");
 // of next lined up requests which makes our server crashes and thus the next lined-up requests never get to call stack
 // this is called as Blocking.
 
-
+{/*
 console.log("First request in the call stack");
 
 function article(){
@@ -22,6 +22,8 @@ function article(){
 article();
 
 console.log("This request never gets on call stack");
+    
+*/}
 
 // since the requests are ligned up in a synchronous way the last line never gets upto call stack because the call stack is 
 // blocked at functional execution
@@ -54,3 +56,8 @@ console.log("This request never gets on call stack");
 // tasks from the task queue to callstack for execution. This process ensures that the async operations are handled in a 
 // non-blocking manner while maintaining the single-threaded nature of JS
 
+console.log("Start");
+setTimeout(() => {
+    console.log("Hello after 2 seconds");
+}, 2000);
+console.log("End");
