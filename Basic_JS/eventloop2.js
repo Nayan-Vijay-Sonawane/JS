@@ -61,3 +61,12 @@ setTimeout(() => {
     console.log("Hello after 2 seconds");
 }, 2000);
 console.log("End");
+
+// console.log("Start") -> Call stack executes
+// setTimeout -> Browser handles timer
+// console.log("End") -> executes immediately
+// Timer finishes -> callback enters task queue
+// Event Loop checks stack -> stack empy? YES
+// Callback pushed to Call Stack -> console.log("Hello after 2 seconds"New concept of event loop with asynchronous Javascript with event loop
+
+)
