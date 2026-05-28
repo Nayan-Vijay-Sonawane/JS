@@ -34,6 +34,11 @@ console.log("This request never gets on call stack");
 
 
 // Event loop consists of 3 parts
+
 // Callstack
 // whenever a function is invoked, a corresponding frame is pushed onto the callstack. Because JS executes function in a 
 // synchronous, single-threaded manner, it means only one operation is proccessed at a time.
+
+// Browser
+// It provides the execution environment to the JS. It includes the JS engine(eg. V8 in chrome) which interprets and executes JS
+// code as well as various APIs for interacting with browser environment.
