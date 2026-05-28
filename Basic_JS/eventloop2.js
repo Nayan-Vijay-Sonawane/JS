@@ -38,6 +38,7 @@ console.log("This request never gets on call stack");
 // Callstack
 // whenever a function is invoked, a corresponding frame is pushed onto the callstack. Because JS executes function in a 
 // synchronous, single-threaded manner, it means only one operation is proccessed at a time.
+// eg. functions are added to the callstack executed one by one and removed after completion.
 
 // Browser
 // It provides the execution environment to the JS. It includes the JS engine(eg. V8 in chrome) which interprets and executes JS
