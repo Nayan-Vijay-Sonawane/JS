@@ -48,3 +48,9 @@ console.log("This request never gets on call stack");
 // Task Queue(Callback Queue)
 // This is where the async tasks are queued for the exeution once the callstack is empty.
 // eg. includes DOM events, network requests, timeres.
+
+// event loop
+// It is the mechanism that continuosly checks callstack and the task queue. when the callstack is empty, the eventloop moves
+// tasks from the task queue to callstack for execution. This process ensures that the async operations are handled in a 
+// non-blocking manner while maintaining the single-threaded nature of JS
+
