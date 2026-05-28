@@ -41,4 +41,4 @@ console.log("This request never gets on call stack");
 
 // Browser
 // It provides the execution environment to the JS. It includes the JS engine(eg. V8 in chrome) which interprets and executes JS
-// code as well as various APIs for interacting with browser environment.
+// code as well as various APIs for interacting with browser environment. 
