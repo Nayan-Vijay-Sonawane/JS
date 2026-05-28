@@ -33,4 +33,6 @@ console.log("This request never gets on call stack");
 // in a non-blocking manner.
 
 
-//  event loop consists of 3 parts
+// Event loop consists of 3 parts
+// Callstack
+// whenever a function is invoked, a corresponding frame is pushed onto the callstack
