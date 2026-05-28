@@ -45,3 +45,6 @@ console.log("This request never gets on call stack");
 // code as well as various APIs for interacting with browser environment. 
 // eg. It handles async tasks like setTimeout, fetch, DOM events.
 
+// Task Queue(Callback Queue)
+// This is where the async tasks are queued for the exeution once the callstack is empty.
+// eg. includes DOM events, network requests, timeres.
