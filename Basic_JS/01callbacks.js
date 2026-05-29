@@ -2,6 +2,7 @@
 // A function that is passed as an argument to another function and executed later
 // callback function can execute after another function has finished
 
+// callback function
 {/*
 
 console.log("Start");
@@ -14,7 +15,7 @@ console.log("End");
     
 */}
 
-// async callbacks 
+// Callback Hell
 
 function checkInventory(callback){
     setTimeout(() => {
@@ -44,7 +45,9 @@ function sendInvoice(){
 
 function main(){
     checkInventory(() => {
-        createOrder();
+        createOrder(() => {
+            chargePayment();
+        });
     });
 }
 
