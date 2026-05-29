@@ -3,7 +3,7 @@
 // callback function can execute after another function has finished
 
 {/*
-    
+
 console.log("Start");
 
 setTimeout(() => {
@@ -16,9 +16,10 @@ console.log("End");
 
 // async callbacks 
 
-function checkInventory(){
+function checkInventory(callback){
     setTimeout(() => {
         console.log("Checking the Inventory...");
+        callback();
     }, 2000);
 }
 
