@@ -23,9 +23,10 @@ function checkInventory(callback){
     }, 2000);
 }
 
-function createOrder(){
+function createOrder(callback){
     setTimeout(() => {
         console.log("Creating the Order...");
+        callback();
     }, 1000);
 }
 
@@ -42,7 +43,9 @@ function sendInvoice(){
 }
 
 function main(){
-    checkInventory();
+    checkInventory(() => {
+        createOrder();
+    });
 }
 
 main();
