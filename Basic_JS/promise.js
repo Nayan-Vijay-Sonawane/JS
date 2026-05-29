@@ -4,3 +4,13 @@
 // Pending   -> Initial state neither fulfilled nor rejected
 // Fulfilled -> The operation completed successfully
 // Rejected  -> The operation is failed
+
+const myPromise = new Promise((resolve, reject) => {
+    const success = true;
+    if(success){
+        resolve("Operation completed successfully!");
+    }
+    else{
+        reject("Operation is failed");
+    }
+});
