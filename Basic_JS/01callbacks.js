@@ -16,6 +16,7 @@ console.log("End");
 */}
 
 // Callback Hell
+// when callbacks are nested deeply, the code becomes unreadable and hard to maintain
 
 function checkInventory(callback){
     setTimeout(() => {
