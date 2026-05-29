@@ -70,3 +70,5 @@ function main(){
 }
 
 main();
+
+// To overcome this situation of callback hell we have a concept called promisesS
