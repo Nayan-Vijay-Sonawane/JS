@@ -14,3 +14,5 @@ const myPromise = new Promise((resolve, reject) => {
         reject("Operation is failed");
     }
 });
+
+console.log(myPromise);
