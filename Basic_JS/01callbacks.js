@@ -31,9 +31,10 @@ function createOrder(callback){
     }, 1000);
 }
 
-function chargePayment(){
+function chargePayment(callback){
     setTimeout(() => {
-        console.log("Charging the Payment...")
+        console.log("Charging the Payment...");
+        callback();
     }, 2000);
 }
 
@@ -46,7 +47,9 @@ function sendInvoice(){
 function main(){
     checkInventory(() => {
         createOrder(() => {
-            chargePayment();
+            chargePayment(() => {
+                sendInvoice();
+            });
         });
     });
 }
