@@ -39,9 +39,10 @@ function chargePayment(callback){
     }, 2000);
 }
 
-function sendInvoice(){
+function sendInvoice(callback){
     setTimeout(() => {
         console.log("Sending the Invoice...");
+        callback();
     }, 1000);
 }
 
@@ -49,7 +50,9 @@ function main(){
     checkInventory(() => {
         createOrder(() => {
             chargePayment(() => {
-                sendInvoice();
+                sendInvoice(() => {
+                console.log("All requests are processed successfully!");                    
+                });
             });
         });
     });
