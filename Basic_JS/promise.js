@@ -34,21 +34,33 @@ function checkInventory(){
 };
 
 function createOrder(){
-    setTimeout(() => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Creating the Orders....");
     }, 1000);
+    resolve();
+    });
+    return promise;
 };
 
 function chargePayment(){
-    setTimeout(() => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Charging the Payment....");
     }, 2000);
+    resolve();
+    });
+    return promise;
 };
 
 function sendInvoice(){
-    setTimeout(() => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
         console.log("Sending the Invoice....");
     }, 1000);
+    resolve();
+    });
+    return promise;
 };
 
 function main(){
