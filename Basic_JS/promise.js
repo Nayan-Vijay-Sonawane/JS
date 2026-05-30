@@ -64,7 +64,10 @@ function sendInvoice(){
 };
 
 function main(){
-    checkInventory();
+    checkInventory()
+        .then(createOrder)
+        .then(chargePayment)
+        .then(sendInvoice);
 
 }
 
