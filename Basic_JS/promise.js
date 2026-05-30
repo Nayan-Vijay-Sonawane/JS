@@ -24,12 +24,13 @@ console.log(myPromise);
 // To fix the callback hell we use promises
 
 function checkInventory(){
-    const promise = new Promise(() => {
+    const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Checking the Inventory....");
+        resolve();
     }, 2000);
     });
-    return;
+    return promise;
 };
 
 function createOrder(){
