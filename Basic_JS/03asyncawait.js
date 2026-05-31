@@ -8,6 +8,7 @@
 // try/catch handles errors
 // Async/await makes asynchronous code looks synchronous
 
+{/*
 async function getData(){
     setTimeout(() => {
         console.log("I am inside the Timeout block ");
@@ -15,3 +16,34 @@ async function getData(){
 };
 
 getData();
+    
+*/}
+
+// 
+
+function checkInventory(){
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Checking the Inventory.....");
+            resolve();
+        }, 2000);
+    });
+    return promise;
+};
+
+function createOrder(){
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Creating the Order.....");
+            resolve();
+        }, 1000);
+    });
+    return promise;
+}
+
+async function main(){
+    await checkInventory();
+    await createOrder();
+}
+
+main();
