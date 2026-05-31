@@ -7,3 +7,4 @@
 // Promise rejected -> goes to catch block
 // try/catch handles errors
 // Async/await makes asynchronous code looks synchronous
+
