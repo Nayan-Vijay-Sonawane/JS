@@ -25,8 +25,9 @@ function checkInventory(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
             console.log("Checking the Inventory.....");
-            const inStock = 4;
-            resolve(inStock);
+            // const inStock = 4;
+            // resolve(inStock);
+            reject(new Error("Failed to check the Inventory!"));
         }, 2000);
     });
     return promise;
@@ -63,11 +64,43 @@ function sendInvoice(){
 };
 
 async function main(){
-    const inStock = await checkInventory();
-    console.log("inStock: ", inStock);
-    await createOrder();
-    await chargePayment();
-    await sendInvoice();
+    // const inStock = await checkInventory();
+    // console.log("inStock: ", inStock);
+    // await checkInventory();
+    // await createOrder();
+    // await chargePayment();
+    // await sendInvoice();
+
+    // using try/catch 
+    try{
+        await checkInventory();
+    }
+    catch(err){
+        console.log("err", err);
+    };
+
+    try{
+        await createOrder();
+    }
+    catch(err){
+        console.log("err", err);
+    };
+
+    try{
+        await chargePayment();
+    }
+    catch(err){
+        console.log("err", err);
+    };
+
+    try{
+        await sendInvoice();
+    }
+    catch(err){
+        console.log("err", err);
+    }
+
+
 }
 
 main();
