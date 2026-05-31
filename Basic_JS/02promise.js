@@ -27,8 +27,8 @@ function checkInventory(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Checking the Inventory....");
-        resolve();
-        // reject(new Error("Failed to check the Inventory!"));
+        // resolve();
+        reject(new Error("Failed to check the Inventory!"));
     }, 2000);
     });
     return promise;
@@ -38,7 +38,8 @@ function createOrder(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Creating the Orders....");
-        resolve();
+        // resolve();
+        reject(new Error("Failed to create an order!"));
     }, 1000);
     });
     return promise;
@@ -66,7 +67,13 @@ function sendInvoice(){
 
 function main(){
     checkInventory()
+        .catch((err) => {
+            console.log("err: ", err);
+        })
         .then(createOrder)
+        .catch((err) => {
+            console.log("err: ", err)
+        })
         .then(chargePayment)
         .then(sendInvoice)
         .catch((err) => {
