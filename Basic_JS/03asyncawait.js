@@ -5,4 +5,5 @@
 // await can only be used inside an async function
 // Promise fulfilled -> returns value
 // Promise rejected -> goes to catch block
+// try/catch handles errors
 // 
