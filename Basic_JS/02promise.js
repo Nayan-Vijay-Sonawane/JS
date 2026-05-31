@@ -83,3 +83,6 @@ function main(){
 }
 
 main();
+
+// .then() -> handles the fulfilled result
+// .catch() -> handles the error
