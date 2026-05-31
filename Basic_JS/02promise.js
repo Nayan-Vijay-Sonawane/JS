@@ -27,7 +27,8 @@ function checkInventory(){
     const promise = new Promise((resolve, reject) => {
         setTimeout(() => {
         console.log("Checking the Inventory....");
-        resolve();
+        // resolve();
+        reject(new Error("Failed to check the Inventory!"));
     }, 2000);
     });
     return promise;
