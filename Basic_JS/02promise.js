@@ -39,7 +39,6 @@ function createOrder(){
         setTimeout(() => {
         console.log("Creating the Orders....");
     }, 1000);
-    resolve();
     });
     return promise;
 };
