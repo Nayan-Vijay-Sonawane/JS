@@ -6,4 +6,4 @@
 // Promise fulfilled -> returns value
 // Promise rejected -> goes to catch block
 // try/catch handles errors
-// 
+// Async/await makes asynchronous code looks synchNew concept of async/await to handle the promises in more concise wayNew concept of async/await to handle the promises in more concise wayronous
