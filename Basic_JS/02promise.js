@@ -68,7 +68,10 @@ function main(){
     checkInventory()
         .then(createOrder)
         .then(chargePayment)
-        .then(sendInvoice);
+        .then(sendInvoice)
+        .catch((err) => {
+            console.log("err: ", err);
+        })
 
 }
 
