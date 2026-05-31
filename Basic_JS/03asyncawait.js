@@ -8,3 +8,10 @@
 // try/catch handles errors
 // Async/await makes asynchronous code looks synchronous
 
+async function getData(){
+    setTimeout(() => {
+        console.log("I am inside the Timeout block ");
+    }, 3000);
+};
+
+getData();
