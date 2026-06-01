@@ -108,4 +108,5 @@ main();
 // Its the cleanest way to handle the promises that is with try/catch block
 
 // Fetch API
-// The fetch API provides an interface for fetching the resources.
+// The fetch API provides an interface for fetching the resources. It is more powerful and flexible replacement for
+// XMLHttpRequest
