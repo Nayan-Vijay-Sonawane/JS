@@ -107,3 +107,4 @@ main();
 
 // Its the cleanest way to handle the promises that is with try/catch block
 
+// Fetch 
