@@ -12,7 +12,9 @@ async function getData(){
 
     // get request -> async
     let response = fetch('https://jsonplaceholder.typicode.com/todos/1');
-    console.log(response);
+    // parse json -> async
+    let data = await response.json();
+    console.log(data);
 };
 
 getData();
