@@ -1,3 +1,3 @@
 // Fetch API
-// The fetch API provides an interface for fetching the resources. It i s more powerful and flexible replacement for
+// The fetch API provides an interface for fetching the resources. It is more powerful and flexible replacement for
 // XMLHttpRequest
