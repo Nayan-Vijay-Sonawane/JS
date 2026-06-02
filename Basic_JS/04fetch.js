@@ -8,14 +8,14 @@
 // await // fetch data -> network call -> async
 // process data -> sync
 
-async function getData(){
-
+async function getData() {
     // get request -> async
-    let response = fetch('https://jsonplaceholder.typicode.com/todos/1');
+    let response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+
     // parse json -> async
     let data = await response.json();
+
     console.log(data);
-};
+}
 
 getData();
-
