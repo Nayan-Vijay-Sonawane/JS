@@ -17,3 +17,4 @@ Project Folder Structure:
         - assets : font, image, extra css, an asset which is helpful for us in the Project
         - index.html : entry point of the application, contains root DOM
         - main.jsx : react app entry file, mounts react to the DOM(connect react to the browser)
+        - 
