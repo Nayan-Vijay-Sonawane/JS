@@ -24,3 +24,8 @@ Project Folder Structure:
         - Its a modern code for writing HTML and JS together
         - Browser don't understand the JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and render's also
         - JSX -> React -> HTML -> Renders on Browser
+
+    Component : 
+        - It is a reusable piece of code to define certain part of UI.
+        - Functional Component is far better than class component and easy to use
+        - Class Component is old and we have to use advanced JS for that(complex).
