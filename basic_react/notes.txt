@@ -34,7 +34,7 @@ PART-3 : React Project structure
 
 PART-4 : JSX (JavaScript XML) and Component
 
-    - Its a modern code fir writing HTML and JS together
+    - Its a modern code for writing HTML and JS together
     - Browser don't understand the JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and render's also
     - JSX Rules 
         1. Must return one parent element
