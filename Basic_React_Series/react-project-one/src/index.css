@@ -10,4 +10,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(8, 6, 59);
+  color:whitesmoke;
 }
