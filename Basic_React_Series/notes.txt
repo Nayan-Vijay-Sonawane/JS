@@ -29,3 +29,9 @@ Component :
     - It is a reusable piece of code to define certain part of UI.
     - Functional Component is far better than class component and easy to use
     - Class Component is old and we have to use advanced JS for that(complex).
+
+Props :
+    - Data passed from parent to child component (Think props like function argument)
+    - Data usually lives higher-up
+    - UI pieces lives lower down
+    so react needs a way to send data to down -> props
