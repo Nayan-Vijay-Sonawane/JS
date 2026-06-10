@@ -4,6 +4,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1>Component</h1>
       <UserCard/>
       <UserCard/>
       <UserCard/>
