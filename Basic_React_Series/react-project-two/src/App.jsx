@@ -9,7 +9,7 @@ function App() {
       <UserCard name="Ratan Tata" desc="Lorem ipsum dolor dolor"/>
       <UserCard name="Newton" desc="reprehenderit necessitati"/>
     </div>
-  ) 
+  )
 }
 
 export default App
