@@ -42,4 +42,6 @@ CSS :
     - use class -> ClassName={styles.ClassName}
     - Normal CSS -> Global styles(everyone can use them)
     - CSS Modules -> Private styles(only the component can use them)
-    
+
+Hooks: 
+    - 
