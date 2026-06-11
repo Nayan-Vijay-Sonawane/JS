@@ -35,3 +35,8 @@ Props :
     - Data usually lives higher-up
     - UI pieces lives lower down
     so react needs a way to send data to down -> props  
+
+CSS :
+    - These are CSS files where class names are locally scoped to a component preventing style conflicts
+    - for eg. Button.module.css
+    - use class -> ClassName={styles.ClassName}
