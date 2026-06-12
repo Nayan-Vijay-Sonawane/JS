@@ -1,10 +1,12 @@
+import { useState } from 'react';
 import './Counter.css';
 
 const Counter = () => {
+    const [count, setCount] = useState(0);
     return(
         <div className="counter-container">
-            <p>You have clicked 0 times</p>
-            <button className="btn">Click Me</button>
+            <p id="para">You have clicked {count} times</p>
+            <button id="btn" onClick={() => {setCount(count+1)}}>Click Me</button>
         </div>
     )
 }
