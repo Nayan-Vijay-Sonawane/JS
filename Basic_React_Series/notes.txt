@@ -44,4 +44,4 @@ CSS :
     - CSS Modules -> Private styles(only the component can use them)
 
 Hooks: 
-    - 
+    - It is react are special functions that allow yo to use state and other react fetaures in functional components.
