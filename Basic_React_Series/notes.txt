@@ -50,3 +50,10 @@ Hooks:
             - state change -> re-render
     - Mount -> when a component is rendered for the first time, it is called mounting
     - Unmount -> when a component is removed from the page, it is called Unmounting
+
+    useState Hook
+    const [count, setCount] = useState(0);
+        - count = Current value
+        - setCount = Function to update value
+        - 0 = initial value
+        (This is array destructuring)
