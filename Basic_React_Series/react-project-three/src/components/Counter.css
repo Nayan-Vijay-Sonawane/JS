@@ -1,7 +1,7 @@
 .counter-container{
     background-color: cadetblue;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 15px;
     padding: 1.5rem;
     border: none;
