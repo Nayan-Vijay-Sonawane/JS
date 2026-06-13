@@ -1,0 +1,15 @@
+#toggleBtn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+#toggleBtn:hover{
+    background-color: blue;
+}
+
+#text{
+    display: none;
+}
