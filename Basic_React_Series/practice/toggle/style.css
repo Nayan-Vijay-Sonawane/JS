@@ -4,6 +4,7 @@
     border: none;
     border-radius: 25px;
     cursor:pointer;
+    padding: 10px 20px;
 }
 
 #toggleBtn:hover{
