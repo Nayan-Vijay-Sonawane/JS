@@ -3,7 +3,7 @@ import RightContent from './RightContent';
 
 const Page1content = () => {
     return (
-        <div className="pb-16 pt-6 flex items-center justify-between gap-10 h-[90vh] bg-amber-950 px-18">
+        <div className="pb-16 pt-6 flex items-center justify-between gap-10 h-[90vh] px-18">
             <LeftContent />
             <RightContent />
         </div>
