@@ -1,9 +1,14 @@
 import './App.css'
+import Section1 from './components/section1/Section1.jsx';
+import Section2 from './components/section2/Section2.jsx';
 
 function App() {
 
   return (
-    <div className='bg-red-400 w-fit'>Hello</div>
+    <div>
+      <Section1 />
+      <Section2 />
+    </div>
   )
 }
 
