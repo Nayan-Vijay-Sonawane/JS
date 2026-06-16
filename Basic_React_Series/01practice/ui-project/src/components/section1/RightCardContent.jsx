@@ -6,7 +6,7 @@ const RightCardContent = () => {
             <h2 className="bg-white rounded-full flex justify-center items-center w-12 h-12 text-xl font-semibold">1</h2>
             <div>
                 <p className="text-lg leading-relaxed text-white mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt modi eligendi aliquid dolores ipsam velit.</p>
-                <div className="flex ">
+                <div className='flex justify-between'>
                     <button className="bg-blue-600 text-white font-medium px-8 py-2 rounded-full">Satisfied</button>
                     <button className="bg-blue-600 text-white font-medium px-4 py-2 rounded-full"><i className="ri-arrow-right-line"></i></button>
                 </div>
