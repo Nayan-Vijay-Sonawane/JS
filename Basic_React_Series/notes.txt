@@ -63,4 +63,4 @@ Hooks:
         // Effect Logic
     }, [])
         - React calls component function
-        
+        - JSX is returned
