@@ -59,4 +59,8 @@ Hooks:
         (This is array destructuring)
 
     useEffect Hook 
-    
+    useEffect(() => {
+        // Effect Logic
+    }, [])
+        - React calls component function
+        - 
