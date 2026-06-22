@@ -64,3 +64,4 @@ Hooks:
     }, [])
         - React calls component function
         - JSX is returned
+        - DOM updates (UI appears)
