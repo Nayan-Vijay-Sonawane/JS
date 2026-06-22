@@ -68,3 +68,6 @@ Hooks:
         - useEffect runs
 
     - Allow side effects in function component
+    When runs
+        - After the first render (component mounts)
+        - After every updates (re-renders), if no dependency array is provied
