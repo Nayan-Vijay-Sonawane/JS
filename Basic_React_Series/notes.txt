@@ -66,3 +66,5 @@ Hooks:
         - JSX is returned
         - DOM updates (UI appears)
         - useEffect runs
+
+    - Allow side effects in function component
