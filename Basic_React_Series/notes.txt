@@ -34,7 +34,7 @@ Props :
     - Data passed from parent to child component (Think props like function argument)
     - Data usually lives higher-up
     - UI pieces lives lower down
-    so react needs a way to send data to down -> props  
+    so react needs a way to send data to down -> props   
 
 CSS :
     - These are CSS files where class names are locally scoped to a component preventing style conflicts
