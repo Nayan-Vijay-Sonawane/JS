@@ -2,4 +2,4 @@ Tailwind:
   Utility-first CSS framework.
   No separate CSS files for most styling.
   Responsive design is easy.
-  Consistent UI
+  Consistent UI.
