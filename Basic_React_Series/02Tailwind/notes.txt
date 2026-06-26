@@ -4,4 +4,6 @@ Tailwind:
   Responsive design is easy.
   Consistent UI.
 
-Instead of creating a full object first, this assemble it piece by piece
+  Instead of creating a full object first, this assemble it piece by piece
+  Classes : 
+    - 
