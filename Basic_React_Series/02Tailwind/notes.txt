@@ -6,4 +6,6 @@ Tailwind:
 
   Instead of creating a full object first, this assemble it piece by piece
   Classes : 
+    - bg-red-500 -> background color
+    - text-white -> text color
     - 
