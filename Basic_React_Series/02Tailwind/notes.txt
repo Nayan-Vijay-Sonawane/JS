@@ -3,3 +3,5 @@ Tailwind:
   No separate CSS files for most styling.
   Responsive design is easy.
   Consistent UI.
+
+Instead 
