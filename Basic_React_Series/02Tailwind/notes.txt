@@ -4,4 +4,4 @@ Tailwind:
   Responsive design is easy.
   Consistent UI.
 
-Instead of 
+Instead of creating 
