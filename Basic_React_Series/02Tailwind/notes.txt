@@ -4,4 +4,4 @@ Tailwind:
   Responsive design is easy.
   Consistent UI.
 
-Instead of creating a full object first
+Instead of creating a full object first, it 
