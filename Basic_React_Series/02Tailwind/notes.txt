@@ -8,4 +8,5 @@ Tailwind:
   Classes : 
     - bg-red-500 -> background color
     - text-white -> text color
-    - 
+    - rounded-xl -> rounded corners
+    - p-6 -> padding
