@@ -45,7 +45,7 @@ CSS :
 
 Hooks: 
     - It is react are special functions that allow yo to use state and other react fetaures in functional components.
-    - State - state is a data that the component owns
+    - State - state is a data that the component owns and manages itself
             - Data owned by a component
             - when it changes UI updates automatically
             - state change -> re-render
