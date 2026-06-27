@@ -45,7 +45,8 @@ CSS :
 
 Hooks: 
     - It is react are special functions that allow yo to use state and other react fetaures in functional components.
-    - State -> Data owned by a component
+    - State - state 
+            - Data owned by a component
             - when it changes UI updates automatically
             - state change -> re-render
     - Mount -> when a component is rendered for the first time, it is called mounting
