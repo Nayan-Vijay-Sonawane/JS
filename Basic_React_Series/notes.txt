@@ -1,6 +1,6 @@
 React JS: 
 Its a JS library   
-A single page application  
+A single page application   
  
 - A JavaScript library for building user interfaces. 
     - Build around Components 
