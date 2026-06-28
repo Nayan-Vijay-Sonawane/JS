@@ -84,6 +84,7 @@ Hooks:
     - To consume the global state without prop-drilling.
 
    useRef 
-    - For complex state management
+    - To hold the mutable values which do not trigger the re-render or To access the DOM
 
-   
+   useReducer
+    - 
