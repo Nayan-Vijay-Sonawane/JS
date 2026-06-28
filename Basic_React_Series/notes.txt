@@ -89,4 +89,5 @@ Hooks:
    useReducer
     - For complex state management(like light version of redux)
 
-   useMemo
+   useMemo and useCallback
+    - For optimization and to avoid unnecessary re-renders
