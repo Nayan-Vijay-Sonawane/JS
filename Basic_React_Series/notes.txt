@@ -88,3 +88,5 @@ Hooks:
 
    useReducer
     - For complex state management(like light version of redux)
+
+   useMemo
