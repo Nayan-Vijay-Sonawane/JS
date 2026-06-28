@@ -81,4 +81,6 @@ Hooks:
     Think of it as React's side-effect manager
 
    useContext 
-    - To consume the global state without prop-drilling
+    - To consume the global state without prop-drilling.
+
+   useRef 
