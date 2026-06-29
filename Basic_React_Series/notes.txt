@@ -81,7 +81,7 @@ Hooks:
     Think of it as React's side-effect manager 
 
    useContext 
-    - To consume the global state without prop-drilling.
+    - To consume the global state without prop-drilling. 
 
    useRef 
     - To hold the mutable values which do not trigger the re-render or To access the DOM
