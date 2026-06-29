@@ -11,7 +11,7 @@ A single page application
  
 Project Folder Structure:  
  
-    - node modules: every needed files which npm installs are in this Folder
+    - node modules: every needed files which npm installs are in this Folder 
     - public : every static files which we needed comes under this Folder(icon)
     - src -> 
         - assets : font, image, extra css, an asset which is helpful for us in the Project
