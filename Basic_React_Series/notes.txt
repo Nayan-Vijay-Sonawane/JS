@@ -39,7 +39,7 @@ Props :
 CSS :
     - These are CSS files where class names are locally scoped to a component preventing style conflicts
     - for eg. Button.module.css
-    - use class -> ClassName={styles.ClassName}
+    - use class -> ClassName={styles.ClassName} 
     - Normal CSS -> Global styles(everyone can use them)
     - CSS Modules -> Private styles(only the component can use them)
 
