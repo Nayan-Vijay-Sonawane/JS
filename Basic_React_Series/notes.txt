@@ -3,7 +3,7 @@ Its a JS library
 A single page application    
  
 - A JavaScript library for building user interfaces.  
-    - Build around Components 
+    - Build around Components  
     - UI is a function of state  
 
     Component-Based Architecture 
