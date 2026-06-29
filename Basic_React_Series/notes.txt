@@ -54,7 +54,7 @@ Hooks:
 
     useState Hook
     const [count, setCount] = useState(0);
-        - count = Current value
+        - count = Current value 
         - setCount = Function to update value
         - 0 = initial value
         (This is array destructuring)
