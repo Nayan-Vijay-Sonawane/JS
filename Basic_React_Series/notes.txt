@@ -9,7 +9,7 @@ A single page application
     Component-Based Architecture 
         - Each piece has its own logic, is reusable, easy to maintain.
  
-Project Folder Structure: 
+Project Folder Structure:  
  
     - node modules: every needed files which npm installs are in this Folder
     - public : every static files which we needed comes under this Folder(icon)
