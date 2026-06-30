@@ -93,4 +93,5 @@ Hooks:
     - For optimization and to avoid unnecessary re-renders
 
    State Lifting 
-    - state lifting (lifting state up) 
+    - state lifting (lifting state up) is the process of moving state from child component to their nearest common parent so
+      multiple components can share and stay synchronized with the same data through props.
