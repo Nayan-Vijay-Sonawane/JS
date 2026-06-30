@@ -91,3 +91,5 @@ Hooks:
 
    useMemo and useCallback
     - For optimization and to avoid unnecessary re-renders
+
+   State Lifting 
