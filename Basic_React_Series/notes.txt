@@ -93,3 +93,4 @@ Hooks:
     - For optimization and to avoid unnecessary re-renders
 
    State Lifting 
+    - state lifting (lifting state up) 
