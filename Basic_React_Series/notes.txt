@@ -100,3 +100,4 @@ Hooks:
 
     Two-way binding
     - two-way binding means the UI updates the state and the state updates the UI (Its done using state variable and the onChange event)
+    - user types -> onChange event -> setName(e.target.value) -> state updates -> input value updates
