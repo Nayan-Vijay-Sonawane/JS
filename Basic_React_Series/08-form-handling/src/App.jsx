@@ -5,8 +5,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      
+    <div className='h-screen w-full bg-blue-950 flex flex-col justify-center items-center gap-10'>
+
     </div>
   )
 }
