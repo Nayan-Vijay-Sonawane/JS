@@ -80,20 +80,23 @@ Hooks:
     - when component mounts/unmounts
     Think of it as React's side-effect manager 
 
-   useContext 
+    useContext 
     - To consume the global state without prop-drilling. 
 
-   useRef 
+    useRef 
     - To hold the mutable values which do not trigger the re-render or To access the DOM
  
-   useReducer 
+    useReducer 
     - For complex state management(like light version of redux)
 
-   useMemo and useCallback
+    useMemo and useCallback
     - For optimization and to avoid unnecessary re-renders
 
-   State Lifting 
+    State Lifting 
     - state lifting (lifting state up) is the process of moving state from child component to their nearest common parent so
       multiple components can share and stay synchronized with the same data through props.
     - two or more components need the same data
     - one component updates the data and another displays or uses it.
+
+    Two-way binding
+    - two-way binding means the UI updates the state and the state updates the UI (Its done using state variable and the onChange event)

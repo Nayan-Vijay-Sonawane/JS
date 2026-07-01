@@ -17,6 +17,7 @@ function App() {
         <input 
         type="text" 
         placeholder='Enter your name'
+        // 
         value={title} 
         onChange={(e) => setTitle(e.target.value)}
         className='bg-gray-400 w-full px-6 py-2.5 rounded-sm' />
