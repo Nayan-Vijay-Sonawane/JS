@@ -9,7 +9,7 @@ function App() {
     // preveting default behaviour of form (reloading)
     e.preventDefault();
     console.log('Form submitted by', title);
-    // 
+    // Value in the input box is empty 
     setTitle('');
   }
 
