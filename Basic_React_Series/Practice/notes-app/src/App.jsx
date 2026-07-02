@@ -10,17 +10,21 @@ function App() {
   const submitHandler = (e) => {
     // prevent default behaviour of form (reloading)
     e.preventDefault();
-    
+
     // create a copy array
     const copyTask = [...task];
     // add title and details
-    copyTask.push({title, details});
+    copyTask.push({ title, details });
     // replace the copy array in thr original one
     setTask(copyTask);
 
     // Value in the input box will empty after clicking the button
     setTitle('');
     setDetails('');
+  }
+
+  const deleteNote = () =>{
+
   }
 
   return (
@@ -36,7 +40,7 @@ function App() {
           // Bind the inpt value to the state
           value={title}
           //update the state whenever the use types
-          onChange={(e) =>{
+          onChange={(e) => {
             setTitle(e.target.value)
           }}
         />
@@ -58,11 +62,14 @@ function App() {
       </form>
       <div className='lg:w-1/2 lg:border-l-2 p-10'>
         <h1 className='text-3xl font-bold'>Recent Notes </h1>
-        <div className='flex flex-wrap items-start justify-start gap-5 mt-5 h-full overflow-auto'>
-          {task.map(function(elem,idx){
-            return <div key={idx} className='relative h-52 w-40 rounded-xl bg-cover text-black py-8 px-4 bg-[url("https://static.vecteezy.com/system/resources/thumbnails/037/152/671/small_2x/sticky-note-paper-background-free-png.png")] '>
-              <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
-              <p className='mt-4 leading-tight font-semibold text-gray-500'>{elem.details}</p>
+        <div className='flex flex-wrap items-start justify-start gap-5 mt-5 h-[90%] overflow-auto'>
+          {task.map(function (elem, idx) {
+            return <div key={idx} className='relative flex flex-col justify-between items-start h-52 w-40 rounded-xl bg-cover text-black pt-8 pb-4 px-4 bg-[url("https://static.vecteezy.com/system/resources/thumbnails/037/152/671/small_2x/sticky-note-paper-background-free-png.png")] '>
+              <div>
+                <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
+                <p className='mt-4 leading-tight font-semibold text-gray-500'>{elem.details}</p>
+              </div>
+              <button onClick={deleteNote} className='w-full bg-red-500 cursor-pointer active:scale-95 py-1 text-sm rounded font-bold text-white'>Delete</button>
             </div>
           })}
         </div>
