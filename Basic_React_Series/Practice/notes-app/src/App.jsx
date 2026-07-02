@@ -69,11 +69,11 @@ function App() {
             return <div key={idx} className='relative flex flex-col justify-between items-start h-52 w-40 rounded-xl bg-cover text-black pt-8 pb-4 px-4 bg-[url("https://static.vecteezy.com/system/resources/thumbnails/037/152/671/small_2x/sticky-note-paper-background-free-png.png")] '>
               <div>
                 <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
-                <p className='mt-4 leading-tight font-semibold text-gray-500'>{elem.details}</p>
+                <p className='mt-4 leading-tight text-sm font-semibold text-gray-500'>{elem.details}</p>
               </div>
               <button onClick={() => {
                 deleteNote(idx)
-              }} className='w-full bg-red-500 cursor-pointer active:scale-95 py-1 text-sm rounded font-bold text-white'>Delete</button>
+              }} className='w-full bg-red-500 cursor-pointer active:scale-95 py-1 text-xs rounded font-bold text-white'>Delete</button>
             </div>
           })}
         </div>
