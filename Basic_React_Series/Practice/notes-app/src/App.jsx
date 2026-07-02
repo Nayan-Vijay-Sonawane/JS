@@ -1,12 +1,10 @@
-import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <form>
+      <form className='flex justify-between'>
         <input type="text" placeholder='Enter notes heading ' />
         <textarea placeholder='Enter Details' name='' id=''></textarea>
       </form>
