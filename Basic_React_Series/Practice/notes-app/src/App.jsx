@@ -5,14 +5,22 @@ function App() {
 
   const [title, setTitle] = useState('');
   const [details, setDetails] = useState('');
+  const [task, setTask] = useState([]);
 
   const submitHandler = (e) => {
     // prevent default behaviour of form (reloading)
     e.preventDefault();
-    console.log(title);
+    
+    // create a copy array
+    const copyTask = [...task];
+    // add title and details
+    copyTask.push({title, details});
+    // replace the copy array in thr original one
+    setTask(copyTask);
 
     // Value in the input box will empty after clicking the button
     setTitle('');
+    setDetails('');
   }
 
   return (
@@ -36,7 +44,7 @@ function App() {
         {/* Second input for details */}
         <textarea
           type="text"
-          placeholder='Write details'
+          placeholder='Write details here'
           className='px-5 w-full h-32 font-medium py-2 border-2 outline-none rounded'
           value={details}
           onChange={(e) => {
@@ -44,15 +52,19 @@ function App() {
           }}
 
         />
-        <button className='bg-white text-black px-5 w-full py-2 outline-none font-medium rounded cursor-pointer'>
+        <button className='bg-white text-black px-5 w-full py-2 active:scale-95 outline-none font-medium rounded cursor-pointer'>
           Add Note
         </button>
       </form>
       <div className='lg:w-1/2 lg:border-l-2 p-10'>
         <h1 className='text-3xl font-bold'>Your Notes </h1>
         <div className='flex flex-wrap gap-5 mt-5 h-full overflow-auto'>
-          <div className='h-52 w-40 rounded-2xl bg-white'></div>
-          <div className='h-52 w-40 rounded-2xl bg-white'></div>
+          {task.map(function(elem,idx){
+            return <div key={idx} className='h-52 w-40 rounded-xl text-black p-4 bg-white'>
+              <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
+              <p>{elem.details}</p>
+            </div>
+          })}
         </div>
       </div>
 
