@@ -57,12 +57,12 @@ function App() {
         </button>
       </form>
       <div className='lg:w-1/2 lg:border-l-2 p-10'>
-        <h1 className='text-3xl font-bold'>Your Notes </h1>
-        <div className='flex flex-wrap gap-5 mt-5 h-full overflow-auto'>
+        <h1 className='text-3xl font-bold'>Recent Notes </h1>
+        <div className='flex flex-wrap items-start justify-start gap-5 mt-5 h-full overflow-auto'>
           {task.map(function(elem,idx){
-            return <div key={idx} className='h-52 w-40 rounded-xl text-black p-4 bg-white'>
+            return <div key={idx} className='relative h-52 w-40 rounded-xl bg-cover text-black py-8 px-4 bg-[url("https://static.vecteezy.com/system/resources/thumbnails/037/152/671/small_2x/sticky-note-paper-background-free-png.png")] '>
               <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
-              <p>{elem.details}</p>
+              <p className='mt-4 leading-tight font-semibold text-gray-500'>{elem.details}</p>
             </div>
           })}
         </div>
