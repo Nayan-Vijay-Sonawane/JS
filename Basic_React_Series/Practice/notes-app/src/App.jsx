@@ -1,10 +1,14 @@
+import { useState } from 'react';
 import './App.css'
 
 function App() {
 
+  const [title, setTitle] = useState('');
+
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log("Form submitted");
+    console.log(title);
+    setTitle('');
   }
 
   return (
@@ -17,6 +21,10 @@ function App() {
           type="text"
           placeholder='Enter notes heading'
           className='px-5 w-full py-2 font-medium border-2 outline-none rounded'
+          value={title}
+          onChange={(e) =>{
+            setTitle(e.target.value)
+          }}
         />
 
         {/* Second input for details */}
