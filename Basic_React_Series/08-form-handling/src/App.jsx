@@ -4,6 +4,7 @@ import './App.css'
 function App() {
 
   const [title, setTitle] = useState('');
+  const [details, setDetails] = useState('');
 
   const submitHandler = (e) =>{
     // preveting default behaviour of form (reloading)
