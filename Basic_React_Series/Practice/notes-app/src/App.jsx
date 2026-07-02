@@ -23,8 +23,10 @@ function App() {
     setDetails('');
   }
 
-  const deleteNote = () =>{
-
+  const deleteNote = (idx) =>{
+      const copyTask = [...task];
+      copyTask.splice(idx, 1);
+      setTask(copyTask);
   }
 
   return (
@@ -69,7 +71,9 @@ function App() {
                 <h3 className='leading-tight text-xl font-bold'>{elem.title}</h3>
                 <p className='mt-4 leading-tight font-semibold text-gray-500'>{elem.details}</p>
               </div>
-              <button onClick={deleteNote} className='w-full bg-red-500 cursor-pointer active:scale-95 py-1 text-sm rounded font-bold text-white'>Delete</button>
+              <button onClick={() => {
+                deleteNote(idx)
+              }} className='w-full bg-red-500 cursor-pointer active:scale-95 py-1 text-sm rounded font-bold text-white'>Delete</button>
             </div>
           })}
         </div>
