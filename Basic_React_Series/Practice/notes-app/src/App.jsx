@@ -6,8 +6,11 @@ function App() {
   const [title, setTitle] = useState('');
 
   const submitHandler = (e) => {
+    // prevent default behaviour of form (reloading)
     e.preventDefault();
     console.log(title);
+
+    // Value in the input box will empty after clicking the button
     setTitle('');
   }
 
@@ -21,7 +24,9 @@ function App() {
           type="text"
           placeholder='Enter notes heading'
           className='px-5 w-full py-2 font-medium border-2 outline-none rounded'
+          // Bind the inpt value to the state
           value={title}
+          //update the state whenever the use types
           onChange={(e) =>{
             setTitle(e.target.value)
           }}
