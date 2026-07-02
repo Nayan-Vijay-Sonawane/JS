@@ -18,6 +18,8 @@ function App() {
           placeholder='Enter notes heading'
           className='px-5 w-full py-2 font-medium border-2 outline-none rounded'
         />
+
+        {/* Second input for details */}
         <textarea
           type="text"
           placeholder='Write details'
