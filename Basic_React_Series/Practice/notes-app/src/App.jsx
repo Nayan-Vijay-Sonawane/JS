@@ -6,7 +6,10 @@ function App() {
 
   return (
     <div>
-
+      <form>
+        <input type="text" placeholder='Enter notes heading ' />
+        <textarea placeholder='Enter Details' name='' id=''></textarea>
+      </form>
     </div>
   )
 }
