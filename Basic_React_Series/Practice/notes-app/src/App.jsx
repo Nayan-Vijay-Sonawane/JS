@@ -4,6 +4,7 @@ import './App.css'
 function App() {
 
   const [title, setTitle] = useState('');
+  const [details, setDetails] = useState('');
 
   const submitHandler = (e) => {
     // prevent default behaviour of form (reloading)
@@ -37,6 +38,11 @@ function App() {
           type="text"
           placeholder='Write details'
           className='px-5 w-full h-32 font-medium py-2 border-2 outline-none rounded'
+          value={details}
+          onChange={(e) => {
+            setDetails(e.target.value)
+          }}
+
         />
         <button className='bg-white text-black px-5 w-full py-2 outline-none font-medium rounded cursor-pointer'>
           Add Note
