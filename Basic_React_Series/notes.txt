@@ -104,4 +104,4 @@ Two-way binding :
 
 Conditional Rendering : 
     - show different UI depending on a condition 
-    - 
+    - automatically updates the screen when data changes
