@@ -4,20 +4,23 @@ import LogoutBtn from './components/LogoutBtn'
 import './App.css'
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  
-
+  if(!isLoggedIn){
+    return (
+      <LoginBtn />
+    )
+  }
 
   // Logical operator
-  // return (
-  //   <div className='bg-blue-950 h-screen p-5 text-white flex flex-col justify-center items-center gap-10'>
-  //     <h1>Welcome Everyone to this Project</h1>
-  //     <div>
-  //       {isLoggedIn && <LogoutBtn />}
-  //     </div>
-  //   </div>
-  // )
+  return (
+    <div className='bg-blue-950 h-screen p-5 text-white flex flex-col justify-center items-center gap-10'>
+      <h1>Welcome Everyone to this Project</h1>
+      <div>
+        {isLoggedIn && <LogoutBtn />}
+      </div>
+    </div>
+  )
 
   // If-else
   // if(isLoggedIn){
