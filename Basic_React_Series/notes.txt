@@ -109,4 +109,4 @@ Conditional Rendering :
     React renders UI component based on state
     - using if/else
     - using ternery operator
-    
+    - using Logical operator (&&)
