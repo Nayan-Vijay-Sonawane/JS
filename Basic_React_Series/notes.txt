@@ -105,3 +105,8 @@ Two-way binding :
 Conditional Rendering : 
     - show different UI depending on a condition 
     - automatically updates the screen when data changes
+
+    React renders UI component based on state
+    - using if/else
+    - using ternery operator
+    - 
