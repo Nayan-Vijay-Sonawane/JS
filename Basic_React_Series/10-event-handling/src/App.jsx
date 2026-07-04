@@ -5,7 +5,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='bg-blue-950 h-screen flex justify-center items-center'>
       App
     </div>
   )
