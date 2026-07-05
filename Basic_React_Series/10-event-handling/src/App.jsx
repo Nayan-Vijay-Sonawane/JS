@@ -15,11 +15,18 @@ function App() {
     console.log("Value changes in the input field")
   }
 
+  const handleSubmit = (e) => {
+    // preveting default behaviour of form (reloading)
+    e.preventDefault();
+    // Writing a custom behaviour
+    alert("can I submit the form!")
+  }
+
 
   return (
     <div className='bg-blue-950 h-screen flex flex-col gap-5 justify-center items-center text-white'>
 
-    <form className='flex flex-col gap-5'>
+    <form className='flex flex-col gap-5' onSubmit={(e) => {handleSubmit(e)}}>
       <input type="text" onChange={handleInputChange} className='bg-gray-400 rounded border-none p-3' />
       <button type="submit" className='bg-gray-500 px-5 py-2 rounded active:scale-95 cursor-pointer'>Submit</button>
     </form>
