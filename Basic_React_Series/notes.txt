@@ -115,3 +115,7 @@ Conditional Rendering :
 Event handling :
     - Events are nothing but the actions or occurrences happen in the browser.
     - eg. click, key press, scroll, etc.
+        ->  button → Event source.
+            "click" → Event.
+            addEventListener() → Registers the event handler.
+            The function inside it executes when the button is clicked.
