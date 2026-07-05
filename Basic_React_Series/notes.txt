@@ -111,3 +111,7 @@ Conditional Rendering :
     - using ternery operator
     - using Logical operator (&&)
     - using early return    
+
+Event handling :
+    - Events are nothing but the actions or occurrences happen in the browser.
+    - eg. click, key press, scroll, etc.
