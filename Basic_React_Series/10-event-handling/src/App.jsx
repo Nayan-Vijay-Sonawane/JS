@@ -19,7 +19,7 @@ function App() {
     // preveting default behaviour of form (reloading)
     e.preventDefault();
     // Writing a custom behaviour
-    alert("can I submit the form!")
+    alert("can I submit the form!");
   }
 
 
