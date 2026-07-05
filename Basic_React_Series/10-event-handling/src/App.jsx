@@ -19,12 +19,13 @@ function App() {
   return (
     <div className='bg-blue-950 h-screen flex flex-col gap-5 justify-center items-center text-white'>
 
-    <form>
+    <form className='flex flex-col gap-5'>
       <input type="text" onChange={handleInputChange} className='bg-gray-400 rounded border-none p-3' />
+      <button type="submit" className='bg-gray-500 px-5 py-2 rounded active:scale-95 cursor-pointer'>Submit</button>
     </form>
 
-      <p onMouseOver={handleMouseover} className='border p-3'>I am a paragraph</p>
-      <button onClick={handleClick} className='bg-gray-500 px-5 py-2 rounded active:scale-95 cursor-pointer'>Click Me</button>
+      {/* <p onMouseOver={handleMouseover} className='border p-3'>I am a paragraph</p>
+      <button onClick={handleClick} className='bg-gray-500 px-5 py-2 rounded active:scale-95 cursor-pointer'>Click Me</button> */}
     </div>
   )
 }
