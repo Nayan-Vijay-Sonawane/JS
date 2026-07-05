@@ -12,7 +12,7 @@ function App() {
   }
 
   const handleInputChange = () => {
-
+    console.log("Value changes in the input field")
   }
 
 
@@ -20,7 +20,7 @@ function App() {
     <div className='bg-blue-950 h-screen flex flex-col gap-5 justify-center items-center text-white'>
 
     <form>
-      <input type="text" onChange={handleInputChange} />
+      <input type="text" onChange={handleInputChange} className='bg-gray-400 rounded border-none p-3' />
     </form>
 
       <p onMouseOver={handleMouseover} className='border p-3'>I am a paragraph</p>
