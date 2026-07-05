@@ -27,7 +27,9 @@ function App() {
   return (
     <div className='bg-blue-950 h-screen flex flex-col gap-5 justify-center items-center text-white'>
 
-      {/* Rather than directly invoking the function we can write in an arrow function or simply give the reference of the function made */}
+      {/* Rather than directly invoking the function we can write in an arrow function or simply give the reference of the function made. 
+          because it calls directly without clicking anything
+      */}
 
     <form className='flex flex-col gap-5' onSubmit={(e) => {handleSubmit(e)}}>
       <input type="text" onChange={handleInputChange} className='bg-gray-400 rounded border-none p-3' />
