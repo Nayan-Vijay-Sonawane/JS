@@ -3,13 +3,13 @@ import './App.css'
 
 function App() {
 
-  const handleClick = () => {
-    alert("I am clicked")
-  }
+  // const handleClick = () => {
+  //   alert("I am clicked")
+  // }
 
-  const handleMouseover = () => {
-    alert("Mouse over on para")
-  }
+  // const handleMouseover = () => {
+  //   alert("Mouse over on para")
+  // }
 
   const handleInputChange = (e) => {
     // console.log("Value changes in the input field");
@@ -26,6 +26,8 @@ function App() {
 
   return (
     <div className='bg-blue-950 h-screen flex flex-col gap-5 justify-center items-center text-white'>
+
+      {/* Rather than directly invoking the function we can write in an arrow function or simply give the reference of the function made */}
 
     <form className='flex flex-col gap-5' onSubmit={(e) => {handleSubmit(e)}}>
       <input type="text" onChange={handleInputChange} className='bg-gray-400 rounded border-none p-3' />
