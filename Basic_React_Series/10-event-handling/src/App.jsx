@@ -7,9 +7,14 @@ function App() {
     alert("I am clicked")
   }
 
+  const handleMouseover = () => {
+    alert("Mouse over on para")
+  }
+
 
   return (
-    <div className='bg-blue-950 h-screen flex justify-center items-center text-white'>
+    <div className='bg-blue-950 h-screen flex flex-col gap-5 justify-center items-center text-white'>
+      <p onMouseOver={handleMouseover} className='border p-3'>I am a paragraph</p>
       <button onClick={handleClick} className='bg-gray-500 px-5 py-2 rounded active:scale-95 cursor-pointer'>Click Me</button>
     </div>
   )
