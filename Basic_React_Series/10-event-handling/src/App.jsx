@@ -11,8 +11,9 @@ function App() {
     alert("Mouse over on para")
   }
 
-  const handleInputChange = () => {
-    console.log("Value changes in the input field")
+  const handleInputChange = (e) => {
+    // console.log("Value changes in the input field");
+    console.log("value till now:", e.target.value);
   }
 
   const handleSubmit = (e) => {
