@@ -119,3 +119,4 @@ Event handling :
             "click" → Event.
             addEventListener() → Registers the event handler.
             The function inside it executes when the button is clicked.
+    - onClick, onMouse, onChange, etc.
