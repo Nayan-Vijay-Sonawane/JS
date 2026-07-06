@@ -1,12 +1,23 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import Colorswitch from './components/Colorswitch';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [clicks, setClicks] = useState(0);
+
+  const getRandomColor = () => {
+    let r = 150 + Math.round(100 * Math.random());
+    let g = 150 + Math.round(100 * Math.random());
+  }
+
+  const handleChangeColor = () => {
+    let bodyStyle = document.body.style;
+    bodyStyle.backgroundColor = getRandomColor();
+  }
 
   return (
-    <div>
-      
+    <div className='bg-gray-700 h-screen flex justify-center items-center'>
+      <Colorswitch onChangeColor={handleChangeColor}/>
     </div>
   )
 }
