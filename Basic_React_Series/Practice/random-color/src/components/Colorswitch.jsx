@@ -3,6 +3,7 @@ const Colorswitch = ({onChangeColor}) => {
     return(
         <div>
             <button onClick={(e) => {
+                // Stops the event from propagating to parent elements.
                 e.stopPropagation();
                 onChangeColor();
             }} 
