@@ -27,7 +27,7 @@ function App() {
       <Colorswitch onChangeColor={handleChangeColor}/>
       <br />
       <br />
-      <h2 className=''>Clicks on the page: {clicks}</h2>
+      <h2 className='text-bold'>Clicks on the page: {clicks}</h2>
     </div>
   )
 }
