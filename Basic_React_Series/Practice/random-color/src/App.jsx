@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div onClick={handleClickOutside} className='bg-gray-500 h-[100%] w-[100%] flex flex-col justify-center items-center text-white text-2xl m-5 p-5'>
+    <div onClick={handleClickOutside} className='bg-gray-500 h-full w-full flex flex-col justify-center items-center text-white text-2xl m-5 p-5'>
       <Colorswitch onChangeColor={handleChangeColor}/>
       <br />
       <br />
