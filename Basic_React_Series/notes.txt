@@ -127,4 +127,8 @@ Local Storage :
         - store a value -> localstorage.setItem = {"username", "Nayan"}
         - retrieve a value -> localstorage.getItem("username")
         - remove a value -> localstorage.removeItem("username") -> localstorage.clear()
-    - The data persists even after the browser is closed, window is closed
+    - The data persists even after the browser is closed, window is closed (permanent storage)
+
+Session storage : 
+    - session storage is a browser storage mechanism that stores data temporarily 
+    - The data should be disappear when the tab is closed 
