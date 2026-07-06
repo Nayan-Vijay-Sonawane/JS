@@ -8,6 +8,9 @@ function App() {
   const getRandomColor = () => {
     let r = 150 + Math.round(100 * Math.random());
     let g = 150 + Math.round(100 * Math.random());
+    let b = 150 + Math.round(100 * Math.random());
+
+    return `rgb(${r}, ${g}, ${b})`;
   }
 
   const handleChangeColor = () => {
