@@ -4,6 +4,8 @@ const Colorswitch = ({onChangeColor}) => {
         <div>
             <button onClick={(e) => {
                 // Stops the event from propagating to parent elements.
+                // stop an event from bubbling up (or capturing down) the DOM tree. 
+                // It prevents parent elements from receiving the same event after a child element handles it.
                 e.stopPropagation();
                 onChangeColor();
             }} 
