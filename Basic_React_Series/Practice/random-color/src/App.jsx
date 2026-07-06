@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div className='bg-gray-700 h-screen flex justify-center items-center'>
+    <div className='bg-gray-700 h-screen flex justify-center items-center text-white text-2xl'>
       <Colorswitch onChangeColor={handleChangeColor}/>
     </div>
   )
