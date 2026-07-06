@@ -120,3 +120,11 @@ Event handling :
             addEventListener() → Registers the event handler.
             The function inside it executes when the button is clicked.
     - onClick, onMouse, onChange, etc.
+
+Local Storage : 
+    - local storage is a web browser feature that lets websites store small amount of data directly on a user's device
+    - In the form of key-value pair
+        - store a value -> localstorage.setItem = {"username", "Nayan"}
+        - retrieve a value -> localstorage.getItem("username")
+        - remove a value -> localstorage.removeItem("username") -> localstorage.clear()
+    - The data persists even after the browser is closed, window is closed
