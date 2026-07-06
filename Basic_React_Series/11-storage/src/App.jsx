@@ -25,6 +25,8 @@ function App() {
   const userString = JSON.parse(localStorage.getItem("obj1"));
   console.log(userString);
 
+  localStorage.clear();
+
   return (
     <div className='h-screen flex justify-center items-center bg-black text-white p-10 '>
       Local Storage
