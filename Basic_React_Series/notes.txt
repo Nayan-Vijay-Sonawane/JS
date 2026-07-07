@@ -132,3 +132,6 @@ Local Storage :
 Session storage : 
     - session storage is a browser storage mechanism that stores data temporarily 
     - The data should be disappear when the tab is closed 
+
+API calling : 
+    - The fetch API provides an interface for fetching the resources. 
