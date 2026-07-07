@@ -134,4 +134,5 @@ Session storage :
     - The data should be disappear when the tab is closed 
 
 API calling : 
-    - The fetch API provides an interface for fetching the resources. 
+    - Fetch API -> The fetch API provides an interface for fetching the resources. 
+    - Axios -> Axios is a popular JavaScript library used to make HTTP requests to APIs
