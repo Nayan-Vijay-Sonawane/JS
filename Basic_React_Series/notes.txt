@@ -136,3 +136,7 @@ Session storage :
 API calling : 
     - Fetch API -> The fetch API provides an interface for fetching the resources. 
     - Axios -> Axios is a popular JavaScript library used to make HTTP requests to APIs
+
+
+useEffect : 
+    
