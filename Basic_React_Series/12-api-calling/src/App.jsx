@@ -2,12 +2,15 @@ import './App.css'
 
 function App() {
 
-  const getData = async () => {
-    const res = await fetch('https://jsonplaceholder.typicode.com/todos');
+  // API calling using Fetch API
+  // const getData = async () => {
+  //   const res = await fetch('https://jsonplaceholder.typicode.com/todos');
 
-    const data = await res.json()
-    console.log(data);
-  }
+  //   const data = await res.json()
+  //   console.log(data);
+  // }
+
+  
 
   return (
     <div className='h-screen bg-gray-950 text-white flex justify-center items-center'>
