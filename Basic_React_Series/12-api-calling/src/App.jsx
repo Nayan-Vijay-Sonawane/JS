@@ -1,4 +1,5 @@
 import './App.css'
+import axios from 'axios';
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
   //   console.log(data);
   // }
 
-  
+    const getData = async () => {
+      const res = await axios.get('https://jsonplaceholder.typicode.com/users');
+      console.log(res.data);
+    }
 
   return (
     <div className='h-screen bg-gray-950 text-white flex justify-center items-center'>
