@@ -21,18 +21,18 @@ function App() {
 
   // Variation-2 (runs only once(on Mount))
   // useEffect(() => {
-  //   alert("Runs only once")
+  //   alert("Runs only once");
   // }, []);
 
   // Vairation-3 (runs when a value changes)
-  useEffect(() => {
-    alert("Runs everytime when the count is updated")
-  }, [count]);
+  // useEffect(() => {
+  //   alert("Runs everytime when the count is updated");
+  // }, [count]);
 
   // Variation-4 (multiple dependencies)
   useEffect(() => {
-
-  }, [])
+    alert("Runs everytime when the count/total is updated")
+  }, [count, total])
 
 
   return (
