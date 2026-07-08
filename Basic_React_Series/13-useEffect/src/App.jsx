@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='p-5 flex flex-col justify-center items-center gap-5'>
       <h2>Count is : {count}</h2>
       <button onClick={handleCount} className='bg-black rounded px-5 py-2 text-white cursor-pointer active:scale-95'>Click Me</button>
     </div>
