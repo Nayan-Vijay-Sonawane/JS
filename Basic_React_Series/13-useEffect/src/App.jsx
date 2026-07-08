@@ -19,6 +19,9 @@ function App() {
     alert("Runs only once")
   }, []);
 
+  // Vairation-3 (runs when a value changes)
+
+
 
   return (
     <div className='p-5 h-screen flex flex-col justify-center items-center gap-5'>
