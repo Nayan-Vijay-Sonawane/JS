@@ -146,8 +146,10 @@ useEffect :
             // cleanup code(optional)
         }
     }, [dependencies]);
+
     - react calls component function
     - JSX is returned
     - DOM updates (UI appears)
     - useEffect runs
     
+    Allow side effects in a function component
