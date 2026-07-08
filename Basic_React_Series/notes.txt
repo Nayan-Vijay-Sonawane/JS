@@ -139,4 +139,7 @@ API calling :
 
 
 useEffect : 
+    - useEffect(() => {
+        // Effect logic
+    }, [])
     
