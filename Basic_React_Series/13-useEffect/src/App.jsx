@@ -10,11 +10,14 @@ function App() {
   }
 
   // Variation-1 (runs on every render)
-  useEffect(() => {
-    alert("Runs on every render");
-  });
+  // useEffect(() => {
+  //   alert("Runs on every render");
+  // });
 
   // Variation-2 (runs only once(on Mount))
+  useEffect(() => {
+    alert("Runs only once")
+  }, []);
 
 
   return (
