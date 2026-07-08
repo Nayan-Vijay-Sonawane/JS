@@ -141,7 +141,11 @@ API calling :
 useEffect : 
     - useEffect(() => {
         // Effect logic
-    }, [])
+
+        return() => {
+            // cleanup code(optional)
+        }
+    }, [dependencies]);
     - react calls component function
     - JSX is returned
     - DOM updates (UI appears)
