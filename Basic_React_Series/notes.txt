@@ -155,4 +155,5 @@ useEffect :
     Allow side effects in a function component
     - after the first render(component monuts)
     - after every updates (re-renders), if no depende array is provided
-    - 
+    - can be controlled by passing dependency array to trigger the effect only when the specific state or prop change
+    
