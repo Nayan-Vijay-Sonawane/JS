@@ -153,3 +153,6 @@ useEffect :
     - useEffect runs
     
     Allow side effects in a function component
+    - after the first render(component monuts)
+    - after every updates (re-renders), if no depende array is provided
+    - 
