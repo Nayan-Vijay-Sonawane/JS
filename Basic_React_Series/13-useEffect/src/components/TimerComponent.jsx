@@ -16,7 +16,7 @@ const TimerComponent = () => {
 
     return(
         <div className="h-screen flex flex-col gap-5 justify-center items-center">
-            <h1 className="font-bold text-4xl">Seconds : {seconds}</h1>
+            <h1 className="font-bold text-4xl">Seconds: {seconds}</h1>
         </div>
     )
 
