@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import LogerComponent from './components/LogerComponent';
+import TimerComponent from './components/TimerComponent';
 
 function App() {
 
@@ -47,7 +48,11 @@ function App() {
   // )
 
   return (
-    <LogerComponent />
+    <div>
+      {/* <LogerComponent /> */}
+      <TimerComponent />
+    </div>
+    
   )
 }
 
