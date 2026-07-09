@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import LogerComponent from './components/LogerComponent';
 
 function App() {
 
@@ -30,19 +31,23 @@ function App() {
   // }, [count]);
 
   // Variation-4 (multiple dependencies)
-  useEffect(() => {
-    alert("Runs everytime when the count/total is updated")
-  }, [count, total])
+  // useEffect(() => {
+  //   alert("Runs everytime when the count/total is updated")
+  // }, [count, total])
 
+
+  // return (
+  //   <div className='p-5 h-screen flex flex-col justify-center items-center gap-5'>
+  //     <h2>Count is : {count}</h2>
+  //     <button onClick={handleCount} className='bg-black rounded px-5 py-2 text-white cursor-pointer active:scale-95'>Update Count</button>
+      
+  //     <h2>Total is : {total}</h2>
+  //     <button onClick={handleCountTotal} className='bg-black rounded px-5 py-2 text-white cursor-pointer active:scale-95'>Update Total</button>
+  //   </div>
+  // )
 
   return (
-    <div className='p-5 h-screen flex flex-col justify-center items-center gap-5'>
-      <h2>Count is : {count}</h2>
-      <button onClick={handleCount} className='bg-black rounded px-5 py-2 text-white cursor-pointer active:scale-95'>Update Count</button>
-      
-      <h2>Total is : {total}</h2>
-      <button onClick={handleCountTotal} className='bg-black rounded px-5 py-2 text-white cursor-pointer active:scale-95'>Update Total</button>
-    </div>
+    <LogerComponent />
   )
 }
 
