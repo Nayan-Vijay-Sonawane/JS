@@ -6,13 +6,13 @@ const LogerComponent = () => {
 
     // Runs on every render
     useEffect(() => {
-        console.log("Component rendered or count changed:", {count});
+        console.log("Component rendered or count changed:", count);
     })
 
     return (
         <div className="h-screen flex flex-col gap-5 justify-center items-center">
-            <h1 className="text-bold">Count is {count}</h1>
-            <button onClick={() => {setCount(count+1)}}>Increment</button>
+            <h1 className="font-bold">Count is {count}</h1>
+            <button onClick={() => {setCount(count+1)}} className="bg-black rounded px-5 py-2 text-white cursor-pointer active:scale-95">Increment</button>
         </div>
     )
 }
