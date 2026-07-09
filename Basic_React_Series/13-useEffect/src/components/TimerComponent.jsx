@@ -12,7 +12,7 @@ const TimerComponent = () => {
         return () => {
             clearInterval(intervalId);
         }
-    }, []); 
+    }, []);  
 
     return(
         <div className="h-screen flex flex-col gap-5 justify-center items-center">
