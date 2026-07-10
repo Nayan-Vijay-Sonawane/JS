@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import LogerComponent from './components/LogerComponent';
 import TimerComponent from './components/TimerComponent';
+import DataFetcher from './components/DataFetcher';
 
 function App() {
 
@@ -50,7 +51,8 @@ function App() {
   return (
     <div>
       {/* <LogerComponent /> */}
-      <TimerComponent />
+      {/* <TimerComponent /> */}
+      <DataFetcher />
     </div>
     
   )
