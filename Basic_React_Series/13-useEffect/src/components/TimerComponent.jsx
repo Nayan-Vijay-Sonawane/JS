@@ -23,6 +23,7 @@ const TimerComponent = () => {
 
         return () => {
             // when the component unmounts its clears
+            console.log("Time to stop");
             clearInterval(intervalId); 
         }
     }, []);   
