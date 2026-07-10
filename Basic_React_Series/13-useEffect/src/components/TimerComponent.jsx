@@ -11,7 +11,7 @@ const TimerComponent = () => {
         }, 1000);
 
         return () => {
-            clearInterval(intervalId);
+            clearInterval(intervalId); 
         }
     }, []);   
   
