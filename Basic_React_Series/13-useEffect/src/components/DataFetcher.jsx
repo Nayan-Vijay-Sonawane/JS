@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const DataFetcher = () => {
 
-    const [data, setData] = useState(0);
+    const [data, setData] = useState([]);
     const [loading, setloading] = useState(true);
 
     useEffect(() => {
@@ -10,18 +10,18 @@ const DataFetcher = () => {
             .then(response => response.json())
             .then(data => {
                 setData(data);
-                setloading(false);
+                setloading(false)
             });
     }, []);
 
     return (
-        <div className="h-screen flex flex-col gap-5 justify-center items-center p-10 mt-5">
+        <div className="min-h-screen p-10 ">
             {loading ? (
-                <h1>Loading...</h1>
+                <h1 className="text-2xl font-bold">Loading...</h1>
             ) : (
                 <ul>
                     {data.map(post => (
-                        <li key={post.id}>{post.title}</li>
+                        <li className={'list-disc pl-6 space-y-2'} key={post.id}>{post.title}</li>
                     ))}
                 </ul>
             )}
