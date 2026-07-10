@@ -13,6 +13,7 @@ const TimerComponent = () => {
 
             setSeconds(prevSeconds => prevSeconds + 1);
             // this is called functional updater
+            // it always receives the latest state, even if updates are queued or delayed
             
         }, 1000);
 
