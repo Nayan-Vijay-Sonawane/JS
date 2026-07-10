@@ -4,7 +4,7 @@ const DataFetcher = () => {
 
     const [data, setData] = useState([]);
     const [loading, setloading] = useState(true);
-
+ 
     // Runs only on first render
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/posts')
