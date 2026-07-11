@@ -3,6 +3,7 @@ import './App.css'
 import LogerComponent from './components/LogerComponent';
 import TimerComponent from './components/TimerComponent';
 import DataFetcher from './components/DataFetcher';
+import MultiEffectComponent from './components/MultiEffectComponent';
 
 function App() {
 
@@ -52,7 +53,8 @@ function App() {
     <div>
       {/* <LogerComponent /> */}
       {/* <TimerComponent /> */}
-      <DataFetcher />
+      {/* <DataFetcher /> */}
+      <MultiEffectComponent />
     </div>
     
   )
