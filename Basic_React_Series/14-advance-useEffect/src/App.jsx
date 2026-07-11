@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className='h-screen bg-black text-white flex flex-col gap-5 justify-center items-center'>
-      <div className=''>
+      <div className='flex gap-10'>
         <h1 className='text-3xl text-emerald-50'>A is {a}</h1>
         <h2 className='text-3xl text-emerald-50'>B is {b}</h2>
       </div>
