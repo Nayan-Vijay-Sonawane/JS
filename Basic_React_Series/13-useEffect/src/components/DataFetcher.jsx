@@ -16,7 +16,7 @@ const DataFetcher = () => {
     }, []);
 
     return (
-        <div className="min-h-screen p-10 ">
+        <div className="min-h-screen p-5 ">
             {loading ? (
                 <h1 className="text-2xl font-bold">Loading...</h1>
             ) : (
