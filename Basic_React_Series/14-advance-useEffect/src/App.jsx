@@ -13,9 +13,9 @@ function App() {
   useEffect(() => {
     console.log("Value of B is changing...");
   }, [b])
+ 
 
-
-  return (
+  return ( 
     <div className='h-screen bg-black text-white flex flex-col gap-5 justify-center items-center'>
       <div className='flex gap-17'>
         <h1 className='text-3xl text-emerald-50'>A is {a}</h1>
