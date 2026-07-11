@@ -26,7 +26,7 @@ function App() {
         <button onClick={() => { setB(b - 1) }} className='px-5 py-2 rounded cursor-pointer active:scale-95 bg-gray-500 text-white'>Change B</button>
       </div>
 
-    </div>
+    </div> 
   )
 }
 
