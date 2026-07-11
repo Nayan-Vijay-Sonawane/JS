@@ -2,11 +2,21 @@ import { useState, useEffect } from "react";
 
 const FetchMovies = () => {
 
-    fetch('https://jsonlint.com/datasets/movie-genres')
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        fetch('https://jsonlint.com/datasets/movie-genres')
         .then(respnse => respnse.json())
-        .then(setData(data))
+        .then(data => 
+            setData(data)
+        )
+    })
 
     return (
+        <div>
+            <h1>New fetch</h1>
+            <p>{data.map(data)}</p>
+        </div>
         
     )
 }
