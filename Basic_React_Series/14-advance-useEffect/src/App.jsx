@@ -21,10 +21,10 @@ function App() {
         <h1 className='text-3xl text-emerald-50'>A is {a}</h1>
         <h2 className='text-3xl text-emerald-50'>B is {b}</h2>
       </div>
-      <div className='flex gap-10'>
+      <div className='flex gap-10'> 
         <button onClick={() => { setA(a + 1) }} className='px-5 py-2 rounded cursor-pointer active:scale-95 bg-gray-500 text-white'>Change A</button>
         <button onClick={() => { setB(b - 1) }} className='px-5 py-2 rounded cursor-pointer active:scale-95 bg-gray-500 text-white'>Change B</button>
-      </div>
+      </div> 
     
     </div> 
   )
