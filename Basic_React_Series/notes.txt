@@ -160,5 +160,5 @@ useEffect :
     useEffect lets you run code
     - after render
     - when state change
-    - when component mounts/unmounts
+    - when component mounts/unmounts 
     Think of it as React's side-effect manager 
