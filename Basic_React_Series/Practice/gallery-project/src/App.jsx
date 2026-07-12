@@ -1,9 +1,10 @@
+import axios from 'axios';
 import './App.css'
 
 function App() {
 
   const getData = () => {
-
+    axios.get()
   }
 
   return (
