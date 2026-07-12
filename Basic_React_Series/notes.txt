@@ -161,4 +161,4 @@ useEffect :
     - after render
     - when state change
     - when component mounts/unmounts
-    Think of it as React's side-effect manager
+    Think of it as React's side-effect manager 
