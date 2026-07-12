@@ -17,7 +17,7 @@ function App() {
         Get Data
       </button>
     </div>
-  )
+  ) 
 }
 
 export default App
