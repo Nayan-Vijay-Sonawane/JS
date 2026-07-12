@@ -141,6 +141,7 @@ API calling :
         - axios.get() -> get request (displaying data)
         - axios.post() -> post request (sending data)
         - axios.patch() -> update parts of resource
+        - axios.delete() -> delete the data
 
 useEffect : 
     - useEffect(() => {
