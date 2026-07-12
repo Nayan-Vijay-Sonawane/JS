@@ -2,9 +2,18 @@ import './App.css'
 
 function App() {
 
+  const getData = () => {
+
+  }
+
   return (
-    <div className='h-screen bg-black flex justify-center items-center'>
-      App
+    <div className='h-screen bg-black text-white flex justify-center items-center'>
+
+      <button
+        onClick={getData}
+        className='bg-green-700 text-white cursor-pointer active:scale-95 px-5 py-2 rounded '>
+        Get Data
+      </button>
     </div>
   )
 }
