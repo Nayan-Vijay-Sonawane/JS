@@ -137,7 +137,7 @@ API calling :
     Fetch API -> The fetch API provides an interface for fetching the resources. 
 
     Axios -> Axios is a popular JavaScript library used to make HTTP requests to APIs
-        - sends http requests and receives http responses
+        - sends HTTP requests and receives HTTP responses
         - axios.get() -> get request (displaying data)
         - axios.post() -> post request (sending data)
         - axios.patch() -> update parts of resource
