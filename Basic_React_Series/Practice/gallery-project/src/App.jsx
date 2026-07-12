@@ -1,11 +1,24 @@
 import axios from 'axios';
+import { useState } from 'react';
 import './App.css'
 
 function App() {
 
+  const [userData, setUserData] = useState([]);
+
   const getData = async () => {
     const response = await axios.get('https://picsum.photos/v2/list?page=${index}&limit=100');
     console.log(response.data);
+  }
+
+  let printUserData = "No User Available";
+
+  if(userData.length > 0){
+    printUserData = userData.map((elem, idx) => {
+      return <div>
+        
+      </div>
+    })
   }
 
   return (
