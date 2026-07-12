@@ -3,8 +3,9 @@ import './App.css'
 
 function App() {
 
-  const getData = () => {
-    axios.get()
+  const getData = async () => {
+    const response = await axios.get('https://picsum.photos/v2/list?page=${index}&limit=100');
+    console.log(response);
   }
 
   return (
