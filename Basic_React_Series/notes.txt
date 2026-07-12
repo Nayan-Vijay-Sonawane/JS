@@ -138,8 +138,9 @@ API calling :
 
     Axios -> Axios is a popular JavaScript library used to make HTTP requests to APIs
         - sends http requests and receives http responses
-        - axios.get() -> get request
-        - axios.post() -> post request(sending data)
+        - axios.get() -> get request (displaying data)
+        - axios.post() -> post request (sending data)
+        - axios.patch() -> update parts of resource
 
 useEffect : 
     - useEffect(() => {
