@@ -9,7 +9,7 @@ function App() {
   }
 
   return (
-    <div className='h-screen bg-black text-white flex justify-center items-center'>
+    <div className='h-screen bg-black text-white p-4'>
 
       <button
         onClick={getData}
