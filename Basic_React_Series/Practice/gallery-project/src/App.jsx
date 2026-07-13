@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className='min-h-screen bg-black text-white gap-10 p-4'>
+    <div className='min-h-screen overflow-auto bg-black text-white gap-10 p-4'>
 
       <button
         onClick={getData}
