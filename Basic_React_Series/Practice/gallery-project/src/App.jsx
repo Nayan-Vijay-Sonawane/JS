@@ -39,11 +39,21 @@ function App() {
       </div>
       <div className='flex justify-center gap-6 items-center p-4'>
         <button
-          className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>
+          className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'
+          onClick={() => {
+            if(index>1){
+              setIndex(index-1)
+            }
+          }}
+          >
           Prev
         </button>
         <button
-          className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>
+          className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'
+          onClick={() => {
+            setIndex(index+1)
+          }}
+          >
           Next
         </button>
       </div>
