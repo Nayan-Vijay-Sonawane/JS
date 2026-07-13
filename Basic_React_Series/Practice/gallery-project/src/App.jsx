@@ -5,6 +5,7 @@ import './App.css'
 function App() {
 
   const [userData, setUserData] = useState([]);
+  const [index, setIndex] = useState(1);
 
   const getData = async () => {
     const response = await axios.get('https://picsum.photos/v2/list?page=3&limit=30');
