@@ -9,6 +9,7 @@ function App() {
   const getData = async () => {
     const response = await axios.get('https://picsum.photos/v2/list?page=${index}&limit=100');
     console.log(response.data);
+    setUserData(response.data);
   }
 
   let printUserData = "No User Available";
