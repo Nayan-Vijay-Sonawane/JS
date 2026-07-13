@@ -14,16 +14,19 @@ function App() {
 
   let printUserData = "No User Available";
 
-  if(userData.length > 0){
+  if (userData.length > 0) {
     printUserData = userData.map((elem, idx) => {
-      return <div className='h-40 w-44 bg-white'>
-        <img className='h-full object-cover' src={elem.download_url} alt=''></img>
+      return <div>
+        <div className='h-40 w-44 bg-white'>
+          <img className='h-full object-cover' src={elem.download_url} alt='' />
+        </div>
+        <h2>{elem.author}</h2>
       </div>
     })
   }
 
   return (
-    <div className='min-h-screen overflow-auto bg-black text-white gap-10 p-4'>
+    <div className='h-screen overflow-auto bg-black text-white gap-10 p-4'>
 
       <button
         onClick={getData}
@@ -34,7 +37,7 @@ function App() {
         {printUserData}
       </div>
     </div>
-  ) 
+  )
 }
 
 export default App
