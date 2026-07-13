@@ -16,11 +16,14 @@ function App() {
 
   if (userData.length > 0) {
     printUserData = userData.map((elem, idx) => {
+
       return <div key={idx}>
-        <div className='h-40 w-44 overflow-hidden bg-white rounded-xl'>
-          <img className='h-full w-full object-cover' src={elem.download_url} alt='' />
-        </div>
-        <h2 className='font-bold text-lg'>{elem.author}</h2>
+        <a href={elem.url}>
+          <div className='h-40 w-44 overflow-hidden bg-white rounded-xl'>
+            <img className='h-full w-full object-cover' src={elem.download_url} alt='' />
+          </div>
+          <h2 className='font-bold text-lg'>{elem.author}</h2>
+        </a>
       </div>
     })
   }
