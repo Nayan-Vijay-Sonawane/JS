@@ -38,8 +38,14 @@ function App() {
         {printUserData}
       </div>
       <div className='flex justify-center gap-6 items-center p-4'>
-        <button className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>Prev</button>
-        <button className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>Next</button>
+        <button
+          className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>
+          Prev
+        </button>
+        <button
+          className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>
+          Next
+        </button>
       </div>
     </div>
   )
