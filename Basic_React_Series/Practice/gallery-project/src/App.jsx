@@ -18,7 +18,7 @@ function App() {
     printUserData = userData.map((elem, idx) => {
       return <div>
         <div className='h-40 w-44 bg-white rounded'>
-          <img className='h-full object-cover' src={elem.download_url} alt='' />
+          <img className='h-full w-full object-cover' src={elem.download_url} alt='' />
         </div>
         <h2>{elem.author}</h2>
       </div>
@@ -26,7 +26,7 @@ function App() {
   }
 
   return (
-    <div className='h-screen overflow-auto bg-black flex flex-col text-white gap-10 p-4'>
+    <div className='h-screen overflow-auto bg-black flex flex-col text-white gap-5 p-4'>
 
       <button
         onClick={getData}
