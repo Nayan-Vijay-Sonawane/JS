@@ -7,7 +7,7 @@ function App() {
   const [userData, setUserData] = useState([]);
 
   const getData = async () => {
-    const response = await axios.get('https://picsum.photos/v2/list?page=${index}&limit=100');
+    const response = await axios.get('https://picsum.photos/v2/list?page=${index}&limit=15');
     console.log(response.data);
     setUserData(response.data);
   }
@@ -16,14 +16,12 @@ function App() {
 
   if(userData.length > 0){
     printUserData = userData.map((elem, idx) => {
-      return <div>
-        
-      </div>
+      return idx;
     })
   }
 
   return (
-    <div className='h-screen bg-black text-white p-4'>
+    <div className='h-screen bg-black text-white gap-10 p-4'>
 
       <button
         onClick={getData}
