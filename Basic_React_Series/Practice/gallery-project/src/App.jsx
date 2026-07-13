@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import './App.css'
+import Card from './components/Card';
 
 function App() {
 
@@ -22,12 +23,7 @@ function App() {
     printUserData = userData.map((elem, idx) => {
 
       return <div key={idx}>
-        <a href={elem.url} target='_blank'>
-          <div className='h-40 w-44 overflow-hidden bg-white rounded-xl'>
-            <img className='h-full w-full object-cover' src={elem.download_url} alt='' />
-          </div>
-          <h2 className='font-bold text-lg'>{elem.author}</h2>
-        </a>
+        <Card elem={elem}/>
       </div>
     })
   }
@@ -39,6 +35,7 @@ function App() {
       </div>
       <div className='flex justify-center gap-6 items-center p-4'>
         <button
+        style={{opacity: index ==1 ? 0.5 : 1}}
           className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'
           onClick={() => {
             if(index>1){
@@ -49,6 +46,7 @@ function App() {
           >
           Prev
         </button>
+        <h4>Page {index}</h4>
         <button
           className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'
           onClick={() => {
