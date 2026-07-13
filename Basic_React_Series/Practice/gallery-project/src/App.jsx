@@ -16,7 +16,7 @@ function App() {
 
   if (userData.length > 0) {
     printUserData = userData.map((elem, idx) => {
-      return <div>
+      return <div key={idx}>
         <div className='h-40 w-44 overflow-hidden bg-white rounded-xl'>
           <img className='h-full w-full object-cover' src={elem.download_url} alt='' />
         </div>
