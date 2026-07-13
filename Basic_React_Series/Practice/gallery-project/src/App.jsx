@@ -7,7 +7,7 @@ function App() {
   const [userData, setUserData] = useState([]);
 
   const getData = async () => {
-    const response = await axios.get('https://picsum.photos/v2/list?page=${index}&limit=15');
+    const response = await axios.get('https://picsum.photos/v2/list?page=3&limit=30');
     console.log(response.data);
     setUserData(response.data);
   }
@@ -17,7 +17,7 @@ function App() {
   if (userData.length > 0) {
     printUserData = userData.map((elem, idx) => {
       return <div>
-        <div className='h-40 w-44 bg-white'>
+        <div className='h-40 w-44 bg-white rounded'>
           <img className='h-full object-cover' src={elem.download_url} alt='' />
         </div>
         <h2>{elem.author}</h2>
@@ -26,14 +26,14 @@ function App() {
   }
 
   return (
-    <div className='h-screen overflow-auto bg-black text-white gap-10 p-4'>
+    <div className='h-screen overflow-auto bg-black flex flex-col text-white gap-10 p-4'>
 
       <button
         onClick={getData}
-        className='bg-green-700 text-white cursor-pointer active:scale-95 px-5 py-2 rounded '>
+        className='bg-green-700 text-white w-fit cursor-pointer active:scale-95 px-5 py-2 rounded '>
         Get Data
       </button>
-      <div className='flex gap-4 flex-wrap'>
+      <div className='flex gap-4 flex-wrap rounded-xl'>
         {printUserData}
       </div>
     </div>
