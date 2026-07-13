@@ -16,7 +16,9 @@ function App() {
 
   if(userData.length > 0){
     printUserData = userData.map((elem, idx) => {
-      return idx;
+      return <div>
+        <img src={elem.download_url} alt=''></img>
+      </div>
     })
   }
 
