@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css'
 
 function App() {
@@ -8,9 +8,12 @@ function App() {
 
   const getData = async () => {
     const response = await axios.get('https://picsum.photos/v2/list?page=3&limit=30');
-    console.log(response.data);
     setUserData(response.data);
   }
+
+  useEffect(() => {
+    getData()
+  }, [])
 
   let printUserData = "No User Available";
 
@@ -30,14 +33,12 @@ function App() {
 
   return (
     <div className='h-screen overflow-auto bg-black flex flex-col text-white gap-5 p-4'>
-
-      <button
-        onClick={getData}
-        className='bg-green-700 text-white w-fit cursor-pointer active:scale-95 px-5 py-2 rounded '>
-        Get Data
-      </button>
       <div className='flex gap-4 flex-wrap rounded-xl'>
         {printUserData}
+      </div>
+      <div className='flex justify-center gap-6 items-center p-4'>
+        <button className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>Prev</button>
+        <button className='bg-green-700 text-sm cursor-pointer active:scale-95 text-white rounded px-5 py-2 font-semibold'>Next</button>
       </div>
     </div>
   )
