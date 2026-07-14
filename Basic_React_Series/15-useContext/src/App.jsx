@@ -5,8 +5,8 @@ function App() {
 
   return (
     <div className='bg-black h-screen text-white'>
-      {/* Step-2 : Wrap the childs inside a provider */}
-      <UserContext.Provider>
+      {/* Step-2 : Wrap the childs inside a provider */} 
+      <UserContext.Provider value="Nayan">
         <Parent />
       </UserContext.Provider>
     </div>
