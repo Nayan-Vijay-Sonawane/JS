@@ -1,11 +1,14 @@
 import './App.css'
-import GrandChild from './components/GrandChild'
-
+import Parent from './components/Parent';
+import UserContext from './context/UserContext';
 function App() {
 
   return (
     <div className='bg-black h-screen text-white'>
-      <GrandChild />
+      {/* Step-2 : Wrap the childs inside a provider */}
+      <UserContext.Provider>
+        <Parent />
+      </UserContext.Provider>
     </div>
   )
 }
