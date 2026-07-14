@@ -7,7 +7,7 @@ const GrandChild = () => {
 
     return (
         <div>
-            <h1>Hello this is {user}</h1>
+            <h1>Hello this is {user.name}</h1>
         </div>
     )
 };
