@@ -171,4 +171,21 @@ useEffect :
 
 useContext : 
     - It is a react hook that lets a component access data from a Context without passing props through every intermediate component
+
+    Why need of useContext
+    -  App
+        │
+        ├── Parent
+        │
+        ├── Child
+        │
+        └── GrandChild
+    - if App has user's name and GrandChild needs it
     
+    <App user="Alice">
+        <Parent user={user}>
+            <Child user={user}>
+                <GrandChild user={user} />
+            </Child>
+        </Parent>
+    </App>
