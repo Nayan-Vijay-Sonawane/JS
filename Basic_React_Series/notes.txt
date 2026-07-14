@@ -181,7 +181,7 @@ useContext :
         │
         └── GrandChild
     - if App has user's name and GrandChild needs it
-    
+
     <App user="Alice">
         <Parent user={user}>
             <Child user={user}>
@@ -189,3 +189,7 @@ useContext :
             </Child>
         </Parent>
     </App>
+
+    - here Parent, Child don't use user, but they still have to pass it down
+    - it becomes messy
+    - This is props drilling
