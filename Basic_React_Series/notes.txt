@@ -170,3 +170,5 @@ useEffect :
 
 
 useContext : 
+    - It is a react hook that lets a component access data from a Context without passing props through every intermediate component
+    
