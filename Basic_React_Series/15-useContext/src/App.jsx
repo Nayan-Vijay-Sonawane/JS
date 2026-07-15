@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Parent from './components/Parent';
 import UserContext from './context/UserContext';
 function App() {
-  const [user, setUser] = useState({name: "Nayan"})
+  const [user, setUser] = useState({name: "Nayan"});
 
   return (
     <div className='bg-black h-screen text-white p-5'>
