@@ -5,7 +5,7 @@ import UserContext from './context/UserContext';
 function App() { 
   const [user, setUser] = useState({name: "Nayan"}); 
  
-  return ( 
+  return (
     <div className='bg-black h-screen text-white p-5'>
       {/* Step-2 : Wrap the childs inside a provider */} 
       {/* Step-3 : pass the value */} 
