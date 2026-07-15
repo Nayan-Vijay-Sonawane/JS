@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import { useState } from 'react';
 import Parent from './components/Parent';
 import UserContext from './context/UserContext';
