@@ -8,7 +8,7 @@ function App() {
   return ( 
     <div className='bg-black h-screen text-white p-5'>
       {/* Step-2 : Wrap the childs inside a provider */} 
-      {/* Step-3 : pass the value */}
+      {/* Step-3 : pass the value */} 
       <UserContext.Provider value={user}>
         <Parent />
       </UserContext.Provider>
