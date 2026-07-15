@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import Parent from './components/Parent';
 import UserContext from './context/UserContext';
-function App() {
+function App() { 
   const [user, setUser] = useState({name: "Nayan"});
 
   return (
