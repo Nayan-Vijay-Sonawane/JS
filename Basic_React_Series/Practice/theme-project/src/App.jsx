@@ -10,7 +10,7 @@ function App() {
 
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className='h-screen p-10 bg-gray-400'>
-        <div className={`${theme === 'light' ? 'bg-amber-100' : 'bg-black'} h-100 w-100 border-2 border-black flex flex-col justify-center items-center`}>
+        <div className={`${theme === 'light' ? 'bg-amber-100' : 'bg-black'} h-100 w-100 border-black flex flex-col justify-center items-center`}>
           <Parent />
         </div>
       </div>
