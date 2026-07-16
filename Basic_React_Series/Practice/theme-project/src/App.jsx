@@ -8,8 +8,10 @@ function App() {
 
   return (
 
-    <ThemeContext.Provider value={theme}>
-      <Parent />
+    <ThemeContext.Provider value={{theme, setTheme}}>
+      <div style={{backgroundColor:theme==='light'?'beige':'black'}}>
+        <Parent />
+      </div>
     </ThemeContext.Provider>
 
     // <div className='h-screen bg-mauve-500 text-white p-10'>
