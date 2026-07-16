@@ -1,9 +1,9 @@
-
+import { Child } from './Child';
 
 const Parent = () => {
     return (
         <div>
-            
+            <Child />
         </div>
     )
 }
