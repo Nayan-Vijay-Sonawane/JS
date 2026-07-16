@@ -9,7 +9,7 @@ function App() {
   return (
 
     <ThemeContext.Provider value={{theme, setTheme}}>
-      <div style={{backgroundColor:theme==='light'?'beige':'black'}}>
+    <div className={theme === 'light' ? 'bg-amber-100' : 'bg-black'}>
         <Parent />
       </div>
     </ThemeContext.Provider>
