@@ -1,6 +1,6 @@
 import './App.css'
 import { useState } from 'react';
-import { ThemeContext } from 'react';
+import ThemeContext from './context/ThemeContext';
 import Parent from './components/Parent';
 
 function App() {

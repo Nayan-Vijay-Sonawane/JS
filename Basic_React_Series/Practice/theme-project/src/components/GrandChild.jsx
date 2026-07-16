@@ -1,13 +1,12 @@
-import Child from "./Child";
 import { useContext } from "react";
-import { ThemeContext } from '../context/ThemeContext';
+import ThemeContext from '../context/ThemeContext';
 
 const GrandChild = () => {
 
     const theme = useContext(ThemeContext);
 
     return (
-        <div>
+        <div className="p-10">
             {theme}
         </div>
     )
