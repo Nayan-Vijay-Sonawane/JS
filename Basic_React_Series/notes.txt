@@ -205,7 +205,7 @@ Routing :
     - Routing determines which component should be displayed for a particular URL
     (Instead of loading a new HTML page everytime, react changes components while application keep running)
     
-    - createBrowserRouter() -> Its only use to create the router object
+    - createBrowserRouter() -> Its only use to create the router object (Build the map)
 
     const router = createBrowserRouter([
         {
@@ -216,6 +216,6 @@ Routing :
     - path -> URL
     - element -> which react component should react renders
 
-    - <RouterProvider/> -> This is the component that activates the router
+    - <RouterProvider/> -> This is the component that activates the router (Use the map to navigate)
     <RouterProvider router={router}/>
     - without this routing doesn't happen
