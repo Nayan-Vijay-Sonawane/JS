@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css'
 import Home from './components/Home';
 import About from './components/About';
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className='bg-slate-800 h-screen'>
-      App
+      <RouterProvider router={router} />
     </div>
   )
 }
