@@ -199,3 +199,9 @@ useContext :
     - Wrap components with <Provider>
     - Pass a value to the Provider
     - Any descendent can call useContext to read the value 
+
+
+Routing : 
+    - Routing determines which component should be displayed for a particular URL
+    (Instead of loading a new HTML page everytime, react changes components while application keep running)
+    
