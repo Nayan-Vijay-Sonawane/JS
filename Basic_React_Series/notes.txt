@@ -205,3 +205,5 @@ Routing :
     - Routing determines which component should be displayed for a particular URL
     (Instead of loading a new HTML page everytime, react changes components while application keep running)
     
+    - path -> URL
+    - element -> which react component should react renders
