@@ -5,7 +5,7 @@ import About from './components/About';
 import Dashboard from './components/Dashboard';
 import Navbar from './components/Navbar';
 
-// Creates router object 
+// Creates router object  
 const router = createBrowserRouter( 
   [
     {
