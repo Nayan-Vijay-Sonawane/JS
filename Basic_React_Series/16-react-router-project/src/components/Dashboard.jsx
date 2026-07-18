@@ -5,6 +5,6 @@ const Dashboard = () => {
             Dashboard
         </div>
     )
-}
+};
 
 export default Dashboard;
