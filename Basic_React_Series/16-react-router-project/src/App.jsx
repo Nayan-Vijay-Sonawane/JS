@@ -33,7 +33,7 @@ const router = createBrowserRouter(
       </div>
     }
   ]
-)
+);
 
 function App() {
 
