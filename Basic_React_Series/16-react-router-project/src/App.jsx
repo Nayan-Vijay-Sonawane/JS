@@ -6,7 +6,7 @@ import Dashboard from './components/Dashboard';
 import Navbar from './components/Navbar';
 
 // Creates router object 
-const router = createBrowserRouter(
+const router = createBrowserRouter( 
   [
     {
       path:"/",
