@@ -223,3 +223,4 @@ Routing :
 
     Link : 
     - It is used to create a clickable link that allows users to navigate to different routes/pages within the application
+    - It is a part of react-router-DOM
