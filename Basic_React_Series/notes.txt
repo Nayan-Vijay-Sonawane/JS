@@ -222,4 +222,4 @@ Routing :
     - without this routing doesn't happen
 
     Link : 
-    - 
+    - It is used to create a clickable link that allows users to navigate 
