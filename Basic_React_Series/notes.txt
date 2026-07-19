@@ -207,6 +207,7 @@ Routing :
     - Define routes and render specific component based on URL of the app
     - SPA with multiple views, without having to reload the entire page
     
+    
     - createBrowserRouter() -> Its only use to create the router object (Build the map)
     - It is the parent component that is used to store all other components
 
