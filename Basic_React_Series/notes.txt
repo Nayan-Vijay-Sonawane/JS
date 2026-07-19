@@ -206,6 +206,7 @@ Routing :
     (Instead of loading a new HTML page everytime, react changes components while application keep running)
     
     - createBrowserRouter() -> Its only use to create the router object (Build the map)
+    - It is the parent component that is used to store all other components
 
     const router = createBrowserRouter([
         {
