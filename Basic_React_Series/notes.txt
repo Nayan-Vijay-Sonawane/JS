@@ -220,3 +220,6 @@ Routing :
     - <RouterProvider/> -> This is the component that activates the router (Use the map to navigate)
     <RouterProvider router={router}/> 
     - without this routing doesn't happen
+
+    Link : 
+    - 
