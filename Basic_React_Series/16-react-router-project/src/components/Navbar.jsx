@@ -1,14 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
         <div>
             <ul className="flex justify-evenly">
-                <li><Link to='/'> Home</Link>
+                <li><NavLink to='/' > 
+                Home
+                </NavLink>
                 </li>
-                <li><Link to='/about'> About</Link>
+                <li><NavLink to='/about' > 
+                About
+                </NavLink>
                 </li>
-                <li><Link to='/dashboard'> Dashboard</Link>
+                <li><NavLink to='/dashboard' > 
+                Dashboard
+                </NavLink>
                 </li>
             </ul>
 
