@@ -233,3 +233,8 @@ Routing :
     - It is similar to Link
     - NavLink adds an 'active' class to the rendered element when URL matches the 'to' props of the component
     - So on active class we can style
+    <NavLink to='/about' ClassName={({isActive}) => isActive ? 'active-link' : ''}> About </NavLink>
+
+    useParams : 
+    - Its a react-router hook which reads dynamic values from the URL and returns an object of key-value pair
+    
