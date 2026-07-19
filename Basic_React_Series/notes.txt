@@ -232,3 +232,4 @@ Routing :
     NavLink : 
     - It is similar to Link
     - NavLink adds an 'active' class to the rendered element when URL matches the 'to' props of the component
+    - So the ac
