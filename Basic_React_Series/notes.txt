@@ -252,3 +252,4 @@ useNavigate :
                 Go to About
             </button>
         )};
+    - When the button is clicked, the app navigates to '/about'
