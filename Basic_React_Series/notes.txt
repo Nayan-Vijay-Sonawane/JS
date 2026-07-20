@@ -237,4 +237,4 @@ Routing :
 
     useParams : 
     - Its a react-router hook which reads dynamic values from the URL and returns an object of key-value pair
-    
+    - useParams() returns an object containing route parameters
