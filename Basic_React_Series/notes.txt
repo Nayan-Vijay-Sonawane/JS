@@ -240,3 +240,4 @@ Routing :
     - useParams() returns an object containing route parameters
     - Route parameters are dynamic segments in the URL path, defined with :
     - :id -> is a route parameter
+    - we can fetch route parameter by using the useParams
