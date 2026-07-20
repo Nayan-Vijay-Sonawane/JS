@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"; 
  
-const Home = () => {
+const Home = () => { 
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('/about');
