@@ -4,7 +4,7 @@ const Home = () => {
     const navigate = useNavigate();
     const handleClick = () => {
         navigate('/about');
-    }
+    } 
 
     return (
         <div>
