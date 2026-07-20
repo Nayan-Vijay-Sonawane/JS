@@ -4,10 +4,10 @@ A single page application
 
 - A JavaScript library for building user interfaces.
     - Build around Components
-    - UI is a function of state 
+    - UI is a function of state
 
     Component-Based Architecture 
-        - Each piece has its own logic, is reusable, easy to maintain.
+        - Each piece has its own logic, is reusable, easy to maintain. 
  
 Project Folder Structure: 
  
