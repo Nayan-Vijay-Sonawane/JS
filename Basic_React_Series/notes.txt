@@ -243,4 +243,4 @@ Routing :
     - we can fetch route parameter by using the useParams
 
     useNavigate : 
-    - useNavigate() is a hook from react-router that allows us to navigate to different route, such as
+    - useNavigate() is a hook from react-router that allows us to navigate to different route, such as after form submission, button click or successfull login
