@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div>
         <div className="text-2xl font-bold p-10 flex justify-center items-center">
-            Home Page
+            Home Page 
         </div>
         <button 
         onClick={handleClick}
