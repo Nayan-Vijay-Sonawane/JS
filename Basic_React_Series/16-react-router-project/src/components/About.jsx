@@ -12,8 +12,7 @@ const About = () => {
         </div>
         <button
         onClick={handleClick}
-        className='bg-amber-50 text-black rounded px-5 py-2 cursor-pointer a'
-        >
+        className='bg-amber-50 text-black rounded px-5 py-2 cursor-pointer active:scale-95'>
             Move to Dashboard
         </button>
         </div>
