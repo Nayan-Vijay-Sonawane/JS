@@ -254,3 +254,5 @@ useNavigate :
         )};
     - When the button is clicked, the app navigates to '/about'
 
+Outlet : 
+    - <Outlet/> is a component from react router that acts as a placeholder where the matched child route is rendered
