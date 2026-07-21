@@ -259,3 +259,10 @@ Outlet :
     - It is used inside the parent element
     - When child route matches, React router renders that child inside <Outlet />
     - without <outlet />, nested routes won't appear
+    <Navbar>
+        |- Dashboard
+        |- <Outlet /> 
+              |- Courses    (/dashboard/courses)
+              |- MockTests  (/dashboard/mock-tests)
+              |- Reports    (/dashboard/reports)
+    - here, <Outlet /> is the location where Courses, Reports, or MockTests is displayed based on the current URL 
