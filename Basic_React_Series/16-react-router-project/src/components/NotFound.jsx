@@ -1,0 +1,11 @@
+
+const NotFound = () => {
+  return (
+    <div>
+      <h1 classname="text-3xl font-bold text-white">404- Page Not Found</h1>
+      <p className="text-white">Page you're looking for doesn't exists</p>
+    </div>
+  )
+};
+
+export default NotFound;
