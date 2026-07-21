@@ -1,7 +1,7 @@
 
 const MockTests = () => {
   return (
-    <div>
+    <div className="bg-amber-50 text-2xl">
       Mock Tests Section
     </div>
   )
