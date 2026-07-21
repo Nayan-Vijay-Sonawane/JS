@@ -256,3 +256,5 @@ useNavigate :
 
 Outlet : 
     - <Outlet/> is a component from react router that acts as a placeholder where the matched child route is rendered
+    - It is used inside the parent element
+    - When child 
