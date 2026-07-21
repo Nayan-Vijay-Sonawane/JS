@@ -11,7 +11,8 @@ const About = () => {
             About Page
         </div>
         <button
-        onClick={handleClick}    
+        onClick={handleClick}
+        className='bg-amber-50 text-black rounded px-5 py-2 cursor-pointer a'
         >
             Move to Dashboard
         </button>
