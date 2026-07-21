@@ -44,7 +44,7 @@ const router = createBrowserRouter(
         {
           path:"mock-tests",
           element: <MockTests />
-        }.
+        },
         {
           path:"reports",
           element: <Reports />
