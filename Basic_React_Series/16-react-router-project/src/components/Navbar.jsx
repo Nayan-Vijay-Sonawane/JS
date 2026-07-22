@@ -3,7 +3,7 @@ import '../App.css';
  
 const Navbar = () => {
     return (
-        <div>
+        <div> 
             <ul className="flex justify-evenly">
                 <li><NavLink to='/' className={({isActive}) => isActive ? 'active-link' : ''}> 
                 Home
