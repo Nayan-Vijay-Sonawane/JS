@@ -216,7 +216,7 @@ Routing :
             path: "/",
             element: <component which need to render>
         }
-    ]);
+    ]); 
     - path -> URL
     - element -> which react component should react renders
 
