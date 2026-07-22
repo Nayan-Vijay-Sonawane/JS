@@ -207,8 +207,9 @@ Routing :
     - Define routes and render specific component based on URL of the app
     - SPA with multiple views, without having to reload the entire page
 
-    -StaticRouter -> When we have to create static site with NextJS we can use this one(used for server-side rendering)
-    -BroweserRouter
+    - StaticRouter -> When we have to create static site with NextJS we can use this one(used for server-side rendering)
+    - MemoryRouter -> When we have to create using React Native we can use this one(keeps the navigation history entirely in memory)
+    - BroweserRouter
 
     - createBrowserRouter() -> Its only use to create the router object (Build the map)
     - It is the parent component that is used to store all other components
