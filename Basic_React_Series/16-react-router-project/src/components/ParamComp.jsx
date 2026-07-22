@@ -4,7 +4,7 @@ const ParamComp = () => {
 
     const {id} = useParams();
 
-    return (
+    return ( 
         <div className="text-2xl text-white">
             Params: {id}
         </div>
