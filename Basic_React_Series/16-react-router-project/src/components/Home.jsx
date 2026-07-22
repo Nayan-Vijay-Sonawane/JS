@@ -6,7 +6,7 @@ const Home = () => {
         navigate('/about');
     } 
 
-    return (
+    return ( 
         <div>
         <div className="text-2xl font-bold p-10 flex justify-center items-center">
             Home Page 
