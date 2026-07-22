@@ -2,7 +2,7 @@
 const Reports = () => {
   return (
     <div className="bg-amber-50 text-2xl">
-      Reports Section
+      Reports Section 
     </div>
   )
 };
