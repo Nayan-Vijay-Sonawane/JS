@@ -41,7 +41,7 @@ CSS :
     - for eg. Button.module.css
     - use class -> ClassName={styles.ClassName} 
     - Normal CSS -> Global styles(everyone can use them)
-    - CSS Modules -> Private styles(only the component can use them)
+    - CSS Modules -> Private styles(only the component can use them) 
 
 Hooks: 
     - React Hooks are special functions that allow you to use state and other React features in functional components.
