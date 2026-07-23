@@ -19,7 +19,7 @@ Project Folder Structure:
         - main.jsx : react app entry file, mounts react to the DOM(connect react to the browser)
         - app.jsx : root component (when page loads this is the first executing file) holds layout, main UI logic
     - package.json : packages we'll use there versions, dependencies are listed here.
-    
+     
 JSX : 
     - Its a modern code for writing HTML and JS together
     - Browser don't understand the JSX so need to convert that into plain JS so Babel(compiler) comes in which converts that and render's also
