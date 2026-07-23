@@ -7,12 +7,12 @@ A single page application
     - UI is a function of state 
  
     Component-Based Architecture
-        - Each piece has its own logic, is reusable, easy to maintain.
+        - Each piece has its own logic, is reusable, easy to maintain. 
  
 Project Folder Structure: 
   
     - node modules: every needed files which npm installs are in this Folder
-    - public : every static files which we needed comes under this Folder(icon)
+    - public : every static files which we needed comes under this Folder(icon) 
     - src -> 
         - assets : font, image, extra css, an asset which is helpful for us in the Project 
         - index.html : entry point of the application, contains root DOM
