@@ -191,7 +191,7 @@ useContext :
     </App>
 
     - here Parent, Child don't use user, but they still have to pass it down
-    - it becomes messy
+    - it becomes messy 
     - This is props drilling
 
     Working : 
