@@ -245,8 +245,7 @@ Routing :
     - we can fetch route parameter by using the useParams
 
 useNavigate : 
-    - useNavigate() is a hook from react-router that allows us to navigate to different route, such as after form
-    submission, button click or successfull login
+    - useNavigate() is a hook from react-router that allows us to navigate to different route, such as after form submission, button click or successful login
     const Home = () => {
         const navigate = useNavigate();
         return (
@@ -254,7 +253,7 @@ useNavigate :
                 Go to About  
             </button>
         )};
-    - When the button is clicked, the app navigates to '/about'.
+    - When the button is clicked, the app navigates to '/about'
  
 Outlet : 
     - <Outlet/> is a component from react router that acts as a placeholder where the matched child route is rendered
