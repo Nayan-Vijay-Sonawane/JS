@@ -251,7 +251,7 @@ useNavigate :
         const navigate = useNavigate();
         return (
             <button onClick={() => navigate("/about")}>
-                Go to About
+                Go to About  
             </button>
         )};
     - When the button is clicked, the app navigates to '/about'
