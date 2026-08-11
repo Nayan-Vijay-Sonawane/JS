@@ -2,5 +2,5 @@ const Card = () => {
  return ()
 }
 
-export default
+export default Card;
 
