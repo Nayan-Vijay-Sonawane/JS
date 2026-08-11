@@ -1,6 +1,6 @@
 const Card = () => {
  return (
-    <div>
+    <div className='bg-white'>
         <h1>Hello</h1>
     </div>
  )
