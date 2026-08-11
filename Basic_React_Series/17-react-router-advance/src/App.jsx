@@ -1,5 +1,5 @@
 import './App.css'
-import Card f
+import Card from 
 
 function App() {
   
