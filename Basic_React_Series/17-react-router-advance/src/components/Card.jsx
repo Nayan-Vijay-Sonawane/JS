@@ -1,4 +1,6 @@
 const Card = () => {
- return ();
+ return ()
 }
+
+export
 
