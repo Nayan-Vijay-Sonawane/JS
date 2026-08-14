@@ -4,7 +4,7 @@ const Card = () => {
         <h1>Hello</h1> 
     </div>
  )
-}
+};
 
 export default Card;
 
