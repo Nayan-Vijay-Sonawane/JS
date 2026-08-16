@@ -208,6 +208,7 @@ Routing :
 
     - StaticRouter -> When we have to create static site with NextJS we can use this one(used for server-side rendering)
     - MemoryRouter -> When we have to create using React Native we can use this one(keeps the navigation history entirely in memory)
+        - A declarative
     - BroweserRouter -> When we have to create React Web applications we can use this one(Uses the browser's history API)
         - A declarative <Router> using the browser History API for client side routing
 
