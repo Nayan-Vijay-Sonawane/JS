@@ -1,12 +1,14 @@
 import './App.css'
-import Card from './components/Card'; 
+// import Card from './components/Card';
+import {Routes, Route} from 'react-router-dom' 
 
 function App() { 
    
   return (
     <div className='h-screen bg-black text-white'>
-      <h1 className='text-2xl font-bold flex justify-center items-center'>App</h1> 
-      <Card /> 
+      <Routes>
+        <Route path='/' element={} />
+      </Routes>
     </div> 
   )  
 };
