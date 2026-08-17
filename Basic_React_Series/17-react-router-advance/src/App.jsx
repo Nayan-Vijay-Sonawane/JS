@@ -9,7 +9,7 @@ function App() {
         <div>
             <div>
                 <h2>New Website</h2>
-                <div className='flex justify-evenly items-center'>
+                <div className='flex justify-evenly items-center font-semibold'>
                     <a href="/">Home</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
