@@ -7,6 +7,14 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
     return (
         <div>
+            <div clasName=''>
+                <h2>New Website</h2>
+                <div>
+                    <a href="/">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                </div>
+            </div>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
