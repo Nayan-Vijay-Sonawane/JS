@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
-        <div className='h-screen'>
+        <div>
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
