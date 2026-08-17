@@ -4,7 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import { Routes, Route } from 'react-router-dom';
 
-function App() {
+function App() { 
     return (
         <div>
             <div className='flex justify-between items-center font-semibold px-2 py-4'>
