@@ -7,9 +7,9 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
     return (
         <div>
-            <div clasName='h-screen flex justify-between items-center p-20'>
+            <div>
                 <h2>New Website</h2>
-                <div>
+                <div className='flex justify-evenly items-center'>
                     <a href="/">Home</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
