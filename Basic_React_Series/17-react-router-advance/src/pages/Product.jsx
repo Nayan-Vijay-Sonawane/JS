@@ -1,7 +1,7 @@
 const Product = () => {
     return (
-        <div>
-
+        <div className="h-screen flex justify-center items-center">
+            <h1 className="">Product</h1>
         </div>
     )
 };
