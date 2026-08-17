@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
     return (
         <div>
-            <div clasName=''>
+            <div clasName='h-screen flex justify-between items-center p-20'>
                 <h2>New Website</h2>
                 <div>
                     <a href="/">Home</a>
