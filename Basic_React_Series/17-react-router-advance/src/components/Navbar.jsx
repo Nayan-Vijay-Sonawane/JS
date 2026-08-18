@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
-const Navbar = () => {  
+const Navbar = () => { 
  return ( 
     <div className='bg-cyan-800 flex justify-between items-center font-semibold px-5 py-5'>
                 <h2 className='font-bold '>New Website</h2>
