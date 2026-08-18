@@ -7,7 +7,7 @@ A single page application.
     - UI is a function of state.
   
     Component-Based Architecture
-        - Each piece has its own logic, is reusable, easy to maintain.
+        - Each piece has its own logic, is reusable, easy to maintain
 
 Project Folder Structure:
 
