@@ -17,7 +17,7 @@ function App() {
                 <Route path='/product' element={<Product />} />
             </Routes>
         </div>
-    )
+    );
 }
 
 export default App
