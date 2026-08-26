@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 function App() {
  
   return (
-    <div className='h-screen bg-amber-900 flex justify-center items-center'>
+    <div className='h-screen bg-'>
       <Navbar />
       <Footer />
     </div>
