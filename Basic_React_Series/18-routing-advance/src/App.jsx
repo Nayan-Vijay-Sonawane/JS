@@ -1,7 +1,7 @@
 import './App.css'
 
 function App() {
-
+ 
   return (
     <div className='h-screen bg-amber-900 flex justify-center items-center'>
       <h1 className='text-2xl font-bold'>App</h1>
