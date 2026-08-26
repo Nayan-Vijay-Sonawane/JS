@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 function App() {
  
   return (
-    <div className='h-screen bg-'>
+    <div className='h-screen bg-black text-white'>
       <Navbar />
       <Footer />
     </div>
