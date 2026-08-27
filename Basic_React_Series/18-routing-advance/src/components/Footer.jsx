@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="absolute flex items-center justify-center">
+        <div className="absolute w-full  flex items-center justify-center">
             <h3>This is Footer</h3>
         </div>
     )
