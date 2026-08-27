@@ -4,6 +4,6 @@ const About = () => {
             About
         </div>
     )
-}
+};
 
 export default About;
