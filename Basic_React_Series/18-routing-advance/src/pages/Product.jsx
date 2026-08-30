@@ -1,7 +1,7 @@
 const Product = () => {
   return (
-    <div>
-      <h1>Product Page</h1>
+    <div className="flex justify-center items-center">
+      <h1 className="text-4xl underline font-bold">Product Page</h1>
     </div>
   )
 }
