@@ -4,6 +4,6 @@ const Product = () => {
       <h1 className="text-4xl underline font-bold">This is Product Page</h1>
     </div>
   )
-}
+};  
 
 export default Product;
