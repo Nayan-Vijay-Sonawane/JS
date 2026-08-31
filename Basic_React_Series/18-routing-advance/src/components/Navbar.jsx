@@ -8,7 +8,7 @@ const Navbar = () => {
                 <a className="text-lg font-bold" href="/product">Product</a>
             </div>
         </div>    
-    ) 
+    )   
 };       
 
 export default Navbar;
