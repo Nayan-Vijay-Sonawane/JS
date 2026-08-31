@@ -7,7 +7,7 @@ const Navbar = () => {
                 <a className="text-lg font-bold" href="/about">About</a>
                 <a className="text-lg font-bold" href="/product">Product</a>
             </div>
-        </div>
+        </div>.   
     ) 
 };    
 
