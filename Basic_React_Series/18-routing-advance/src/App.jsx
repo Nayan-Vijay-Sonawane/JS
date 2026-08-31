@@ -7,7 +7,7 @@ import About from './pages/About'
 import Product from './pages/Product'
 
 function App() {
- 
+
   return (
     <div className='h-screen bg-black text-white'>
       <Navbar />
