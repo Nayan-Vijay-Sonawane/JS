@@ -5,9 +5,9 @@ const Navbar = () => {
         <div className="py-5 px-8 bg-cyan-950 flex justify-between items-center font-semibold ">
             <h2 className="text-xl font-bold">Furn-Tech</h2>
             <div className="flex gap-8">
-                <Link to='/'>Home</Link>
-                <Link to='/about'>About</Link>
-                <Link to='/product'>Product</Link>
+                <Link className="text-lg font-medium" to='/'>Home</Link>
+                <Link className="text-lg font-medium" to='/about'>About</Link>
+                <Link className="text-lg font-medium" to='/product'>Product</Link>
             </div>
         </div>      
     )   
