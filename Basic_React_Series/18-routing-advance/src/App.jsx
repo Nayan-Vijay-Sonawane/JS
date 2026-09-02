@@ -7,6 +7,7 @@ import About from './pages/About'
 import Product from './pages/Product'
 import NotFound from './pages/NotFound'
 import Men from './pages/Men'
+import Women from './pages/Women'
   
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/product' element={<Product />} />
         <Route path='/product/men' element={<Men />} />
+        <Route path='/product/women' element={<Women />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
