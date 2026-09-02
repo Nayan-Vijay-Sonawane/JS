@@ -1,7 +1,7 @@
 const Product = () => {
   return (
-    <div className="h-screen flex justify-center items-center">
-      <h1 className="text-4xl underline font-bold">This is Product Page</h1>
+    <div>
+      <h1 className="font-bold">Product Page</h1>
     </div>  
   )   
 };  
