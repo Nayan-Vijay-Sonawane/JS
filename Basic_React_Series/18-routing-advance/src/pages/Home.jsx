@@ -1,7 +1,7 @@
 const Home = () => {
     return (
-        <div>
-            <h1 className>This is Home Page</h1>
+        <div className="relative size-32">
+            <h1 className='absolute inset-0 text-4xl underline font-bold'>Home Page</h1>
         </div>   
     )
 };  
