@@ -9,7 +9,7 @@ import Product from './pages/Product'
 function App() {
 
   return (
-    <div className='h-screen bg-black text-white'>
+    <div className='bg-black text-white'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

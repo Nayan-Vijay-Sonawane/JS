@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="py-5 px-8 bg-cyan-950 flex justify-between">
+        <div className="py-5 px-8 bg-cyan-950 flex justify-between items-center font-semibold">
             <h2 className="text-xl font-bold">Furn-Tech</h2>
             <div className="flex gap-8">
                 <a className="text-lg font-bold" href="/">Home</a>
