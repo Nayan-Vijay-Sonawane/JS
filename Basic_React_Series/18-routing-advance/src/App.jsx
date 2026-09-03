@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound'
 import Men from './pages/Men'
 import Women from './pages/Women'
   
-function App() {
+function App() { 
 
   return (
     <div className='h-screen bg-black text-white'>
