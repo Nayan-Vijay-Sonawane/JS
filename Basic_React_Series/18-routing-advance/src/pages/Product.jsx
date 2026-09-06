@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Product = () => {
   return (
@@ -7,7 +7,8 @@ const Product = () => {
         <Link className="text-xl font-semibold" to='/product/men'>Men</Link>
         <Link className="text-xl font-semibold" to='/product/women'>Women</Link>
       </div>
-      <h1 className="font-bold">Product Page</h1>
+      <h1></h1>
+      <Outlet />
     </div>  
   )   
 };  
