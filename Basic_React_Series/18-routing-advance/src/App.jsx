@@ -8,6 +8,7 @@ import Product from './pages/Product'
 import NotFound from './pages/NotFound'
 import Men from './pages/Men'
 import Women from './pages/Women'
+import Kid from './pages/Kids'
    
 function App() { 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/product' element={<Product />} >
           <Route path='men' element={<Men />} />
           <Route path='women' element={<Women />} />
+          <Route path='kid' element={<Kid />} />
         </Route>
         
         <Route path='*' element={<NotFound />} />
