@@ -8,7 +8,7 @@ const Product = () => {
         <Link className="text-xl font-semibold" to='/product/women'>Women</Link>
       </div>
       <Outlet />
-    </div>  
+    </div>
   )   
 };  
 
