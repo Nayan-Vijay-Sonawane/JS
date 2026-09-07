@@ -10,7 +10,7 @@ const Navbar = () => {
                 <Link className="text-lg font-medium" to='/product'>Product</Link>
             </div>
         </div>      
-    )   
-};       
+    )
+};    
 
-export default Navbar;
+export default Navbar;  
