@@ -1,3 +1,5 @@
+import 
+
 const CourseDetail = () => {
     return (
         <div>
