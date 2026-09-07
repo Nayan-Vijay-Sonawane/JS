@@ -5,3 +5,5 @@ const CourseDetail = () => {
         </div>
     )
 }
+
+export default CourseDetail;
