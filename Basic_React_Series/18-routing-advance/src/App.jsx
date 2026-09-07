@@ -9,7 +9,7 @@ import NotFound from './pages/NotFound'
 import Men from './pages/Men'
 import Women from './pages/Women'
 import Kid from './pages/Kids'
-import
+import Courses from './pages/Courses'
    
 function App() { 
 
