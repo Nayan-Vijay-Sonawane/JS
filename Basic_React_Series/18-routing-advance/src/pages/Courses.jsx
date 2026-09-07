@@ -4,6 +4,6 @@ const Courses = () => {
             <h1>Courses Page</h1>
         </div>
     )
-}
+};
 
 export default Courses;
