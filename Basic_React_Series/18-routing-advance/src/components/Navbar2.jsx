@@ -4,3 +4,4 @@ const Navbar2 = () => {
     )
 }
 
+export default 
