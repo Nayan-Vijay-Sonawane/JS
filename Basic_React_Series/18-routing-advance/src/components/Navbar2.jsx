@@ -1,1 +1,3 @@
-const Navbar2 = () 
+const Navbar2 = () => {
+    
+}
