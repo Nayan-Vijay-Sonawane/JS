@@ -13,7 +13,7 @@ import Courses from './pages/Courses'
 import CourseDetail from './pages/CourseDetail'
    
 function App() { 
-
+ 
   return (
     <div className='h-screen bg-black text-white'>
       <Navbar />
