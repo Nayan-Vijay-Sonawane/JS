@@ -5,7 +5,7 @@ const Navbar2 = () => {
     const navigate = useNavigate();
 
     return (
-        <div>
+        <div className='py-3 px-5 bg-cyan-700'>
             <button onClick={() => {
                 navigate('/')
             }} className='bg-emerald-800 px-4 py-2 m-2 cursor-pointer active:scale-95 rounded'>
