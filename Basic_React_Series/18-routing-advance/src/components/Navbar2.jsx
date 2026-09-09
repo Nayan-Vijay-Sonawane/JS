@@ -18,7 +18,7 @@ const Navbar2 = () => {
             </button>
             <button onClick={() => {
                 navigate(+1)
-            }} >
+            }} className='bg-emerald-800 p'>
                 Next
             </button>
         </div>
