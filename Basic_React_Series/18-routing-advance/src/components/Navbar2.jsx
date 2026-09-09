@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 const Navbar2 = () => {
 
     const navigate = useNavigate();
-
+ 
     return (
         <div className='py-1 px-4 bg-cyan-800'>
             <button onClick={() => {
