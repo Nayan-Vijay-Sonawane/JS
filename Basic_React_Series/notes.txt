@@ -182,7 +182,7 @@ useContext :
         └── GrandChild
     - if App has user's name and GrandChild needs it
 
-    - Props drilling : 
+    - Props drilling : It is a react pattern where data is passed from 
 
     <App user="Alice">
         <Parent user={user}>
