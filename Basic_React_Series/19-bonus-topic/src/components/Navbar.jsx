@@ -1,7 +1,9 @@
 
 const Navbar = () => {
     return (
-
+        <div>
+            <button>Change theme</button>
+        </div>
     )
 };
 
