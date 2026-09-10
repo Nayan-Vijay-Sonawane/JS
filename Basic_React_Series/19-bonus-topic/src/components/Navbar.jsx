@@ -1,8 +1,13 @@
 
 const Navbar = () => {
+
+    const changeTheme = (props) => {
+        console.log("theme change", props)
+    }
+
     return (
         <div>
-            <button>Change theme</button>
+            <button onClick={changeTheme}>Change theme</button>
         </div>
     )
 };

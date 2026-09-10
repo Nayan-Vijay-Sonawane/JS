@@ -9,7 +9,7 @@ function App() {
     <div>
       <h1>Theme is {theme}</h1>
 
-      <Navbar theme={theme} />
+      <Navbar theme={theme} setTheme={setTheme} />
     </div>
   )
 }
