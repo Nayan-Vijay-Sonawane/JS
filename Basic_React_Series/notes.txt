@@ -182,6 +182,8 @@ useContext :
         └── GrandChild
     - if App has user's name and GrandChild needs it
 
+    - Props drilling : 
+
     <App user="Alice">
         <Parent user={user}>
             <Child user={user}>
