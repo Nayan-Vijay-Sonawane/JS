@@ -6,8 +6,8 @@ function App() {
   const [theme, setTheme] = useState('light')
 
   return (
-    <div>
-      <h1>Theme is {theme}</h1>
+    <div class>
+      <h1 className=' flex justify-center items-center'>Theme is {theme}</h1>
 
       <Navbar theme={theme} setTheme={setTheme} />
     </div>
