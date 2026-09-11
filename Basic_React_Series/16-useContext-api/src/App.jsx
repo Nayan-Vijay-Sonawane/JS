@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className='h-screen flex justify-between px-5 py-2'>
       <Navbar />
       <Navbar2 />
     </div>
