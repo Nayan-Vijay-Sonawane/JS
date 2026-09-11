@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='h-screen'>
       <h1 className='flex justify-center items-center'>Theme is {theme}</h1>
-  
+    
       <Navbar theme={theme} setTheme={setTheme} />
     </div>
   )
