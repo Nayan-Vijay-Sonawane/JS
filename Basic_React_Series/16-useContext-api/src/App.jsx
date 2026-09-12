@@ -5,8 +5,8 @@ import Navbar2 from './components/Navbar2'
 function App() {
 
   return (
-    <div className='h-screen flex justify-between px-5 py-2'>
-      <Navbar />
+    <div className='h-screen flex justify-between px-5 py-3 bg-cyan-950'>
+      <Navbar className='px-5 py-3 bg-cyan-700' />
       <Navbar2 />
     </div>
   )
