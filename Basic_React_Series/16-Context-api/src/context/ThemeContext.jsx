@@ -1,1 +1,3 @@
-const 
+const ThemeContext = () => {
+    return
+}
