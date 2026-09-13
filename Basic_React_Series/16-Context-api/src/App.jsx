@@ -8,7 +8,9 @@ function App() {
 
   return (
     <div className='h-screen bg-cyan-950'>
-      <Navbar theme={theme} />
+      <Navbar theme={theme}>
+        
+      </Navbar>
     </div>
   )
 }
