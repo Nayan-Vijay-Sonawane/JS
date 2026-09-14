@@ -1,4 +1,4 @@
-import
+import { creatContext } from 'react'
 
 const ThemeContext = (props) => {
     return (
