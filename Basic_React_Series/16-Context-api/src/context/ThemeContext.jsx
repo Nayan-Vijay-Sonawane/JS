@@ -1,7 +1,7 @@
-const ThemeContext = () => {
+const ThemeContext = (props) => {
     return (
         <div>
-            
+            {props.children}
         </div>
     )
 }
