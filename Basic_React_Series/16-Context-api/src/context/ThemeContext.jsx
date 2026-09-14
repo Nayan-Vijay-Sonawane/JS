@@ -1,6 +1,6 @@
 import { createContext } from 'react'
 
-const ThemeDataContext
+const ThemeDataContext = createContext();
 
 const ThemeContext = (props) => {
     return (
