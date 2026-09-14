@@ -4,7 +4,7 @@ import {ThemeDataContext} from '../context/ThemeContext'
 
 const Navbar = (props) => {
     
-    useContext(ThemeDataContext);
+    const data = useContext(ThemeDataContext);
 
     return (
         <div className="flex justify-between items-center px-5 py-4 bg-cyan-800 text-white">
