@@ -10,4 +10,4 @@ const Navbar2 = (props) => {
     ) 
 };
 
-export default Navbar2
+export default Navbar2;
