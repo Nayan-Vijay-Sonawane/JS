@@ -6,7 +6,7 @@ const ThemeContext = (props) => {
     return (
         <div>
             <PostDataContext.Provider>
-                {props.}
+                {props.children}
             </PostDataContext.Provider>
         </div>
     )
