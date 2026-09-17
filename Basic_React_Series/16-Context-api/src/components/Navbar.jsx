@@ -1,8 +1,10 @@
 import Navbar2 from "./Navbar2";
 import { useContext } from 'react'
-// import {ThemeDataContext} from '../context/ThemeContext'
+import {PostDataContext} from '../context/ThemeContext'
 
 const Navbar = (props) => {
+
+    useContext(PostDataContext)
     
     return (
         <div className="flex justify-between items-center px-5 py-4 bg-cyan-800 text-white">
