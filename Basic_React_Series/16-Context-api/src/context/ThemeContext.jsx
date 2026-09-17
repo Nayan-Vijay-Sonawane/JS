@@ -5,7 +5,7 @@ export const PostDataContext = createContext();
 const ThemeContext = (props) => {
     return (
         <div>
-            <PostDataContext.Provider>
+            <PostDataContext.Provider value='Nayan'>
                 {props.children}
             </PostDataContext.Provider>
         </div>
