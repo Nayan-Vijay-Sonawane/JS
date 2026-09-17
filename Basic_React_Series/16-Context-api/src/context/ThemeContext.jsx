@@ -5,7 +5,9 @@ export const PostDataContext = createContext();
 const ThemeContext = (props) => {
     return (
         <div>
-            {props.children}
+            <PostDataContext.Provider>
+                {props.}
+            </PostDataContext.Provider>
         </div>
     )
 };
