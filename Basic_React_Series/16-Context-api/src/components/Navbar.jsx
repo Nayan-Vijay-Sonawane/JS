@@ -1,10 +1,6 @@
 import Navbar2 from "./Navbar2";
 
 const Navbar = (props) => {
-
-    const data = useContext(PostDataContext)
-    console.log(data);
-    
     
     return (
         <div className="flex justify-between items-center px-5 py-4 bg-cyan-800 text-white">
