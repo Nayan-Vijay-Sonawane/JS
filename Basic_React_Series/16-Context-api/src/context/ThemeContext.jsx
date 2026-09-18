@@ -1,5 +1,4 @@
 
-
 const ThemeContext = (props) => {
     return (
         <div>
