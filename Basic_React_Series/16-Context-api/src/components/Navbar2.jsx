@@ -1,11 +1,11 @@
-const Navbar2 = (props) => {
+const Navbar2 = () => {
     return (
         <div className='flex gap-10 text-xl font-semibold'>
             <h4>Home</h4>
             <h4>About</h4>
             <h4>Contact</h4>
             <h4>Services</h4>
-            <h4>{props.theme}</h4>
+            <h4></h4>
         </div>
     ) 
 };
