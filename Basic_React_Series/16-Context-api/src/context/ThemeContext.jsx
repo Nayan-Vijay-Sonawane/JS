@@ -2,9 +2,7 @@
 const ThemeContext = (props) => {
     return (
         <div>
-            <PostDataContext.Provider value='Nayan'>
-                {props.children}
-            </PostDataContext.Provider>
+            {}
         </div>
     )
 };
