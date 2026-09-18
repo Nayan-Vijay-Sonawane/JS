@@ -5,7 +5,9 @@ export const ThemeDataContext = useContext();
 const ThemeContext = (props) => {
     return (
         <div>
-            {props.children}
+            <ThemeDataContext.Provider>
+                
+            </ThemeDataContext.Provider>
         </div>
     )
 };
