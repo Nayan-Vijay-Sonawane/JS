@@ -1,5 +1,4 @@
 import Navbar2 from "./Navbar2";
-import { useContext } from 'react'
 
 const Navbar = (props) => {
 
