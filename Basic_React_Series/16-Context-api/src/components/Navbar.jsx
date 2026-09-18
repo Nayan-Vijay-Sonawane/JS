@@ -1,6 +1,5 @@
 import Navbar2 from "./Navbar2";
 import { useContext } from 'react'
-import { PostDataContext } from '../context/ThemeContext'
 
 const Navbar = (props) => {
 
