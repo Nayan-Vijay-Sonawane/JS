@@ -1,6 +1,5 @@
 import { createContext } from 'react';
 
-export const PostDataContext = createContext();
 
 const ThemeContext = (props) => {
     return (
