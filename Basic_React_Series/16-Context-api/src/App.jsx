@@ -5,7 +5,7 @@ function App() {
  
   return (
     <div className='h-screen bg-cyan-950'>
-      <Navbar />
+      <Navbar /> 
     </div>
   )
 };
