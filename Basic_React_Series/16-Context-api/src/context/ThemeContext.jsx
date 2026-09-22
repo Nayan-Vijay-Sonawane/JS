@@ -5,7 +5,7 @@ export const ThemeDataContext = createContext();
 
 const ThemeContext = (props) => {
 
-    const [theme, setTheme] = useState('light')
+    const [theme, setTheme] = useState('light');
 
     return (
         <div>
