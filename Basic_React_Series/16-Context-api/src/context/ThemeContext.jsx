@@ -16,4 +16,4 @@ const ThemeContext = (props) => {
     )
 }
 
-export default ThemeContext;
+export default ThemeContext
