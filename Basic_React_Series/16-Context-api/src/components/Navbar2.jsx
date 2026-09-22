@@ -3,7 +3,9 @@ import { ThemeDataContext } from "../context/ThemeContext";
 
 const Navbar2 = () => {
 
-    useContext(ThemeDataContext);
+    const data = useContext(ThemeDataContext);
+    console.log(data);
+    
 
     return (
         <div className='flex gap-10 text-xl font-semibold'>
