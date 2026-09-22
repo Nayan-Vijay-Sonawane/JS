@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import ThemeContext from "../context/ThemeContext";
+import { ThemeDataContext } from "../context/ThemeContext";
 
 const Navbar2 = () => {
 
-    useContext(ThemeContext);
+    useContext(ThemeDataContext);
 
     return (
         <div className='flex gap-10 text-xl font-semibold'>
