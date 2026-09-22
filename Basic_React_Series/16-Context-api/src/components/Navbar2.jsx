@@ -1,4 +1,10 @@
+import { useContext } from "react";
+import ThemeContext from "../context/ThemeContext";
+
 const Navbar2 = () => {
+
+    useContext(ThemeContext);
+
     return (
         <div className='flex gap-10 text-xl font-semibold'>
             <h4>Home</h4>
