@@ -13,7 +13,7 @@ const ThemeContext = (props) => {
                 {props.Children}
             </ThemeDataContext.Provider>
         </div>
-    ) 
+    )  
 };
  
 export default ThemeContext;
