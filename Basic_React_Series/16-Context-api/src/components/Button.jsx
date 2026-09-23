@@ -11,7 +11,7 @@ const Button = () => {
 
     return (
        <div>
-        <button onClick={changeTheme} className="m-5 px-5 py-2 bg-cyan-500 rounded active:scale-95 cursor-pointer">Change the Theme</button>
+        <button onClick={changeTheme} className="m-5 px-5 py-2 bg-cyan-500 rounded active:scale-95 cursor-pointer">Change Theme {theme}</button>
        </div> 
     )
 };
