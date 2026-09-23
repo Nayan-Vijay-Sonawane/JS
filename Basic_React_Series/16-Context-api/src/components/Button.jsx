@@ -1,6 +1,8 @@
 const Button = () => {
     return (
-       <div>Button</div> 
+       <div>
+        <button>Change the Theme</button>
+       </div> 
     )
 };
 
