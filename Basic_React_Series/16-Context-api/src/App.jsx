@@ -6,7 +6,7 @@ import { ThemeDataContext } from './context/ThemeContext';
   
 function App() {
 
-  const [theme] = useContext(ThemeDataContext)
+  const [theme] = useContext(ThemeDataContext);
 
   return (
     <div className='h-screen bg-cyan-950'>
@@ -17,6 +17,6 @@ function App() {
     </div>
   ) 
 };
-
+ 
 export default App;
  
