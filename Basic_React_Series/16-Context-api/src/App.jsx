@@ -3,7 +3,7 @@ import './App.css';
 import Button from './components/Button';
 import Navbar from './components/Navbar';
 import { ThemeDataContext } from './context/ThemeContext';
- 
+  
 function App() {
 
   const [theme] = useContext(ThemeDataContext)
