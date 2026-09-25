@@ -14,6 +14,6 @@ const ThemeContext = (props) => {
             </ThemeDataContext.Provider>
         </div>
     )
-}
+};
 
 export default ThemeContext
