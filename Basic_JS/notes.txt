@@ -46,4 +46,4 @@ console.log(result);
 
 Notes : 
 
-Scopes - 
+Scopes -  
