@@ -52,3 +52,4 @@ Scopes -
         let x = 10;
     }
     console.log(x); // error
+    x exists only in inside the block, not outside it.
