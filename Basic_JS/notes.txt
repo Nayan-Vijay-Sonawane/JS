@@ -53,3 +53,6 @@ Scopes -
     }
     console.log(x); // error
     x exists only in inside the block, not outside it.
+
+Hoisting - 
+    
