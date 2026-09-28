@@ -55,5 +55,7 @@ Scopes -
     x exists only in inside the block, not outside it.
 
 Dynamic typing - 
-    
+    It means 
+    let value = 10;
+    value = "Hello";
     
