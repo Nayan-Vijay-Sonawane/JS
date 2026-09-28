@@ -47,3 +47,8 @@ console.log(result);
 Notes : 
 
 Scopes -  
+    where this can be accessed 
+    {
+        let x = 10;
+    }
+    console.log(x); // error
