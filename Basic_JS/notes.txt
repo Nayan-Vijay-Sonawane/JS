@@ -53,6 +53,10 @@ Scopes -
     }
     console.log(x); // error
     x exists only in inside the block, not outside it.
+    Block Scope -> code inside {} like in loops, if, etc.
+    Function Scope -> Code inside a function 
+        let and const follow block Scope
+        var ignores block scope which leads to bugs
 
 Dynamic typing - 
     It means 
