@@ -63,3 +63,6 @@ Dynamic typing -
     let value = 10;
     value = "Hello";
     The variable isn't permanently decalred as 'number', the value has a type
+
+Hoisting - 
+    
