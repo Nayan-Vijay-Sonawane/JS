@@ -8,3 +8,7 @@ console.log(typeof 123n);
     console.log(typeof []);           
     console.log(typeof {});           
     // console.log(typeof function());
+
+    const score = 80;
+    const grade = score > 50 ? "Pass" : "Fail";
+    console.log(grade);

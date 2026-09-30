@@ -93,3 +93,6 @@ Typeof -
 Ternary operator -
     shorthand of if...else
     condition ? valueIfTrue : valueIfFalse
+    eg.
+        const score = 80;
+        const grade = score > 50 ? "Pass" : "Fail";
