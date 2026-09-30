@@ -89,3 +89,6 @@ Typeof -
     typeof []           -> object
     typeof {}           -> object
     typeof function()   -> function
+
+Ternary operator -
+    
