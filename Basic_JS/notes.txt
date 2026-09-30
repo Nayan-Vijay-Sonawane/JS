@@ -65,4 +65,4 @@ Dynamic typing -
     The variable isn't permanently decalred as 'number', the value has a type
 
 Hoisting - 
-    
+    JS prepares memory before running code
