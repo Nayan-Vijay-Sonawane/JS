@@ -75,3 +75,7 @@ Hoisting -
 
         console.log(b);     // ReferenceError
         let b = 20;
+
+Loose vs Strict equality -
+    == -> compares value with type conversion
+    === -> compares value + type (no conversion)
