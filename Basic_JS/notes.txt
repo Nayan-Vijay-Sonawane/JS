@@ -69,5 +69,9 @@ Hoisting -
     It moves all declarations to the top called hoisting
     - var is hoisted and set to undefined
     - let and const are hoisted but not initialized so accessing them early gives ReferenceError
-    eg. console.log(a);     // undefined
+    eg. 
+        console.log(a);     // undefined
         var a = 10; 
+
+        console.log(b);     // ReferenceError
+        let b = 20;
