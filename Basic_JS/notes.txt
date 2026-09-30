@@ -92,3 +92,4 @@ Typeof -
 
 Ternary operator -
     shorthand of if...else
+    condition ? valueIfTrue : valueIfFalse
