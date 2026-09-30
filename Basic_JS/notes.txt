@@ -91,4 +91,4 @@ Typeof -
     typeof function()   -> function
 
 Ternary operator -
-    
+    shorthand of if...else
