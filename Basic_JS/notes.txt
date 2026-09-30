@@ -67,4 +67,4 @@ Dynamic typing -
 Hoisting - 
     JS prepares memory before running code
     It moves all declarations to the top called hoisting
-    
+    var - hoisted and set to undefined
