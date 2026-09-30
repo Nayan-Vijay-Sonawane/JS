@@ -79,3 +79,13 @@ Hoisting -
 Loose vs Strict equality -
     == -> compares value with type conversion
     === -> compares value + type (no conversion)
+
+Typeof - 
+    typeof "Nayan"      -> String
+    typeof 90           -> number
+    typeof true         -> boolean
+    typeof undefined    -> undefined
+    typeof null         -> object (known bug)
+    typeof []           -> object
+    typeof {}           -> object
+    typeof function()   -> function
