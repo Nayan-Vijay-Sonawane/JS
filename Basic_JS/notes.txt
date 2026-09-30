@@ -67,4 +67,5 @@ Dynamic typing -
 Hoisting - 
     JS prepares memory before running code
     It moves all declarations to the top called hoisting
-    var - hoisted and set to undefined
+    - var is hoisted and set to undefined
+    - let and const are hoisted but not initialized so accessing them early gives ReferenceError
