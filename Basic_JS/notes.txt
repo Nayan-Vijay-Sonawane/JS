@@ -107,3 +107,6 @@ Loops -
     - for-of -> for array values
     - for-in -> for object keys
     - while -> for unpredictable conditions
+
+Functions - 
+    
