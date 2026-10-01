@@ -98,6 +98,9 @@ Ternary operator -
         const score = 80;
         const grade = score > 50 ? "Pass" : "Fail";
 
+Control flow - 
+    
+
 
 DOM - 
     Document Object Model
