@@ -105,4 +105,5 @@ Control flow -
 Loops -
     - for -> best for numbers/indexes
     - for-of -> for array values
-    - 
+    - for-in -> for object keys
+    - while -> for unpredictable conditions
