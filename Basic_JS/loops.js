@@ -44,6 +44,11 @@ for(let value of arr){
 };
 
 
+for(let char of "Nayan"){
+    console.log(char);
+}
+
+
 // for-each loop
 let arr2 = [10, 20, 30, 40, 50];
 
