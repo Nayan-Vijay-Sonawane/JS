@@ -99,7 +99,8 @@ Ternary operator -
         const grade = score > 50 ? "Pass" : "Fail";
 
 Control flow - 
-    
+    - early return pattern : 
+        
 
 
 DOM - 
