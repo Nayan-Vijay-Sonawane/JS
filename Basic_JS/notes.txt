@@ -103,4 +103,6 @@ Control flow -
         used in functions to exit early if some condition falls
 
 Loops -
-    
+    - for -> best for numbers/indexes
+    - for-of -> for array values
+    - 
