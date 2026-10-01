@@ -102,6 +102,5 @@ Control flow -
     - early return pattern : 
         used in functions to exit early if some condition falls
 
-
-DOM - 
-    Document Object Model
+Loops - 
+    
