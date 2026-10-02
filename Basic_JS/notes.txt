@@ -115,3 +115,6 @@ Functions -
     greet("Nayan");
     - name is a parameter
     - Nayan is the argument 
+
+    - Default, rest and spread
+    
