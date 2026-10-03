@@ -117,5 +117,5 @@ Functions -
     - Nayan is the argument 
 
 Closures and Lexical Scope - 
-    
+    - when a function remembers its parent scope, even after the parent has finished.
     
