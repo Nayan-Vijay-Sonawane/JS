@@ -116,5 +116,6 @@ Functions -
     - name is a parameter
     - Nayan is the argument 
 
-    - Default, rest and spread
+Closures and Lexical Scope - 
+    
     
