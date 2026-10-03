@@ -118,4 +118,9 @@ Functions -
 
 Closures and Lexical Scope - 
     - when a function remembers its parent scope, even after the parent has finished.
-    
+    function outer(){
+        let count = 0;
+        return function(){
+            
+        }
+    }
