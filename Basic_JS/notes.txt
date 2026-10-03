@@ -121,6 +121,11 @@ Closures and Lexical Scope -
     function outer(){
         let count = 0;
         return function(){
-            
+            count++;
+            console.log(count);
         }
     }
+    let counter = outer();
+    counter();      // 1
+    counter();      // 2
+    even after outer is done, counter still remembers count
