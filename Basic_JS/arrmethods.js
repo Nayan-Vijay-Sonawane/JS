@@ -4,7 +4,7 @@
 
 const arr = [2, 3, 1, 4, 7, 9];
 
-function double(x){
+function double(x){ 
     return x * 2;
 }
 const output = arr.map(double);
