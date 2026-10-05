@@ -4,6 +4,8 @@ const component = {
 };
 
 
-const products = {
-    
-}
+const products = [
+    {name: "Phone", price: 500},
+    {}
+        
+    ]
