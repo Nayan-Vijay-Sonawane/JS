@@ -6,6 +6,6 @@ const component = {
 
 const products = [
     {name: "Phone", price: 500},
-    {}
+    {name: ""}
         
     ]
