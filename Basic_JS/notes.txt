@@ -131,3 +131,5 @@ Closures and Lexical Scope -
     even after outer is done, counter still remembers count
 
 
+Destructuring - 
+    
