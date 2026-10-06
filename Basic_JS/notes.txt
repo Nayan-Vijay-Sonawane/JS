@@ -130,6 +130,7 @@ Closures and Lexical Scope -
     counter();      // 2
     even after outer is done, counter still remembers count
 
+Array - 
+    
 
 Object - 
-        
