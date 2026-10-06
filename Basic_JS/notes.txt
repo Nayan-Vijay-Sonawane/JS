@@ -133,6 +133,7 @@ Closures and Lexical Scope -
 Array - 
     push -> add element at the end 
     pop -> removes element from the end
-    
+    shift -> removes element from the first
+    unshift -> adds element to the first
 
 Object - 
