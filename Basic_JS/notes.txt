@@ -129,3 +129,5 @@ Closures and Lexical Scope -
     counter();      // 1
     counter();      // 2
     even after outer is done, counter still remembers count
+
+
