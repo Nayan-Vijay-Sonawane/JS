@@ -131,6 +131,8 @@ Closures and Lexical Scope -
     even after outer is done, counter still remembers count
 
 Array - 
+    push -> add element at the end 
+    pop -> removes element from the end
     
 
 Object - 
