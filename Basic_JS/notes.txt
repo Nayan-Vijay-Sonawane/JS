@@ -135,5 +135,7 @@ Array -
     pop -> removes element from the end
     shift -> removes element from the first
     unshift -> adds element to the first
+    slice(start, end) -> extracts portion of array between start and end 
+    splice -> removes element from specific indexes
 
 Object - 

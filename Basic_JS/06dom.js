@@ -6,5 +6,6 @@ arr.push(8);
 arr.shift();
 arr.unshift(1);
 let newArr = arr.slice(1, 3);
+arr.splice(4, 7);
 console.log(newArr);
 console.log(arr);
