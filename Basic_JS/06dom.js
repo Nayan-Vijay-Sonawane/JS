@@ -27,3 +27,4 @@ let obj1 = {
 for (let key in obj1){
     console.log(key + " : " + obj1[key]);
 };
+
