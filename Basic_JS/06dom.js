@@ -24,4 +24,6 @@ let obj1 = {
     email: "nayan@google.com"
 }
 
-for
+for (let key in obj1){
+    console.log(key + " : " + obj1[key]);
+}
