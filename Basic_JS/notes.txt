@@ -138,5 +138,6 @@ Array -
     slice(start, end) -> extracts portion of array between start and end 
     splice -> removes element from specific indexes
 
-Object - 
+Object destructuring - 
+    It lets you extract properties from an object and store them in variables easily
     
