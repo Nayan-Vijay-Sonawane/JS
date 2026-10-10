@@ -3,3 +3,4 @@ const obj = {
     age: 26
 }
 
+console.log(obj.name);
