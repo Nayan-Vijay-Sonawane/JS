@@ -14,5 +14,6 @@ const obj = {
 console.log(obj.name);
 console.log(obj.age);
 
-
+let { lat, lng } = obj.address.locaion;
+console.log(lat, lng)
 
