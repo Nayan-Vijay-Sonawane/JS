@@ -15,5 +15,13 @@ console.log(obj.name);
 console.log(obj.age);
 
 let { lat, lng } = obj.address.locaion;
-console.log(lat + "\n" + lng)
+console.log(lat + "\n" + lng);
 
+
+let obj1 = {
+    name: "Nayan",
+    age: 26,
+    email: "nayan@google.com"
+}
+
+for
