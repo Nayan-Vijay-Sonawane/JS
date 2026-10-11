@@ -32,4 +32,5 @@ for (let key in obj1){
 console.log(Object.keys(obj1));
 console.log(Object.entries(obj1));
 
+// Shallow Copy
 let obj2 = {...obj1}
