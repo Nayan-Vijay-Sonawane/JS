@@ -28,3 +28,5 @@ for (let key in obj1){
     console.log(key + " : " + obj1[key]);
 };
 
+
+Object.keys(obj1);
