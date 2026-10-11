@@ -141,3 +141,4 @@ Array -
 Object destructuring - 
     It lets you extract properties from an object and store them in variables easily
     
+    Object.keys -> 
