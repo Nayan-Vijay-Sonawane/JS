@@ -147,4 +147,4 @@ Object destructuring -
     Shallow Copy -> let Obj2 = {...obj1}
 
     Deep Copy -> let Obj2 = JSON.parse(JSON.stringify(obj))
-    
+                JSON.stringify(obj) -> converts the object into JSON string
