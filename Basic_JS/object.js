@@ -37,6 +37,6 @@ let obj2 = {...obj1}
 
 // Deep Copy
 let obj3 = JSON.parse(JSON.stringify(obj));
-obj.address.city = "Pune";
+obj3.address.city = "Pune";
 console.log(obj);
 console.log(obj3);
