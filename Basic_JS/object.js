@@ -34,3 +34,5 @@ console.log(Object.entries(obj1));
 
 // Shallow Copy
 let obj2 = {...obj1}
+
+// Deep Copy
