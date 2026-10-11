@@ -148,3 +148,4 @@ Object destructuring -
 
     Deep Copy -> let Obj2 = JSON.parse(JSON.stringify(obj))
                 JSON.stringify(obj) -> converts the object into JSON string
+                JSON.parse(...) -> converts that
