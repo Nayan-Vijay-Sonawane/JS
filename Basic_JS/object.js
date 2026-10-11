@@ -36,3 +36,5 @@ console.log(Object.entries(obj1));
 let obj2 = {...obj1}
 
 // Deep Copy
+let obj3 = JSON.parse(JSON.stringify(obj1));
+console.log(obj3);
