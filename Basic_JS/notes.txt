@@ -145,3 +145,6 @@ Object destructuring -
     Object.entries() -> It returns an array of key value pairs
 
     Shallow Copy -> let Obj2 = {...obj1}
+
+    Deep Copy -> let Obj2 = JSON.parse(JSON.stringify(obj))
+    
