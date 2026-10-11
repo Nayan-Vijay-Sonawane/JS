@@ -29,4 +29,4 @@ for (let key in obj1){
 };
 
 
-Object.keys(obj1);
+console.log(Object.keys(obj1));
