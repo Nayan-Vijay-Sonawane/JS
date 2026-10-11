@@ -142,3 +142,4 @@ Object destructuring -
     It lets you extract properties from an object and store them in variables easily
     
     Object.keys -> It returns an array of objects own keys
+    Object.entries() -> It returns an array of key value pairs
