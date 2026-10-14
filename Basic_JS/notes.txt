@@ -159,3 +159,5 @@ DOM -
         - getElementsByClassName() -> Select all elements with a particular class name
         - querySelector() -> Selects first element that matches css selector
         - querySelectorAll() -> Selects all element that match a css selector
+
+        Update the existing element -> 
