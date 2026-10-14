@@ -155,4 +155,5 @@ DOM -
         Represents the HTML document as tree of nodes
         
         Accessing elements in DOM -> 
-        getElementById()
+        - getElementById()
+        - getElementsByClassName()
