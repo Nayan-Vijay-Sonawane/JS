@@ -152,4 +152,4 @@ Object destructuring -
 
     DOM - 
         Document Object Model
-        Represents the HTML
+        Represents the HTML document as tree of nodes
