@@ -156,6 +156,6 @@ DOM -
         
         Accessing elements in DOM -> 
         - getElementById() -> Select one element with its unique Id
-        - getElementsByClassName()
+        - getElementsByClassName() -> Select all elements with a particular class name
         - querySelector()
         - querySelectorAll()
