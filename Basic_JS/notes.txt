@@ -155,7 +155,7 @@ DOM -
         Represents the HTML document as tree of nodes
         
         Accessing elements in DOM -> 
-        - getElementById()
+        - getElementById() -> Select one element with its unique Id
         - getElementsByClassName()
         - querySelector()
         - querySelectorAll()
