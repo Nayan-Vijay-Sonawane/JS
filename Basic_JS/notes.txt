@@ -157,3 +157,4 @@ DOM -
         Accessing elements in DOM -> 
         - getElementById()
         - getElementsByClassName()
+        - querySelector
