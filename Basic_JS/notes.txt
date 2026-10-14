@@ -150,6 +150,8 @@ Object destructuring -
                 JSON.stringify(obj) -> converts the object into JSON string
                 JSON.parse(...) -> converts that JSON string back into a new JavaScript Object
 
-    DOM - 
+DOM - 
         Document Object Model
         Represents the HTML document as tree of nodes
+        
+        Accessing elements in DOM -> 
