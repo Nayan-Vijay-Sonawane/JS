@@ -47,3 +47,4 @@ function hello(){
 
 console.log(x);
 hello();
+
