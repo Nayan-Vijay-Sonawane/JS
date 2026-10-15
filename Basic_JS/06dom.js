@@ -2,4 +2,4 @@ function add(a, b){
     return a+b;
 }
 
-console.log(dd(4,6))
+console.log(add(4,6))
