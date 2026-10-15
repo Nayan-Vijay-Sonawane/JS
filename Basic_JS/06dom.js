@@ -1,3 +1,5 @@
-const discount = price => price-20
+function multiply(a, b){
+     a*b;
+}
 
-console.log(discount(100));
+console.log(multiply(4,6))
