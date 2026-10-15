@@ -1,9 +1,3 @@
-const price = 100;
+const getFinalPrice = (price, discount) => price-discount;
 
-function showPrice(){
-    const price = 200;
-    return price;
-}
-
-console.log(showPrice());
-console.log(price);
+console.log(getFinalPrice(500, 50));
