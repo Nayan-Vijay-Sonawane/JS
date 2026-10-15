@@ -1,5 +1,3 @@
-function add(a, b){
-    return a+b;
-}
+const discount = price => price-20
 
-console.log()
+console.log(discount(100))
