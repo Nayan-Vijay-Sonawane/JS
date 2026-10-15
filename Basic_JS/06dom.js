@@ -1,3 +1,8 @@
-const getFinalPrice = (price, discount) => price-discount;
+function renderProduct(product){
+    const {name, price, available} = product;
 
-console.log(getFinalPrice(500, 50));
+    if(available){
+        console.log(`${name} costs ${price}`);
+        
+    }
+}
