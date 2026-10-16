@@ -162,5 +162,5 @@ DOM -
 
         Update the existing element -> 
         textContent 
-        innerHTML
+        innerHTML 
         innerText
