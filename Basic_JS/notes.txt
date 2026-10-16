@@ -161,6 +161,6 @@ DOM -
         - querySelectorAll() -> Selects all element that match a css selector
 
         Update the existing element -> 
-        textContent
+        textContent 
         innerHTML
         innerText
