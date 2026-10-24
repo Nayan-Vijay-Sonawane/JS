@@ -1,7 +1,7 @@
 1. Function: 
 Function is a block of code to perform a specific task
 
-Types: 
+Types:
 Function Statment or Function Declaration
 function a() {
     console.log("a called");
