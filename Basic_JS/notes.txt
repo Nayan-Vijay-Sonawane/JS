@@ -40,7 +40,6 @@ const result = (function(){
 })();
 console.log(result);
 
-
 Notes : 
 
 Scopes -  
