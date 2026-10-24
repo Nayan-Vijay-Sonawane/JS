@@ -1,5 +1,4 @@
 1. Function: 
-
 Function is a block of code to perform a specific task
 
 Types: 
