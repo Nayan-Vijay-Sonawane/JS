@@ -12,7 +12,7 @@ function a() {
 const b = function(){
     console.log("b called");
 };
-
+ 
 // Arrow Function
 // Just a shorter version of function (concise version)
 const num = n => n*n;
