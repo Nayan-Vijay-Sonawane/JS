@@ -54,7 +54,7 @@ Scopes -
         let and const follow block Scope
         var ignores block scope which leads to bugs
 
-Dynamic typing - 
+Dynamic typing -  
     It means 
     let value = 10;
     value = "Hello";
