@@ -7,7 +7,6 @@ function a() {
     console.log("a called");
 };
 
-
 // Function Expression
 // Assign a function to variable
 const b = function(){
