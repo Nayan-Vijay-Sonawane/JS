@@ -161,6 +161,3 @@ DOM -
         textContent 
         innerHTML 
         innerText 
-
-
-
